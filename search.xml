@@ -25,19 +25,100 @@
       </tags>
   </entry>
   <entry>
+    <title>阿里云OSS对象存储</title>
+    <url>/%E9%98%BF%E9%87%8C%E4%BA%91OSS%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8.html</url>
+    <content><![CDATA[<p>针对于项目中的文件（比如用户上传的头像），我们可能会用到文件服务器来进行存储。</p>
+<p>如果我们把文件服务器分为两类来看：一种就是自建服务器，如FastDFS；另一种就是使用第三方服务，如我们今天要说的阿里云OSS。<span id="more"></span></p>
+<p>简单来讲，</p>
+<ul>
+<li><p>自建服务器：可以自己维护和定制，免费。但是麻烦。</p>
+</li>
+<li><p>阿里的OSS服务：虽然说付费。但是省心。而且重要的是性能优越，对于海量数据存储与弹性扩容，阿里还是值得信赖的~~</p>
+</li>
+</ul>
+<blockquote>
+<p>小提示：阿里云OSS付费，不过只是学习时测试使用的话，达不到一定量级就不会有费用。</p>
+</blockquote>
+<h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p>总体上说，这篇文章要说以下内容：</p>
+<ul>
+<li>准备工作：<ul>
+<li>注册账号</li>
+<li>登录账号</li>
+<li>实名认证</li>
+<li>开通OSS服务</li>
+</ul>
+</li>
+<li>两种使用方式：<ul>
+<li>管理控制台中使用</li>
+<li>代码中使用</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>阿里云官网：<a href="https://cn.aliyun.com/">https://cn.aliyun.com/</a></p>
+</blockquote>
+<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>​    准备工作比较简单，这里简单说下：</p>
+<ul>
+<li>注册账号</li>
+</ul>
+<p>进入阿里云官网，点击右上角立即注册。</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%B3%A8%E5%86%8C.png"></p>
+<ul>
+<li>登录账号</li>
+</ul>
+<p>点击右上角登录</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%99%BB%E5%BD%95.png"></p>
+<ul>
+<li>实名认证</li>
+</ul>
+<p>我的账号已经完成实名认证，这里就不再演示。</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%AE%A4%E8%AF%81%E5%AE%8C%E6%88%90.png"></p>
+<ul>
+<li>开通OSS服务（如图）<ol>
+<li>点击上方导航栏中“产品”</li>
+<li>点击左边栏中“存储”</li>
+<li>点击“对象存储OSS”</li>
+<li>点击“立即开通”</li>
+</ol>
+</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/OSS%E5%BC%80%E9%80%9A.png"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/OSS%E5%BC%80%E9%80%9A2.png"></p>
+<h1 id="使用（待完成…）"><a href="#使用（待完成…）" class="headerlink" title="使用（待完成…）"></a>使用（待完成…）</h1><h3 id="1-管理控制台使用"><a href="#1-管理控制台使用" class="headerlink" title="1.管理控制台使用"></a>1.管理控制台使用</h3><ul>
+<li>创建Bucket（文件服务器）</li>
+<li>上传文件</li>
+<li>查看</li>
+</ul>
+<h3 id="2-代码中使用"><a href="#2-代码中使用" class="headerlink" title="2.代码中使用"></a>2.代码中使用</h3><ul>
+<li>创建子用户</li>
+<li>授权</li>
+<li>上传文件</li>
+</ul>
+]]></content>
+      <categories>
+        <category>第三方接口</category>
+      </categories>
+      <tags>
+        <tag>阿里云OSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>友情链接</title>
     <url>/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5.html</url>
     <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
 
 
 
-<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息（或发送至邮箱：<a href="mailto:&#x31;&#48;&#x37;&#x35;&#x36;&#x35;&#48;&#x31;&#51;&#x38;&#x40;&#x71;&#113;&#46;&#x63;&#111;&#109;">&#x31;&#48;&#x37;&#x35;&#x36;&#x35;&#48;&#x31;&#51;&#x38;&#x40;&#x71;&#113;&#46;&#x63;&#111;&#109;</a>）<br>3.贵站的将会被添加到左侧侧边栏友链</p>
+<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
 <img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
 <div class="note success">
             <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    描述：一个一味沉溺于往事的人，是不能张开双臂去拥抱今天的。 </p>
           </div>
 
 ]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
       <tags>
         <tag>友链</tag>
       </tags>
