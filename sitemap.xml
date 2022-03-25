@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cysheng.gitee.io/links/index.html</loc>
+    
+    <lastmod>2022-03-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cysheng.gitee.io/video/index.html</loc>
     
     <lastmod>2022-03-25</lastmod>
@@ -83,7 +92,7 @@
 
   
   <url>
-    <loc>https://cysheng.gitee.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91OSS/</loc>
+    <loc>https://cysheng.gitee.io/tags/%E5%8F%8B%E9%93%BE/</loc>
     <lastmod>2022-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -97,7 +106,7 @@
   </url>
   
   <url>
-    <loc>https://cysheng.gitee.io/tags/%E5%8F%8B%E9%93%BE/</loc>
+    <loc>https://cysheng.gitee.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91OSS/</loc>
     <lastmod>2022-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -106,7 +115,7 @@
 
   
   <url>
-    <loc>https://cysheng.gitee.io/categories/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8E%A5%E5%8F%A3/</loc>
+    <loc>https://cysheng.gitee.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2022-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -120,7 +129,7 @@
   </url>
   
   <url>
-    <loc>https://cysheng.gitee.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://cysheng.gitee.io/categories/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8E%A5%E5%8F%A3/</loc>
     <lastmod>2022-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
