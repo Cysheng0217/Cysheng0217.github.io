@@ -117,14 +117,14 @@
   </url>
   
   <url>
-    <loc>https://cysheng.gitee.io/tags/Hexo/</loc>
+    <loc>https://cysheng.gitee.io/tags/%E5%8F%8B%E9%93%BE/</loc>
     <lastmod>2022-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://cysheng.gitee.io/tags/%E5%8F%8B%E9%93%BE/</loc>
+    <loc>https://cysheng.gitee.io/tags/Hexo/</loc>
     <lastmod>2022-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
