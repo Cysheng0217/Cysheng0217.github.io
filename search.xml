@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo博客框架入门</title>
+    <url>/b08526ec.html</url>
+    <content><![CDATA[<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/hexo.jpg" alt="hexo"></p>
+<p>想不想拥有一个免费、公网可访问的个人博客呢？</p>
+<span id="more"></span>
+
+<p>既然你能点进来，那么真相只有一个——</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%9C%9F%E7%9B%B8%E5%8F%AA%E6%9C%89%E4%B8%80%E4%B8%AA.jpg" alt="真相只有一个"></p>
+<ul>
+<li><p>搭建一个个人博客，既方便我们统一的记录一些笔记，又能提升一下投简历含金量。</p>
+<ul>
+<li>鲁迅曰：何乐而不为？[手动狗头]</li>
+</ul>
+</li>
+<li><p>那么我们为啥要使用Hexo来搭建我们的博客呢？</p>
+<ul>
+<li>Hexo是一款快速、简洁且高效的博客框架（官网抄的，嘿嘿）。</li>
+</ul>
+</li>
+<li><p>我选择Hexo的理由又是什么呢？</p>
+<ul>
+<li>hexo是一款静态博客框架，生成的静态网页可以通过一些免费的静态网站托管平台（GitHub、Gitee）进行托管，而不必花重金租赁服务器。</li>
+<li>支持Markdown语法，hexo会渲染我们写好的Markdown文档，我们只需要考虑如何写文章即可。</li>
+<li>方便美化，方便功能扩充。很多地方美化、扩充功能只需要改改配置就可以~</li>
+</ul>
+</li>
+</ul>
+<p>好了，让我们开始吧~</p>
+<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><ul>
+<li>node.js</li>
+<li>git</li>
+</ul>
+<h1 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h1><h2 id="1-安装Hexo"><a href="#1-安装Hexo" class="headerlink" title="1.安装Hexo"></a>1.安装Hexo</h2><h3 id="1-1选择一个存放代码的文件夹"><a href="#1-1选择一个存放代码的文件夹" class="headerlink" title="1.1选择一个存放代码的文件夹"></a>1.1选择一个存放代码的文件夹</h3><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/1.png" alt="1"></p>
+<h3 id="1-2打开命令行窗口（输入cmd-按下回车）"><a href="#1-2打开命令行窗口（输入cmd-按下回车）" class="headerlink" title="1.2打开命令行窗口（输入cmd,按下回车）"></a>1.2打开命令行窗口（输入cmd,按下回车）</h3><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2.png"></p>
+<h3 id="1-3安装hexo"><a href="#1-3安装hexo" class="headerlink" title="1.3安装hexo"></a>1.3安装hexo</h3><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/3.png" alt="3"></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-执行初始化命令"><a href="#2-执行初始化命令" class="headerlink" title="2.执行初始化命令"></a>2.执行初始化命令</h2><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/4.png" alt="4"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
+
+<p>blog是自定义的文件夹名称，语法如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-本地启动"><a href="#3-本地启动" class="headerlink" title="3.本地启动"></a>3.本地启动</h2><h3 id="3-1进入文件夹"><a href="#3-1进入文件夹" class="headerlink" title="3.1进入文件夹"></a>3.1进入文件夹</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-2安装依赖"><a href="#3-2安装依赖" class="headerlink" title="3.2安装依赖"></a>3.2安装依赖</h3><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/8.png" alt="8"></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-3本地启动"><a href="#3-3本地启动" class="headerlink" title="3.3本地启动"></a>3.3本地启动</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server 或 hexo s</span><br></pre></td></tr></table></figure>
+
+<p>启动成功：</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/5.png" alt="5"></p>
+<h3 id="3-3-浏览器访问"><a href="#3-3-浏览器访问" class="headerlink" title="3.3 浏览器访问"></a>3.3 浏览器访问</h3><p>hexo默认运行在4000端口，所以我们在浏览器地址栏输入：<a href="http://localhost:4000/">http://localhost:4000</a></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/6.png" alt="6"></p>
+<h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p>恭喜你，Hexo博客框架你已经成功入门了~~</p>
+<blockquote>
+<p>参考鸣谢：<a href="https://www.bilibili.com/video/BV1Yb411a7ty">https://www.bilibili.com/video/BV1Yb411a7ty</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>系列教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo系列教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/16107.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
@@ -48,8 +115,7 @@
   <entry>
     <title>推荐：B站批量下载工具</title>
     <url>/9f467dd9.html</url>
-    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。</p>
-<p>【项目地址】<a href="https://github.com/Cysheng0217/B23Downloader">https://github.com/Cysheng0217/B23Downloader</a></p>
+    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
 <p>【下载地址】</p>
 <ul>
 <li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
