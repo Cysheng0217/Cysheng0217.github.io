@@ -7,9 +7,13 @@
 
 <span id="more"></span>
 
-<p>既然你能点进来，那么真相只有一个——</p>
+<center>既然你能点进来，那么真相只有一个——</center>
+
 <p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%9C%9F%E7%9B%B8%E5%8F%AA%E6%9C%89%E4%B8%80%E4%B8%AA.jpg" alt="真相只有一个"></p>
-<ul>
+<br/>
+<br/>
+
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul>
 <li><p>搭建一个个人博客，既方便我们统一的记录一些笔记，又能提升一下投简历含金量。</p>
 <ul>
 <li>鲁迅曰：何乐而不为？[手动狗头]</li>
@@ -68,27 +72,6 @@
       </tags>
   </entry>
   <entry>
-    <title>友情链接</title>
-    <url>/4333.html</url>
-    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
-
-
-
-<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
-<div class="note success">
-            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
-          </div>
-
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>友链</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/16107.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
@@ -113,25 +96,24 @@
       </tags>
   </entry>
   <entry>
-    <title>推荐：B站批量下载工具</title>
-    <url>/9f467dd9.html</url>
-    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
-<p>【下载地址】</p>
-<ul>
-<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
-<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
-</ul>
-<p>【测试截图】</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+    <title>友情链接</title>
+    <url>/4333.html</url>
+    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
 
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
 
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
+
+<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
+<div class="note success">
+            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
+          </div>
+
+]]></content>
       <categories>
-        <category>工具</category>
+        <category>博客相关</category>
       </categories>
       <tags>
-        <tag>B站下载</tag>
+        <tag>友链</tag>
       </tags>
   </entry>
   <entry>
@@ -364,6 +346,28 @@
       </categories>
       <tags>
         <tag>阿里云OSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐：B站批量下载工具</title>
+    <url>/9f467dd9.html</url>
+    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
+<p>【下载地址】</p>
+<ul>
+<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
+<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
+</ul>
+<p>【测试截图】</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>B站下载</tag>
       </tags>
   </entry>
 </search>
