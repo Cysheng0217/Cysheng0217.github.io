@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="msapplication-config" content="/images/browserconfig.xml">
+  <meta name="google-site-verification" content="x7a6DeWW1QwaUVuZuekf7fNtPAgRq2-C_ekLZbjMkjM">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cysheng.gitee.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="个人笔记，仅供参考">
+<meta property="og:type" content="article">
+<meta property="og:title" content="谷粒学院-day06">
+<meta property="og:url" content="https://cysheng.gitee.io/e7fb9818.html">
+<meta property="og:site_name" content="我寄愁心与爪哇">
+<meta property="og:description" content="个人笔记，仅供参考">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/cysheng/pictures/raw/master/2022/images/guli_1.png">
+<meta property="og:image" content="https://gitee.com/cysheng/pictures/raw/master/2022/images/guli_2.png">
+<meta property="article:published_time" content="2022-04-13T12:44:13.000Z">
+<meta property="article:modified_time" content="2022-04-13T12:56:12.197Z">
+<meta property="article:author" content="我寄愁心与爪哇">
+<meta property="article:tag" content="谷粒学院项目笔记">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/cysheng/pictures/raw/master/2022/images/guli_1.png">
+
+<link rel="canonical" href="https://cysheng.gitee.io/e7fb9818.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>谷粒学院-day06 | 我寄愁心与爪哇</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">我寄愁心与爪哇</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">如果能一步登天，<br>那别人的坚持又算什么呢？</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-video">
+
+    <a href="/video/" rel="section"><i class="fa fa-video fa-fw"></i>视频</a>
+
+  </li>
+        <li class="menu-item menu-item-links">
+
+    <a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>友链</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" placeholder="搜索..." spellcheck="false" type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cysheng.gitee.io/e7fb9818.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="我寄愁心与爪哇">
+      <meta itemprop="description" content>
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我寄愁心与爪哇">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          谷粒学院-day06
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-04-13 20:44:13 / 修改时间：20:56:12" itemprop="dateCreated datePublished" datetime="2022-04-13T20:44:13+08:00">2022-04-13</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">个人笔记</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>8.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>8 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <center>个人笔记，仅供参考</center>
+<span id="more"></span>
+<br>
+
+<h1 id="一、头像上传"><a href="#一、头像上传" class="headerlink" title="一、头像上传"></a>一、头像上传</h1><p>（后端待补充）</p>
+<h2 id="前端整合"><a href="#前端整合" class="headerlink" title="前端整合"></a>前端整合</h2><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p>根据element-ui提供的<strong>用户头像上传</strong>示例代码进行修改。<br>传送门：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://element.eleme.cn/2.4/#/zh-CN/component/upload">https://element.eleme.cn/2.4/#/zh-CN/component/upload</a></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/guli_1.png" alt="guli_1"></p>
+<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><h4 id="el-upload组件"><a href="#el-upload组件" class="headerlink" title="el-upload组件"></a>el-upload组件</h4><ul>
+<li>action属性<ul>
+<li>文件上传接口</li>
+</ul>
+</li>
+<li>:on-success&#x3D;”handleAvatarSuccess”<ul>
+<li>上传成功的钩子</li>
+</ul>
+</li>
+<li>:before-upload&#x3D;”beforeAvatarUpload”<ul>
+<li>上传前的钩子</li>
+</ul>
+</li>
+<li>img标签<ul>
+<li>用于渲染上传后的图片</li>
+</ul>
+</li>
+<li>i标签<ul>
+<li>用于未上传图片时显示默认“+”图标</li>
+</ul>
+</li>
+</ul>
+<h4 id="style标签"><a href="#style标签" class="headerlink" title="style标签"></a>style标签</h4><ul>
+<li>组件样式</li>
+</ul>
+<h4 id="script标签"><a href="#script标签" class="headerlink" title="script标签"></a>script标签</h4><ul>
+<li>实现函数具体功能</li>
+</ul>
+<h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><blockquote>
+<p><strong>上传校验-&gt;上传-&gt;图片地址赋值给teacher.avatar-&gt;重新渲染页面-&gt;img标签展示</strong></p>
+</blockquote>
+<ul>
+<li><p>el-upload组件放到el-form-item中</p>
+</li>
+<li><p>样式直接粘贴</p>
+</li>
+<li><p>上传校验</p>
+<ul>
+<li>根据需求校验文件类型大小：beforeAvatarUpload()</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">beforeAvatarUpload(file) &#123;</span><br><span class="line">      const isJPG = file.type === &#x27;image/jpeg&#x27;;</span><br><span class="line">      const isLt2M = file.size / 1024 / 1024 &lt; 2;</span><br><span class="line">  </span><br><span class="line">      if (!isJPG) &#123;</span><br><span class="line">        this.$message.error(&#x27;上传头像图片只能是 JPG 格式!&#x27;);</span><br><span class="line">      &#125;</span><br><span class="line">      if (!isLt2M) &#123;</span><br><span class="line">        this.$message.error(&#x27;上传头像图片大小不能超过 2MB!&#x27;);</span><br><span class="line">      &#125;</span><br><span class="line">      return isJPG &amp;&amp; isLt2M;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>上传</p>
+ <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">action=<span class="string">&quot;http://localhost:8120/admin/oss/file/upload?module=avatar&quot;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>上传成功</p>
+ <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">handleAvatarSuccess</span>(<span class="params">response</span>) &#123;</span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">teacher</span>.<span class="property">avatar</span> = response.<span class="property">data</span>.<span class="property">url</span></span><br><span class="line">      <span class="comment">// 强制渲染</span></span><br><span class="line">      <span class="variable language_">this</span>.$forceUpdate()</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>img标签展示</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">v-if</span>=<span class="string">&quot;teacher.avatar&quot;</span> <span class="attr">:src</span>=<span class="string">&quot;teacher.avatar&quot;</span> <span class="attr">class</span>=<span class="string">&quot;avatar&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="修改后"><a href="#修改后" class="headerlink" title="修改后"></a>修改后</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;app-container&quot;&gt;</span><br><span class="line">    &lt;!-- 输入表单 --&gt;</span><br><span class="line">    &lt;el-form label-width=&quot;120px&quot;&gt;</span><br><span class="line">      &lt;el-form-item label=&quot;讲师头像&quot;&gt;</span><br><span class="line">        &lt;el-upload</span><br><span class="line">          :show-file-list=&quot;false&quot;</span><br><span class="line">          :on-success=&quot;handleAvatarSuccess&quot;</span><br><span class="line">          :before-upload=&quot;beforeAvatarUpload&quot;</span><br><span class="line">          class=&quot;avatar-uploader&quot;</span><br><span class="line">          action=&quot;http://localhost:8120/admin/oss/file/upload?module=avatar&quot;&gt;</span><br><span class="line">          &lt;img v-if=&quot;imageUrl&quot; :src=&quot;teacher.avatar&quot; class=&quot;avatar&quot;&gt;</span><br><span class="line">          &lt;i v-else class=&quot;el-icon-plus avatar-uploader-icon&quot;/&gt;</span><br><span class="line">        &lt;/el-upload&gt;</span><br><span class="line">		&lt;!-- 省略部分代码 --&gt;</span><br><span class="line">    &lt;/el-form&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">import teacherApi from &#x27;@/api/teacher&#x27;</span><br><span class="line">export default &#123;</span><br><span class="line">  // ...</span><br><span class="line">  methods: &#123;</span><br><span class="line">    // ...</span><br><span class="line">    beforeAvatarUpload(file) &#123;</span><br><span class="line">      const isJPG = file.type === &#x27;image/jpeg&#x27;</span><br><span class="line">      const isLt2M = file.size / 1024 / 1024 &lt; 2</span><br><span class="line"></span><br><span class="line">      if (!isJPG) &#123;</span><br><span class="line">        this.$message.error(&#x27;上传头像图片只能是 JPG 格式!&#x27;)</span><br><span class="line">      &#125;</span><br><span class="line">      if (!isLt2M) &#123;</span><br><span class="line">        this.$message.error(&#x27;上传头像图片大小不能超过 2MB!&#x27;)</span><br><span class="line">      &#125;</span><br><span class="line">      return isJPG &amp;&amp; isLt2M</span><br><span class="line">    &#125;,</span><br><span class="line">    handleAvatarSuccess(response) &#123;</span><br><span class="line">      this.teacher.avatar = response.data.url</span><br><span class="line">      // 强制渲染</span><br><span class="line">      this.$forceUpdate()</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">  /* 省略 */</span><br><span class="line">&lt;/style&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="二、异常处理"><a href="#二、异常处理" class="headerlink" title="二、异常处理"></a>二、异常处理</h1><h2 id="1-自定义异常"><a href="#1-自定义异常" class="headerlink" title="1.自定义异常"></a>1.自定义异常</h2><h3 id="1-1统一异常处理方式"><a href="#1-1统一异常处理方式" class="headerlink" title="1.1统一异常处理方式"></a>1.1统一异常处理方式</h3><ul>
+<li>异常处理器分别捕获不同异常，进行处理（规定错误信息）</li>
+<li>try-catch捕获不同异常，抛出自定义异常（规定错误信息），由异常处理器进行捕获</li>
+</ul>
+<h3 id="1-2做法"><a href="#1-2做法" class="headerlink" title="1.2做法"></a>1.2做法</h3><h4 id="1-2-1自定义异常类GuliException"><a href="#1-2-1自定义异常类GuliException" class="headerlink" title="1.2.1自定义异常类GuliException"></a>1.2.1自定义异常类<code>GuliException</code></h4><blockquote>
+<p>包：com.atguigu.guli.service.base.exception</p>
+</blockquote>
+<p>&lt;1&gt;<strong>属性</strong>：根据枚举类<code>ResultCodeEnum</code>规定</p>
+<ul>
+<li>success：异常处理器处理时规定</li>
+<li>message：父类中有定义。</li>
+<li>code：为<code>GuliException</code>增加一个属性<ul>
+<li><code>private Integer code;</code></li>
+</ul>
+</li>
+</ul>
+<p>&lt;2&gt;<strong>构造器</strong>：</p>
+<ul>
+<li>接收状态码和消息</li>
+<li>接收<code>ResultCodeEnum</code></li>
+</ul>
+<p>&lt;3&gt;<strong>toString方法</strong>：</p>
+<p>重写toString()打印时包含消息信息</p>
+<ul>
+<li>code</li>
+<li><strong>message</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.atguigu.guli.service.base.exception;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.atguigu.guli.common.base.result.ResultCodeEnum;</span><br><span class="line"><span class="keyword">import</span> lombok.Data;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">GuliException</span> <span class="keyword">extends</span> <span class="title class_">RuntimeException</span>&#123;</span><br><span class="line">    <span class="comment">// 状态码</span></span><br><span class="line">    <span class="keyword">private</span> Integer code;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 接收状态码和异常消息</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">GuliException</span><span class="params">(Integer code,String message)</span>&#123;</span><br><span class="line">        <span class="built_in">super</span>(message);</span><br><span class="line">        <span class="built_in">this</span>.code = code;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 接收返回结果的枚举类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> resultCodeEnum</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">GuliException</span><span class="params">(ResultCodeEnum resultCodeEnum)</span>&#123;</span><br><span class="line">        <span class="built_in">super</span>(resultCodeEnum.getMessage());</span><br><span class="line">        <span class="built_in">this</span>.code = resultCodeEnum.getCode();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;GuliException&#123;&quot;</span> +</span><br><span class="line">                <span class="string">&quot;code=&quot;</span> + code +</span><br><span class="line">                <span class="string">&quot;,message=&quot;</span> + <span class="built_in">super</span>.getMessage() +</span><br><span class="line">                <span class="string">&#x27;&#125;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="1-2-2异常处理方法"><a href="#1-2-2异常处理方法" class="headerlink" title="1.2.2异常处理方法"></a>1.2.2异常处理方法</h4><blockquote>
+<p>GlobalExceptionHandler.java</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@ExceptionHandler(GuliException.class)</span></span><br><span class="line"><span class="meta">@ResponseBody</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">error</span><span class="params">(GuliException e)</span>&#123;</span><br><span class="line">    log.error(ExceptionUtils.getMessage(e));</span><br><span class="line">    <span class="keyword">return</span> R.error().message(e.getMessage()).code(e.getCode());</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="1-2-3打印异常信息"><a href="#1-2-3打印异常信息" class="headerlink" title="1.2.3打印异常信息"></a>1.2.3打印异常信息</h4><p>catch原有异常后打印异常信息，再抛出自定义异常。</p>
+<blockquote>
+<p>FileController.java</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@ApiOperation(&quot;文件上传&quot;)</span></span><br><span class="line"><span class="meta">@PostMapping(&quot;/upload&quot;)</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">upload</span><span class="params">( <span class="meta">@ApiParam(value = &quot;文件&quot;, required = true)</span></span></span><br><span class="line"><span class="params">                <span class="meta">@RequestParam(&quot;file&quot;)</span> MultipartFile file,</span></span><br><span class="line"><span class="params">                <span class="meta">@ApiParam(value = &quot;模块&quot;, required = true)</span></span></span><br><span class="line"><span class="params">                <span class="meta">@RequestParam(&quot;module&quot;)</span> String <span class="keyword">module</span>)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">url</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="type">InputStream</span> <span class="variable">is</span> <span class="operator">=</span> file.getInputStream();</span><br><span class="line">        <span class="type">String</span> <span class="variable">originalFilename</span> <span class="operator">=</span> file.getOriginalFilename();</span><br><span class="line">        url = fileService.upload(is, <span class="keyword">module</span>, originalFilename);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">        log.error(ExceptionUtils.getMessage(e));</span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">GuliException</span>(ResultCodeEnum.FILE_UPLOAD_ERROR);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> R.ok().data(<span class="string">&quot;url&quot;</span>,url);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-前端错误处理"><a href="#2-前端错误处理" class="headerlink" title="2.前端错误处理"></a>2.前端错误处理</h2><p>前端上传头像要处理两种错误，一种是http失败，另一种是http成功但业务操作失败。</p>
+<ul>
+<li>http失败</li>
+</ul>
+<p>el-upload的on-error钩子函数会在http错误后自动调用</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-upload :on-error=&quot;handleAvatarError&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">handleAvatarError</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">$message</span>.<span class="title function_">error</span>(<span class="string">&#x27;Http请求发送失败,请稍后重试&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>业务操作失败</li>
+</ul>
+<p>判断返回的R对象中success的值。</p>
+<p>true表示上传成功，false表示上传失败。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">handleAvatarSuccess</span>(<span class="params">response</span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(response)</span><br><span class="line">    <span class="keyword">if</span> (response.<span class="property">success</span>) &#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">teacher</span>.<span class="property">avatar</span> = response.<span class="property">data</span>.<span class="property">url</span></span><br><span class="line">        <span class="comment">// 强制渲染</span></span><br><span class="line">        <span class="variable language_">this</span>.$forceUpdate()</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">$message</span>.<span class="title function_">error</span>(<span class="string">&#x27;文件上传失败&#x27;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="三、批量删除"><a href="#三、批量删除" class="headerlink" title="三、批量删除"></a>三、批量删除</h1><h2 id="1-后端"><a href="#1-后端" class="headerlink" title="1.后端"></a>1.后端</h2><blockquote>
+<p>TeacherController.java</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@ApiOperation(value = &quot;根据id列表删除讲师&quot;)</span></span><br><span class="line"><span class="meta">@DeleteMapping(&quot;batch/remove&quot;)</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">batchRemove</span><span class="params">(<span class="meta">@ApiParam(&quot;讲师id列表&quot;)</span> <span class="meta">@RequestBody</span> List&lt;String&gt; idList)</span>&#123;</span><br><span class="line">    <span class="type">boolean</span> <span class="variable">result</span> <span class="operator">=</span> teacherService.removeByIds(idList);</span><br><span class="line">    <span class="keyword">if</span> (result)&#123;</span><br><span class="line">        <span class="keyword">return</span> R.ok().message(<span class="string">&quot;删除成功&quot;</span>);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> R.error().message(<span class="string">&quot;数据不存在&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-前端"><a href="#2-前端" class="headerlink" title="2.前端"></a>2.前端</h2><blockquote>
+<p>参考文档：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://element.eleme.cn/#/zh-CN/component/table">https://element.eleme.cn/#/zh-CN/component/table</a></p>
+</blockquote>
+<h3 id="2-1思路"><a href="#2-1思路" class="headerlink" title="2.1思路"></a>2.1思路</h3><p>将过程分为两个路线去走：</p>
+<ul>
+<li><p>实现多选框-&gt;多选框选中-&gt;触发selection-change事件-&gt;将选中的多选框构成的对象数组赋值给全局变量<code>this.multipleSelection</code></p>
+</li>
+<li><p>实现批量删除按钮-&gt;点击按钮-&gt;调用<code>batchRemove()</code>-&gt;根据<code>this.multipleSelection</code>取出id列表-&gt;根据id列表调用api执行删除</p>
+</li>
+</ul>
+<h3 id="2-2代码"><a href="#2-2代码" class="headerlink" title="2.2代码"></a>2.2代码</h3><h4 id="2-2-1路线一"><a href="#2-2-1路线一" class="headerlink" title="2.2.1路线一"></a>2.2.1路线一</h4><ul>
+<li>多选框: 手动添加一个<code>el-table-column</code>，设<code>type</code>属性为<code>selection</code></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">type</span>=<span class="string">&quot;selection&quot;</span> <span class="attr">width</span>=<span class="string">&quot;55&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>定义事件</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-table</span> <span class="attr">:data</span>=<span class="string">&quot;list&quot;</span> <span class="attr">border</span> <span class="attr">stripe</span> @<span class="attr">selection-change</span>=<span class="string">&quot;handleSelectionChange&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">el-table</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>selection-change:当选择项发生变化时会触发该事件，接收参数为选中的多选框</p>
+</blockquote>
+<ul>
+<li>定义全局变量</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">data</span>: <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        <span class="comment">// ...</span></span><br><span class="line">        <span class="attr">multipleSelection</span>: []</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>函数体</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">handleSelectionChange</span>(<span class="params">selection</span>) &#123;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">multipleSelection</span> = selection</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-2-1路线二"><a href="#2-2-1路线二" class="headerlink" title="2.2.1路线二"></a>2.2.1路线二</h4><ul>
+<li>批量删除按钮</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;margin-bottom: 10px;&quot;</span> &gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-button</span> <span class="attr">type</span>=<span class="string">&quot;danger&quot;</span> <span class="attr">size</span>=<span class="string">&quot;small&quot;</span> <span class="attr">plain</span> @<span class="attr">click</span>=<span class="string">&quot;batchRemove&quot;</span>&gt;</span>批量删除<span class="tag">&lt;/<span class="name">el-button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>batchRemove()方法</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 批量删除</span></span><br><span class="line"><span class="title function_">batchRemove</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> idArray = []</span><br><span class="line"></span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">multipleSelection</span>.<span class="title function_">forEach</span>(<span class="function"><span class="params">item</span> =&gt;</span> &#123;</span><br><span class="line">        idArray.<span class="title function_">push</span>(item.<span class="property">id</span>)</span><br><span class="line">    &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 确认删除提示框</span></span><br><span class="line">    <span class="variable language_">this</span>.$confirm(<span class="string">&#x27;此操作将永久删除这些数据, 是否继续?&#x27;</span>, <span class="string">&#x27;提示&#x27;</span>, &#123;</span><br><span class="line">        <span class="attr">confirmButtonText</span>: <span class="string">&#x27;确定&#x27;</span>,</span><br><span class="line">        <span class="attr">cancelButtonText</span>: <span class="string">&#x27;取消&#x27;</span>,</span><br><span class="line">        <span class="attr">type</span>: <span class="string">&#x27;warning&#x27;</span></span><br><span class="line">    &#125;).<span class="title function_">then</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">        <span class="comment">// 批量删除</span></span><br><span class="line">        <span class="keyword">return</span> teacherApi.<span class="title function_">batchRemove</span>(idArray)</span><br><span class="line">    &#125;).<span class="title function_">then</span>(<span class="function">(<span class="params">response</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="title function_">fetchData</span>()</span><br><span class="line">        <span class="variable language_">this</span>.$message(&#123;</span><br><span class="line">            <span class="attr">type</span>: <span class="string">&#x27;success&#x27;</span>,</span><br><span class="line">            <span class="attr">message</span>: response.<span class="property">message</span></span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;).<span class="title function_">catch</span>(<span class="function">(<span class="params">error</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(error)</span><br><span class="line">        <span class="keyword">if</span> (error === <span class="string">&#x27;cancel&#x27;</span>) &#123;</span><br><span class="line">            <span class="variable language_">this</span>.$message(&#123;</span><br><span class="line">                <span class="attr">type</span>: <span class="string">&#x27;info&#x27;</span>,</span><br><span class="line">                <span class="attr">message</span>: <span class="string">&#x27;已取消删除&#x27;</span></span><br><span class="line">            &#125;)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>api</li>
+</ul>
+<blockquote>
+<p>teacher.js</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">batchRemove</span>(<span class="params">idList</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">request</span>(&#123;</span><br><span class="line">        <span class="attr">url</span>: <span class="string">&#x27;/admin/edu/teacher/batch/remove&#x27;</span>,</span><br><span class="line">        <span class="attr">method</span>: <span class="string">&#x27;delete&#x27;</span>,</span><br><span class="line">        <span class="attr">data</span>: idList</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="四、自动完成-输入建议"><a href="#四、自动完成-输入建议" class="headerlink" title="四、自动完成(输入建议)"></a>四、自动完成(输入建议)</h1><blockquote>
+<p>参考文档：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://element.eleme.cn/#/zh-CN/component/input">https://element.eleme.cn/#/zh-CN/component/input</a></p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/guli_2.png"></p>
+<h2 id="1-需求"><a href="#1-需求" class="headerlink" title="1.需求"></a>1.需求</h2><p>每输入一个字符后，在下方列出建议。</p>
+<h2 id="2-说明"><a href="#2-说明" class="headerlink" title="2.说明"></a>2.说明</h2><p>el-autocomplete组件是一个可带输入建议的<strong>输入框</strong>组件</p>
+<ul>
+<li>:fetch-suggestions&#x3D;”querySearch”<ul>
+<li>函数引用时传递两个参数queryString, callback<ul>
+<li>queryString：输入框中输入的文字</li>
+<li>callback：回调函数，输入建议数据准备好时通过 callback(data) 返回到 autocomplete 组件中</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>value-key<ul>
+<li>根据关键字查询出的数据封装到对象数组中，value-key指定选择展示对象中那个属性</li>
+<li>value-key&#x3D;”name”</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-代码"><a href="#3-代码" class="headerlink" title="3.代码"></a>3.代码</h2><h3 id="后端代码"><a href="#后端代码" class="headerlink" title="后端代码"></a>后端代码</h3><ul>
+<li>TeacherController.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 根据关键字查询讲师名字列表</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@ApiOperation(&quot;根据id获取讲师信息&quot;)</span></span><br><span class="line"><span class="meta">@GetMapping(&quot;/get/name-list/&#123;key&#125;&quot;)</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">getNameListByKey</span><span class="params">(<span class="meta">@ApiParam(value = &quot;查询字符串&quot;, required = true)</span> <span class="meta">@PathVariable</span> String key)</span>&#123;</span><br><span class="line">    List&lt;Map&lt;String,Object&gt;&gt; nameList = teacherService.getNameListByKey(key);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> R.ok().data(<span class="string">&quot;nameList&quot;</span>,nameList);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>TeacherService.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Map&lt;String,Object&gt;&gt; <span class="title function_">getNameListByKey</span><span class="params">(String key)</span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>TeacherServiceImpl.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="keyword">public</span> List&lt;Map&lt;String, Object&gt;&gt; <span class="title function_">getNameListByKey</span><span class="params">(String key)</span> &#123;</span><br><span class="line">    <span class="comment">// 查询条件</span></span><br><span class="line">    QueryWrapper&lt;Teacher&gt; queryWrapper = <span class="keyword">new</span> <span class="title class_">QueryWrapper</span>&lt;&gt;();</span><br><span class="line">    queryWrapper.select(<span class="string">&quot;name&quot;</span>);</span><br><span class="line">    queryWrapper.likeRight(<span class="string">&quot;name&quot;</span>,key);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> baseMapper.selectMaps(queryWrapper);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="前端代码"><a href="#前端代码" class="headerlink" title="前端代码"></a>前端代码</h3><ul>
+<li>list.vue</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-form-item</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- &lt;el-input v-model=&quot;searchObj.name&quot; placeholder=&quot;讲师&quot;/&gt; --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-autocomplete</span></span></span><br><span class="line"><span class="tag">    <span class="attr">v-model</span>=<span class="string">&quot;searchObj.name&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">:fetch-suggestions</span>=<span class="string">&quot;querySearch&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">:trigger-on-focus</span>=<span class="string">&quot;false&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">class</span>=<span class="string">&quot;inline-input&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">placeholder</span>=<span class="string">&quot;讲师&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">value-key</span>=<span class="string">&quot;name&quot;</span></span></span><br><span class="line"><span class="tag">    /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">el-form-item</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">querySearch</span>(<span class="params">queryString, callback</span>) &#123;</span><br><span class="line">    teacherApi.<span class="title function_">getNameListByKey</span>(queryString).<span class="title function_">then</span>(<span class="function"><span class="params">response</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="title function_">callback</span>(response.<span class="property">data</span>.<span class="property">nameList</span>)</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>teacher.js</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">getNameListByKey</span>(<span class="params">key</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">request</span>(&#123;</span><br><span class="line">        <span class="attr">url</span>: <span class="string">`/admin/edu/teacher/get/name-list/<span class="subst">$&#123;key&#125;</span>`</span>,</span><br><span class="line">        <span class="attr">method</span>: <span class="string">&#x27;get&#x27;</span></span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-title">
+    <strong>本文主题：</strong>
+    谷粒学院-day06
+  </li>
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>我寄愁心与爪哇
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://cysheng.gitee.io/e7fb9818.html" title="谷粒学院-day06">https://cysheng.gitee.io/e7fb9818.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%B0%B7%E7%B2%92%E5%AD%A6%E9%99%A2%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/" rel="tag"># 谷粒学院项目笔记</a>
+          </div>
+
+        
+  <div class="post-widgets">
+    <div class="wp_rating">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/bb4c45f1.html" rel="prev" title="Gitee托管静态博客">
+      <i class="fa fa-chevron-left"></i> Gitee托管静态博客
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81NTc0My8zMjIwOQ=="></div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%A4%B4%E5%83%8F%E4%B8%8A%E4%BC%A0"><span class="nav-text">一、头像上传</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E7%AB%AF%E6%95%B4%E5%90%88"><span class="nav-text">前端整合</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-text">参考</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AF%B4%E6%98%8E"><span class="nav-text">说明</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#el-upload%E7%BB%84%E4%BB%B6"><span class="nav-text">el-upload组件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#style%E6%A0%87%E7%AD%BE"><span class="nav-text">style标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#script%E6%A0%87%E7%AD%BE"><span class="nav-text">script标签</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%9D%E8%B7%AF"><span class="nav-text">思路</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E5%90%8E"><span class="nav-text">修改后</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86"><span class="nav-text">二、异常处理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%82%E5%B8%B8"><span class="nav-text">1.自定义异常</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1%E7%BB%9F%E4%B8%80%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F"><span class="nav-text">1.1统一异常处理方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2%E5%81%9A%E6%B3%95"><span class="nav-text">1.2做法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-1%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%82%E5%B8%B8%E7%B1%BBGuliException"><span class="nav-text">1.2.1自定义异常类GuliException</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-2%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E6%96%B9%E6%B3%95"><span class="nav-text">1.2.2异常处理方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-3%E6%89%93%E5%8D%B0%E5%BC%82%E5%B8%B8%E4%BF%A1%E6%81%AF"><span class="nav-text">1.2.3打印异常信息</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%89%8D%E7%AB%AF%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86"><span class="nav-text">2.前端错误处理</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4"><span class="nav-text">三、批量删除</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%90%8E%E7%AB%AF"><span class="nav-text">1.后端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%89%8D%E7%AB%AF"><span class="nav-text">2.前端</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1%E6%80%9D%E8%B7%AF"><span class="nav-text">2.1思路</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2%E4%BB%A3%E7%A0%81"><span class="nav-text">2.2代码</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-1%E8%B7%AF%E7%BA%BF%E4%B8%80"><span class="nav-text">2.2.1路线一</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-1%E8%B7%AF%E7%BA%BF%E4%BA%8C"><span class="nav-text">2.2.1路线二</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90-%E8%BE%93%E5%85%A5%E5%BB%BA%E8%AE%AE"><span class="nav-text">四、自动完成(输入建议)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E9%9C%80%E6%B1%82"><span class="nav-text">1.需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E8%AF%B4%E6%98%8E"><span class="nav-text">2.说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E4%BB%A3%E7%A0%81"><span class="nav-text">3.代码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%8E%E7%AB%AF%E4%BB%A3%E7%A0%81"><span class="nav-text">后端代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81"><span class="nav-text">前端代码</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="我寄愁心与爪哇" src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">我寄愁心与爪哇</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://www.xn2001.com/" title="https:&#x2F;&#x2F;www.xn2001.com" rel="external nofollow noopener noreferrer" target="_blank">乐心湖's Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://cysheng.gitee.io/4333.html" title="https:&#x2F;&#x2F;cysheng.gitee.io&#x2F;4333.html">申请友链</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">我寄愁心与爪哇</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">16k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">14 分钟</span>
+</div>
+<!--
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+-->
+  <div class="addthis_inline_share_toolbox">
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-623e614ba71fa25f" async="async"></script>
+  </div>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<!--点击爱心特效-->
+<script type="text/javascript">
+//需要jquery插件
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("❤滴水穿石❤","❤专心致志❤","❤以学愈愚❤","❤持之以恒❤","❤囊萤映雪❤","❤全神贯注❤","❤循序渐进❤","❤瑞雪❤","❤秉烛达旦❤","❤惊鸿❤","❤星月❤","❤绚烂❤");
+        var $i = $("<span></span>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+
+</script>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
+
+
+
+  <script>
+  if (CONFIG.page.isPost) {
+    wpac_init = window.wpac_init || [];
+    wpac_init.push({
+      widget: 'Rating',
+      id    : ,
+      el    : 'wpac-rating',
+      color : 'fc6423'
+    });
+    (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = '//embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+    })();
+  }
+  </script>
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
+</body>
+</html>
