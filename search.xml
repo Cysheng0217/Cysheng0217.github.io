@@ -106,6 +106,53 @@
       </tags>
   </entry>
   <entry>
+    <title>友情链接</title>
+    <url>/4333.html</url>
+    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
+
+
+
+<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
+<div class="note success">
+            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
+          </div>
+
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>友链</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图片</title>
+    <url>/9900f79e.html</url>
+    <content><![CDATA[<center>个人笔记，仅供参考</center>
+
+<span id="more"></span>
+<br/>
+
+
+
+<h1 id="一、Node"><a href="#一、Node" class="headerlink" title="一、Node"></a>一、Node</h1><ul>
+<li>20220418</li>
+</ul>
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110426.png"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110840.png" alt="读xml纯文本写入文件"  />
+
+
+
+<h1 id="二、PHP"><a href="#二、PHP" class="headerlink" title="二、PHP"></a>二、PHP</h1><ul>
+<li>20220418</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110199.png"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110329.png" alt="2022-04-18_090947"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>推荐：B站批量下载工具</title>
     <url>/9f467dd9.html</url>
     <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
@@ -125,27 +172,6 @@
       </categories>
       <tags>
         <tag>B站下载</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/4333.html</url>
-    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
-
-
-
-<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
-<div class="note success">
-            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
-          </div>
-
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>友链</tag>
       </tags>
   </entry>
   <entry>
@@ -380,6 +406,174 @@
 
 
 ]]></content>
+      <categories>
+        <category>个人笔记</category>
+      </categories>
+      <tags>
+        <tag>谷粒学院项目笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>谷粒学院-day07</title>
+    <url>/90fca88e.html</url>
+    <content><![CDATA[<center>个人笔记，仅供参考</center>
+<span id="more"></span>
+<br/>
+
+<ul>
+<li>前置：修改依赖版本</li>
+</ul>
+<blockquote>
+<p>父项目guli_parent的pom.xml文件</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- Spring Boot --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">parent</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.2.2.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">relativePath</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">parent</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--Spring Cloud--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-dependencies<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>Hoxton.SR1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">type</span>&gt;</span>pom<span class="tag">&lt;/<span class="name">type</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">scope</span>&gt;</span>import<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--Spring Cloud Alibaba--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-alibaba-dependencies<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.1.0.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">type</span>&gt;</span>pom<span class="tag">&lt;/<span class="name">type</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">scope</span>&gt;</span>import<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>微服务基础设施</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/202204152005012.jpg" alt="guli_3"></p>
+<h1 id="一、注册中心-Nacos"><a href="#一、注册中心-Nacos" class="headerlink" title="一、注册中心-Nacos"></a>一、注册中心-Nacos</h1><h2 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h2><p>1.1下载nacos1.1.4版本:<a href="https://github.com/alibaba/nacos/releases/tag/1.1.4">https://github.com/alibaba/nacos/releases/tag/1.1.4</a></p>
+<ul>
+<li><p>linux:<a href="https://github.com/alibaba/nacos/releases/download/1.1.4/nacos-server-1.1.4.tar.gz">nacos-server-1.1.4.tar.gz</a></p>
+</li>
+<li><p>windows:<a href="https://github.com/alibaba/nacos/releases/download/1.1.4/nacos-server-1.1.4.zip">nacos-server-1.1.4.zip</a></p>
+</li>
+</ul>
+<p>1.2解压到guli_parent目录下（随意）</p>
+<h2 id="2-运行"><a href="#2-运行" class="headerlink" title="2.运行"></a>2.运行</h2><p>2.1双击执行nacos&#x2F;bin&#x2F;startup.cmd</p>
+<p>2.2浏览器访问</p>
+<ul>
+<li>地址：<a href="http://localhost:8848/nacos">http://localhost:8848/nacos</a></li>
+</ul>
+<p>2.3登录</p>
+<ul>
+<li>账号：nacos</li>
+<li>密码：nacos</li>
+</ul>
+<blockquote>
+<p>点击服务管理-&gt;服务列表 即可查看已注册服务（暂时没注册，没有数据）</p>
+</blockquote>
+<h2 id="3-注册"><a href="#3-注册" class="headerlink" title="3.注册"></a>3.注册</h2><p>3.1依赖</p>
+<blockquote>
+<p>service模块的pom.xml</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--nacos服务注册--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-alibaba-nacos-discovery<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>3.2配置</p>
+<blockquote>
+<p>需要进行注册的微服务的application.yml</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#spring:</span></span><br><span class="line">  <span class="attr">cloud:</span></span><br><span class="line">    <span class="attr">nacos:</span></span><br><span class="line">      <span class="attr">discovery:</span></span><br><span class="line">        <span class="attr">server-addr:</span> <span class="string">localhost:8848</span> <span class="comment"># nacos服务地址</span></span><br></pre></td></tr></table></figure>
+
+<p>3.3主启动</p>
+<p>主启动类添加注解：<code>@EnableDiscoveryClient</code></p>
+<h2 id="4-测试"><a href="#4-测试" class="headerlink" title="4.测试"></a>4.测试</h2><ul>
+<li>启动微服务</li>
+<li>浏览器查看（服务管理-&gt;服务列表）</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/202204152004225.png" alt="guli_4"></p>
+<h1 id="二、服务调用-OpenFeign"><a href="#二、服务调用-OpenFeign" class="headerlink" title="二、服务调用-OpenFeign"></a>二、服务调用-OpenFeign</h1><h2 id="1-依赖"><a href="#1-依赖" class="headerlink" title="1.依赖"></a>1.依赖</h2><blockquote>
+<p>消费者端(为了方便直接加入service模块中)：</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--OpenFeign服务调用--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-openfeign<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-主启动"><a href="#2-主启动" class="headerlink" title="2.主启动"></a>2.主启动</h2><ul>
+<li><p>消费者端主启动类添加**<code>@EnableFeignClients</code>注解**</p>
+</li>
+<li><p>消费者（edu模块） -调用-&gt; 生产者（oss模块） </p>
+<ul>
+<li>在edu模块删除讲师的同时，调用oss模块删除讲师头像</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-测试（略）"><a href="#3-测试（略）" class="headerlink" title="3.测试（略）"></a>3.测试（略）</h2><blockquote>
+<p>附：</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@FeignClient(&quot;service-oss&quot;)</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="三、负载均衡-Ribbon"><a href="#三、负载均衡-Ribbon" class="headerlink" title="三、负载均衡-Ribbon"></a>三、负载均衡-Ribbon</h1><blockquote>
+<p>OpenFeign依赖于Ribbon，Maven在安装OpenFeign时会自动安装Ribbon</p>
+</blockquote>
+<h2 id="1-负载均衡策略"><a href="#1-负载均衡策略" class="headerlink" title="1.负载均衡策略"></a>1.负载均衡策略</h2><table>
+<thead>
+<tr>
+<th>策略名</th>
+<th>策略描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>BestAvailableRule</td>
+<td>选择一个最小的并发请求的server</td>
+</tr>
+<tr>
+<td>AvailabilityFilteringRule</td>
+<td>过滤掉那些因为一直连接失败的被标记为circuit tripped的后端server，并过滤掉那些高并发的的后端server（activeconnections 超过配置的阈值）</td>
+</tr>
+<tr>
+<td>WeightedResponseTimeRule</td>
+<td>根据响应时间分配一个weight，响应时间越长，weight越小，被选中的可能性越低。</td>
+</tr>
+<tr>
+<td>RetryRule</td>
+<td>对选定的负载均衡策略机上重试机制。</td>
+</tr>
+<tr>
+<td>RoundRobinRule</td>
+<td>轮询选择server</td>
+</tr>
+<tr>
+<td>RandomRule</td>
+<td>随机选择一个server</td>
+</tr>
+<tr>
+<td>ZoneAvoidanceRule</td>
+<td>综合判断server所在区域的性能和server的可用性选择server</td>
+</tr>
+</tbody></table>
+<h2 id="2-更改策略"><a href="#2-更改策略" class="headerlink" title="2.更改策略"></a>2.更改策略</h2><blockquote>
+<p>服务消费端配置文件更改配置如下，根据需求更改，这里暂时不变</p>
+</blockquote>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">service-oss:</span> <span class="comment"># 调用的提供者的名称 </span></span><br><span class="line">  <span class="attr">ribbon:</span> </span><br><span class="line">    <span class="attr">NFLoadBalancerRuleClassName:</span> <span class="string">com.netflix.loadbalancer.RandomRule</span> <span class="comment"># 策略</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>测试（略）</p>
+<blockquote>
+<p>附:IDLE配置多实例方式</p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/guli_5.png" alt="guli_5"></p>
+</li>
+</ul>
+<h2 id="3-超时控制"><a href="#3-超时控制" class="headerlink" title="3.超时控制"></a>3.超时控制</h2><blockquote>
+<p>消费者端（edu微服务）配置：</p>
+</blockquote>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">ribbon:</span></span><br><span class="line">  <span class="attr">MaxAutoRetries:</span> <span class="number">0</span> <span class="comment"># 同一实例最大重试次数，不包括首次调用，默认0</span></span><br><span class="line">  <span class="attr">MaxAutoRetriesNextServer:</span> <span class="number">1</span> <span class="comment"># 重试其他实例的最大重试次数，不包括首次所选的server，默认1</span></span><br><span class="line">  <span class="attr">ConnectTimeout:</span> <span class="number">10000</span> <span class="comment">#连接建立的超时时长，默认1秒</span></span><br><span class="line">  <span class="attr">ReadTimeout:</span> <span class="number">10000</span> <span class="comment">#处理请求的超时时间，默认为1秒</span></span><br></pre></td></tr></table></figure>
+
+<p>3.1重试配置</p>
+<ul>
+<li><p>MaxAutoRetries</p>
+<p>同一实例最大重试次数</p>
+</li>
+<li><p>MaxAutoRetriesNextServer</p>
+<p>重试规则：实例A重试次数达到 MaxAutoRetries配置的值 后，会<strong>切换</strong>实例B，然后再达到 MaxAutoRetries配置的值。</p>
+<p>MaxAutoRetriesNextServer配置<strong>切换</strong>的次数。</p>
+</li>
+</ul>
+<p>3.2超时配置</p>
+<ul>
+<li>A微服务调用B微服务，A与B的tcp连接建立时间为：ConnectTimeout</li>
+<li>B服务处理请求时间为：ReadTimeout</li>
+</ul>
+<p>3.3前端超时配置</p>
+<blockquote>
+<p>src&#x2F;request.js</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 创建axios实例</span></span><br><span class="line"><span class="keyword">const</span> service = axios.<span class="title function_">create</span>(&#123;</span><br><span class="line">  <span class="attr">baseURL</span>: process.<span class="property">env</span>.<span class="property">BASE_API</span>, <span class="comment">// api 的 base_url</span></span><br><span class="line">  <span class="attr">timeout</span>: <span class="number">12000</span> <span class="comment">// 请求超时时间</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="四、删除讲师头像（待完成）"><a href="#四、删除讲师头像（待完成）" class="headerlink" title="四、删除讲师头像（待完成）"></a>四、删除讲师头像（待完成）</h1>]]></content>
       <categories>
         <category>个人笔记</category>
       </categories>
