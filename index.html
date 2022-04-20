@@ -231,7 +231,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-04-19 11:07:51" itemprop="dateModified" datetime="2022-04-19T11:07:51+08:00">2022-04-19</time>
+                <time title="修改时间：2022-04-20 20:43:22" itemprop="dateModified" datetime="2022-04-20T20:43:22+08:00">2022-04-20</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -249,14 +249,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>3.1k</span>
+              <span>7.8k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
+              <span>7 分钟</span>
             </span>
 
         </div>
@@ -268,15 +268,307 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <center>个人笔记，仅供参考</center>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/90fca88e.html" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <ul>
+<li>前置：修改依赖版本</li>
+</ul>
+<blockquote>
+<p>父项目guli_parent的pom.xml文件</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- Spring Boot --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">parent</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.2.2.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">relativePath</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">parent</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--Spring Cloud--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-dependencies<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>Hoxton.SR1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">type</span>&gt;</span>pom<span class="tag">&lt;/<span class="name">type</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">scope</span>&gt;</span>import<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--Spring Cloud Alibaba--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-alibaba-dependencies<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.1.0.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">type</span>&gt;</span>pom<span class="tag">&lt;/<span class="name">type</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">scope</span>&gt;</span>import<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>微服务基础设施</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/202204152005012.jpg" alt="guli_3"></p>
+<h1 id="一、注册中心-Nacos"><a href="#一、注册中心-Nacos" class="headerlink" title="一、注册中心-Nacos"></a>一、注册中心-Nacos</h1><h2 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h2><p>1.1下载nacos1.1.4版本:<a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/alibaba/nacos/releases/tag/1.1.4">https://github.com/alibaba/nacos/releases/tag/1.1.4</a></p>
+<ul>
+<li><p>linux:<a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/alibaba/nacos/releases/download/1.1.4/nacos-server-1.1.4.tar.gz">nacos-server-1.1.4.tar.gz</a></p>
+</li>
+<li><p>windows:<a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/alibaba/nacos/releases/download/1.1.4/nacos-server-1.1.4.zip">nacos-server-1.1.4.zip</a></p>
+</li>
+</ul>
+<p>1.2解压到guli_parent目录下（随意）</p>
+<h2 id="2-运行"><a href="#2-运行" class="headerlink" title="2.运行"></a>2.运行</h2><p>2.1双击执行nacos&#x2F;bin&#x2F;startup.cmd</p>
+<p>2.2浏览器访问</p>
+<ul>
+<li>地址：<a target="_blank" rel="external nofollow noopener noreferrer" href="http://localhost:8848/nacos">http://localhost:8848/nacos</a></li>
+</ul>
+<p>2.3登录</p>
+<ul>
+<li>账号：nacos</li>
+<li>密码：nacos</li>
+</ul>
+<blockquote>
+<p>点击服务管理-&gt;服务列表 即可查看已注册服务（暂时没注册，没有数据）</p>
+</blockquote>
+<h2 id="3-注册"><a href="#3-注册" class="headerlink" title="3.注册"></a>3.注册</h2><p>3.1依赖</p>
+<blockquote>
+<p>service模块的pom.xml</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--nacos服务注册--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-alibaba-nacos-discovery<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>3.2配置</p>
+<blockquote>
+<p>需要进行注册的微服务的application.yml</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#spring:</span></span><br><span class="line">  <span class="attr">cloud:</span></span><br><span class="line">    <span class="attr">nacos:</span></span><br><span class="line">      <span class="attr">discovery:</span></span><br><span class="line">        <span class="attr">server-addr:</span> <span class="string">localhost:8848</span> <span class="comment"># nacos服务地址</span></span><br></pre></td></tr></table></figure>
+
+<p>3.3主启动</p>
+<p>主启动类添加注解：<code>@EnableDiscoveryClient</code></p>
+<h2 id="4-测试"><a href="#4-测试" class="headerlink" title="4.测试"></a>4.测试</h2><ul>
+<li>启动微服务</li>
+<li>浏览器查看（服务管理-&gt;服务列表）</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/202204152004225.png" alt="guli_4"></p>
+<h1 id="二、服务调用-OpenFeign"><a href="#二、服务调用-OpenFeign" class="headerlink" title="二、服务调用-OpenFeign"></a>二、服务调用-OpenFeign</h1><h2 id="1-依赖"><a href="#1-依赖" class="headerlink" title="1.依赖"></a>1.依赖</h2><blockquote>
+<p>消费者端(为了方便直接加入service模块中)：</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--OpenFeign服务调用--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-openfeign<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-主启动"><a href="#2-主启动" class="headerlink" title="2.主启动"></a>2.主启动</h2><ul>
+<li><p>消费者端主启动类添加**<code>@EnableFeignClients</code>注解**</p>
+</li>
+<li><p>消费者（edu模块） -调用-&gt; 生产者（oss模块） </p>
+<ul>
+<li>在edu模块删除讲师的同时，调用oss模块删除讲师头像</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-测试（略）"><a href="#3-测试（略）" class="headerlink" title="3.测试（略）"></a>3.测试（略）</h2><blockquote>
+<p>附：</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@FeignClient(&quot;service-oss&quot;)</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="三、负载均衡-Ribbon"><a href="#三、负载均衡-Ribbon" class="headerlink" title="三、负载均衡-Ribbon"></a>三、负载均衡-Ribbon</h1><blockquote>
+<p>OpenFeign依赖于Ribbon，Maven在安装OpenFeign时会自动安装Ribbon</p>
+</blockquote>
+<h2 id="1-负载均衡策略"><a href="#1-负载均衡策略" class="headerlink" title="1.负载均衡策略"></a>1.负载均衡策略</h2><table>
+<thead>
+<tr>
+<th>策略名</th>
+<th>策略描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>BestAvailableRule</td>
+<td>选择一个最小的并发请求的server</td>
+</tr>
+<tr>
+<td>AvailabilityFilteringRule</td>
+<td>过滤掉那些因为一直连接失败的被标记为circuit tripped的后端server，并过滤掉那些高并发的的后端server（activeconnections 超过配置的阈值）</td>
+</tr>
+<tr>
+<td>WeightedResponseTimeRule</td>
+<td>根据响应时间分配一个weight，响应时间越长，weight越小，被选中的可能性越低。</td>
+</tr>
+<tr>
+<td>RetryRule</td>
+<td>对选定的负载均衡策略机上重试机制。</td>
+</tr>
+<tr>
+<td>RoundRobinRule</td>
+<td>轮询选择server</td>
+</tr>
+<tr>
+<td>RandomRule</td>
+<td>随机选择一个server</td>
+</tr>
+<tr>
+<td>ZoneAvoidanceRule</td>
+<td>综合判断server所在区域的性能和server的可用性选择server</td>
+</tr>
+</tbody></table>
+<h2 id="2-更改策略"><a href="#2-更改策略" class="headerlink" title="2.更改策略"></a>2.更改策略</h2><blockquote>
+<p>服务消费端配置文件更改配置如下，根据需求更改，这里暂时不变</p>
+</blockquote>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">service-oss:</span> <span class="comment"># 调用的提供者的名称 </span></span><br><span class="line">  <span class="attr">ribbon:</span> </span><br><span class="line">    <span class="attr">NFLoadBalancerRuleClassName:</span> <span class="string">com.netflix.loadbalancer.RandomRule</span> <span class="comment"># 策略</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>测试（略）</p>
+<blockquote>
+<p>附:IDLE配置多实例方式</p>
+</blockquote>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-DServer.port=8121</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/guli_5.png" alt="guli_5"></p>
+</li>
+</ul>
+<h2 id="3-超时控制"><a href="#3-超时控制" class="headerlink" title="3.超时控制"></a>3.超时控制</h2><blockquote>
+<p>消费者端（edu微服务）配置：</p>
+</blockquote>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">ribbon:</span></span><br><span class="line">  <span class="attr">MaxAutoRetries:</span> <span class="number">0</span> <span class="comment"># 同一实例最大重试次数，不包括首次调用，默认0</span></span><br><span class="line">  <span class="attr">MaxAutoRetriesNextServer:</span> <span class="number">1</span> <span class="comment"># 重试其他实例的最大重试次数，不包括首次所选的server，默认1</span></span><br><span class="line">  <span class="attr">ConnectTimeout:</span> <span class="number">10000</span> <span class="comment">#连接建立的超时时长，默认1秒</span></span><br><span class="line">  <span class="attr">ReadTimeout:</span> <span class="number">10000</span> <span class="comment">#处理请求的超时时间，默认为1秒</span></span><br></pre></td></tr></table></figure>
+
+<p>3.1重试配置</p>
+<ul>
+<li><p>MaxAutoRetries</p>
+<p>同一实例最大重试次数</p>
+</li>
+<li><p>MaxAutoRetriesNextServer</p>
+<p>重试规则：实例A重试次数达到 MaxAutoRetries配置的值 后，会<strong>切换</strong>实例B，然后再达到 MaxAutoRetries配置的值。</p>
+<p>MaxAutoRetriesNextServer配置<strong>切换</strong>的次数。</p>
+</li>
+</ul>
+<p>3.2超时配置</p>
+<ul>
+<li>A微服务调用B微服务，A与B的tcp连接建立时间为：ConnectTimeout</li>
+<li>B服务处理请求时间为：ReadTimeout</li>
+</ul>
+<p>3.3前端超时配置</p>
+<blockquote>
+<p>src&#x2F;request.js</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 创建axios实例</span></span><br><span class="line"><span class="keyword">const</span> service = axios.<span class="title function_">create</span>(&#123;</span><br><span class="line">  <span class="attr">baseURL</span>: process.<span class="property">env</span>.<span class="property">BASE_API</span>, <span class="comment">// api 的 base_url</span></span><br><span class="line">  <span class="attr">timeout</span>: <span class="number">12000</span> <span class="comment">// 请求超时时间</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="四、删除讲师头像"><a href="#四、删除讲师头像" class="headerlink" title="四、删除讲师头像"></a>四、删除讲师头像</h1><h2 id="1-流程"><a href="#1-流程" class="headerlink" title="1.流程"></a>1.流程</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">TeacherController.removeById()</span><br><span class="line">-调用-&gt;TeacherService</span><br><span class="line">-实现类-&gt;TeacherServiceImpl.removeAvatarById()(根据id获取讲师，然后从讲师中获取url)</span><br><span class="line">-调用-&gt;Edu模块 OssFileService</span><br><span class="line">-OpenFeign调用-&gt;Oss模块 FileController</span><br><span class="line">-调用-&gt;FileService</span><br><span class="line">-实现类-&gt;FileServiceImpl(根据url删除阿里云图片)</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-代码"><a href="#2-代码" class="headerlink" title="2.代码"></a>2.代码</h2><h3 id="2-1-Oss模块"><a href="#2-1-Oss模块" class="headerlink" title="2.1 Oss模块"></a>2.1 Oss模块</h3><ul>
+<li><p>FileService.java</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 删除讲师头像</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> url 讲师头像的url地址</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span> 删除结果。true成功，false失败。</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="type">boolean</span> <span class="title function_">removeFile</span><span class="params">(String url)</span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>FileServiceImpl.java</p>
+</li>
+</ul>
+<blockquote>
+<p>参考：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://help.aliyun.com/document_detail/84842.htm?spm=a2c4g.11186623.0.0.14c21cd5LdABTL#concept-84842-zh">https://help.aliyun.com/document_detail/84842.htm?spm=a2c4g.11186623.0.0.14c21cd5LdABTL#concept-84842-zh</a></p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 删除文件或目录。如果要删除目录，目录必须为空。</span></span><br><span class="line">ossClient.deleteObject(bucketName, objectName);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>FileServiceImpl.java</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">removeFile</span><span class="params">(String url)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">endpoint</span> <span class="operator">=</span> ossProperties.getEndpoint();</span><br><span class="line">    <span class="type">String</span> <span class="variable">keyid</span> <span class="operator">=</span> ossProperties.getKeyid();</span><br><span class="line">    <span class="type">String</span> <span class="variable">keysecret</span> <span class="operator">=</span> ossProperties.getKeysecret();</span><br><span class="line">    <span class="type">String</span> <span class="variable">bucketname</span> <span class="operator">=</span> ossProperties.getBucketname();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 从url中截取objectName</span></span><br><span class="line">    <span class="comment">// objectName = url - host;</span></span><br><span class="line">    <span class="type">String</span> <span class="variable">host</span> <span class="operator">=</span> <span class="string">&quot;https://&quot;</span> + bucketname + <span class="string">&quot;.&quot;</span> + endpoint + <span class="string">&quot;/&quot;</span>;</span><br><span class="line">    <span class="type">String</span> <span class="variable">objectName</span> <span class="operator">=</span> url.substring(host.length());</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 创建OSSClient实例。</span></span><br><span class="line">    <span class="type">OSS</span> <span class="variable">ossClient</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">OSSClientBuilder</span>().build(endpoint, keyid, keysecret);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 删除文件或目录。如果要删除目录，目录必须为空。</span></span><br><span class="line">    ossClient.deleteObject(bucketname, objectName);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 关闭</span></span><br><span class="line">    ossClient.shutdown();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>FileController.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@ApiOperation(&quot;文件删除&quot;)</span></span><br><span class="line"><span class="meta">@DeleteMapping(&quot;/remove&quot;)</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">removeFile</span><span class="params">(</span></span><br><span class="line"><span class="params">    <span class="meta">@ApiParam(value = &quot;文件的url&quot;, required = true)</span></span></span><br><span class="line"><span class="params">    <span class="meta">@RequestBody</span> String url)</span>&#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        fileService.removeFile(url);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">        log.error(ExceptionUtils.getMessage(e));</span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">GuliException</span>(ResultCodeEnum.FILE_DELETE_ERROR);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> R.ok().data(<span class="string">&quot;url&quot;</span>,url);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-2-Edu模块"><a href="#2-2-Edu模块" class="headerlink" title="2.2 Edu模块"></a>2.2 Edu模块</h3><ul>
+<li>TeacherController</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* 根据id删除讲师</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">@ApiOperation(value = &quot;根据id删除讲师&quot;,notes = &quot;详细说明：根据id删除讲师,逻辑删除&quot;)</span></span><br><span class="line"><span class="meta">@DeleteMapping(&quot;/remove/&#123;id&#125;&quot;)</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">removeById</span><span class="params">(<span class="meta">@ApiParam(&quot;讲师id&quot;)</span> <span class="meta">@PathVariable</span> String id)</span>&#123;</span><br><span class="line">    <span class="comment">// 删除讲师头像</span></span><br><span class="line">    teacherService.removeAvatarById(id);</span><br><span class="line">    <span class="comment">// 删除讲师</span></span><br><span class="line">    <span class="type">boolean</span> <span class="variable">result</span> <span class="operator">=</span> teacherService.removeById(id);</span><br><span class="line">    <span class="keyword">if</span> (result)&#123;</span><br><span class="line">        <span class="keyword">return</span> R.ok().message(<span class="string">&quot;删除成功&quot;</span>);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> R.error().message(<span class="string">&quot;数据不存在&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>TeacherService</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">R <span class="title function_">removeAvatarById</span><span class="params">(String id)</span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>TeacherServiceImpl</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Autowired</span></span><br><span class="line"><span class="keyword">private</span> OssFileService ossFileService;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">removeAvatarById</span><span class="params">(String id)</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 获取讲师头像url地址</span></span><br><span class="line">    <span class="type">Teacher</span> <span class="variable">teacher</span> <span class="operator">=</span> baseMapper.selectById(id);</span><br><span class="line">    <span class="type">String</span> <span class="variable">avatarUrl</span> <span class="operator">=</span> teacher.getAvatar();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 删除讲师头像</span></span><br><span class="line">    <span class="keyword">return</span> ossFileService.removeFile(avatarUrl);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>OssFileService</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@DeleteMapping(&quot;/admin/oss/file/remove&quot;)</span></span><br><span class="line">R <span class="title function_">removeFile</span><span class="params">(<span class="meta">@RequestBody</span> String url)</span>;</span><br></pre></td></tr></table></figure>
+
+<h1 id="五、服务容错-Sentinel"><a href="#五、服务容错-Sentinel" class="headerlink" title="五、服务容错-Sentinel"></a>五、服务容错-Sentinel</h1><h2 id="1-服务雪崩"><a href="#1-服务雪崩" class="headerlink" title="1.服务雪崩"></a>1.服务雪崩</h2><p>情景描述：</p>
+<ul>
+<li><p>情景一</p>
+<ul>
+<li><strong>微服务A</strong> –调用-&gt; <strong>微服务B</strong> –调用-&gt; <strong>微服务C</strong></li>
+<li>服务C给服务B响应慢，导致服务B线程阻塞。而服务B线程阻塞，又会导致服务A线程阻塞。</li>
+</ul>
+</li>
+<li><p>情景二</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204202043934.png"></p>
+<p>b2()调用b3()时，若b3()阻塞，会导致b()阻塞。</p>
+<p>而b2()阻塞，不但会导致b1()阻塞，还会导致a2()阻塞，进而a1()阻塞。</p>
+<h2 id="2-服务容错"><a href="#2-服务容错" class="headerlink" title="2.服务容错"></a>2.服务容错</h2><p>防止服务雪崩，要做好服务容错。</p>
+<h3 id="2-1容错方案"><a href="#2-1容错方案" class="headerlink" title="2.1容错方案"></a>2.1容错方案</h3><h4 id="2-1-1隔离"><a href="#2-1-1隔离" class="headerlink" title="2.1.1隔离"></a>2.1.1隔离</h4><ul>
+<li>线程池隔离</li>
+</ul>
+<p>按功能划分不同线程池，当线程池线程满时不扩散到其他线程，不会影响其他功能。</p>
+<ul>
+<li>信号量隔离</li>
+</ul>
+<h4 id="2-1-2超时"><a href="#2-1-2超时" class="headerlink" title="2.1.2超时"></a>2.1.2超时</h4><p>服务A调用服务B，当调用超过一定时间未响应，就断开请求，释放线程。</p>
+<h4 id="2-1-3限流"><a href="#2-1-3限流" class="headerlink" title="2.1.3限流"></a>2.1.3限流</h4><p>限制系统输入和输出的流量。</p>
+<h4 id="2-1-4熔断"><a href="#2-1-4熔断" class="headerlink" title="2.1.4熔断"></a>2.1.4熔断</h4><p>对响应时间慢或异常比例高的下游服务快速失败。</p>
+<h4 id="2-1-5降级"><a href="#2-1-5降级" class="headerlink" title="2.1.5降级"></a>2.1.5降级</h4><p>在本服务提供兜底(备用)方案，如果调用下游服务失败，就执行备用方案。</p>
+<h2 id="3-Sentinel"><a href="#3-Sentinel" class="headerlink" title="3.Sentinel"></a>3.Sentinel</h2><h3 id="3-1组成"><a href="#3-1组成" class="headerlink" title="3.1组成"></a>3.1组成</h3><p>核心库(Java客户端) + 控制台(Dashboard)</p>
+<blockquote>
+<p>微服务整合核心库，然后连接控制台。</p>
+</blockquote>
+<h3 id="3-2控制台"><a href="#3-2控制台" class="headerlink" title="3.2控制台"></a>3.2控制台</h3><h4 id="3-2-1下载"><a href="#3-2-1下载" class="headerlink" title="3.2.1下载"></a>3.2.1下载</h4><p>下载地址：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/alibaba/Sentinel/releases">https://github.com/alibaba/Sentinel/releases</a></p>
+<p>下载版本：sentinel-dashboard-1.7.0.jar</p>
+<h4 id="3-2-2启动控制台"><a href="#3-2-2启动控制台" class="headerlink" title="3.2.2启动控制台"></a>3.2.2启动控制台</h4><ul>
+<li>方式一(默认参数启动)</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -jar sentinel-dashboard-1.7.0.jar</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>方式二(配置启动参数)</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Dserver.port=8888 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard-1.7.0.jar</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-2-3浏览器访问"><a href="#3-2-3浏览器访问" class="headerlink" title="3.2.3浏览器访问"></a>3.2.3浏览器访问</h4><p>地址：<a target="_blank" rel="external nofollow noopener noreferrer" href="http://localhost:8080/">http://localhost:8080</a></p>
+<p>用户名：sentinel</p>
+<p>密码：sentinel</p>
+<h3 id="3-3客户端"><a href="#3-3客户端" class="headerlink" title="3.3客户端"></a>3.3客户端</h3><blockquote>
+<p><strong>消费者</strong>微服务集成Sentinel客户端</p>
+</blockquote>
+<h4 id="3-3-1依赖"><a href="#3-3-1依赖" class="headerlink" title="3.3.1依赖"></a>3.3.1依赖</h4><blockquote>
+<p>service模块的pom.xml</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--服务容错--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-alibaba-sentinel<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-3-2配置"><a href="#3-3-2配置" class="headerlink" title="3.3.2配置"></a>3.3.2配置</h4><blockquote>
+<p>service_edu模块的application.yml</p>
+</blockquote>
+<ul>
+<li>连接控制台</li>
+</ul>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#spring:</span></span><br><span class="line"><span class="comment">#  cloud:</span></span><br><span class="line">    <span class="attr">sentinel:</span></span><br><span class="line">      <span class="attr">transport:</span></span><br><span class="line">        <span class="attr">port:</span> <span class="number">8081</span> <span class="comment"># 指定微服务与控制台交互的端口</span></span><br><span class="line">        <span class="attr">dashboard:</span> <span class="string">localhost:8080</span> <span class="comment"># 指定控制台服务的地址</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-4核心功能"><a href="#3-4核心功能" class="headerlink" title="3.4核心功能"></a>3.4核心功能</h3><ul>
+<li>上游微服务 –<strong>限流</strong>–&gt; 核心微服务 –<strong>熔断降级</strong>–&gt; 下游微服务</li>
+</ul>
+<p>&lt;1&gt;浏览控制</p>
+<p>保证自己不被上游服务压垮</p>
+<p>&lt;2&gt;熔断降级</p>
+<p>保证自己不被下游服务拖垮</p>
+<p>&lt;3&gt;系统负载保护</p>
+<p>保证外界环境良好（CPU、内存）</p>
+<h3 id="3-5熔断降级"><a href="#3-5熔断降级" class="headerlink" title="3.5熔断降级"></a>3.5熔断降级</h3><blockquote>
+<p>OpenFeign整合Sentinel</p>
+</blockquote>
+<h4 id="3-5-1依赖"><a href="#3-5-1依赖" class="headerlink" title="3.5.1依赖"></a>3.5.1依赖</h4><p>同上</p>
+<h4 id="3-5-2配置"><a href="#3-5-2配置" class="headerlink" title="3.5.2配置"></a>3.5.2配置</h4><blockquote>
+<p>service_edu模块的application.yml</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">feign:</span></span><br><span class="line">  <span class="attr">sentinel:</span></span><br><span class="line">    <span class="attr">enabled:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-5-3业务类"><a href="#3-5-3业务类" class="headerlink" title="3.5.3业务类"></a>3.5.3业务类</h4><p>创建容错类（备选方案），指定容错类（OpenFeign远程调用接口添加fallback属性）</p>
+<ul>
+<li>创建容错类<ul>
+<li>添加<code>@Service</code>注解</li>
+<li>实现远程调用接口</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.atguigu.guli.service.edu.feign.fallback;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.atguigu.guli.common.base.result.R;</span><br><span class="line"><span class="keyword">import</span> com.atguigu.guli.service.edu.feign.OssFileService;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> cysheng</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@create</span> 2022-04-20 20:19</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="meta">@Slf4j</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">OssFileServiceFallBack</span> <span class="keyword">implements</span> <span class="title class_">OssFileService</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> R <span class="title function_">test</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> R <span class="title function_">removeFile</span><span class="params">(String url)</span> &#123;</span><br><span class="line">        log.info(<span class="string">&quot;熔断保护&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> R.error();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>指定容错类<ul>
+<li>fallback &#x3D; OssFileServiceFallBack.class</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="meta">@FeignClient(value = &quot;service-oss&quot;,fallback = OssFileServiceFallBack.class)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">OssFileService</span>&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
       
     </div>
 
@@ -967,7 +1259,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-04-19 17:40:19" itemprop="dateModified" datetime="2022-04-19T17:40:19+08:00">2022-04-19</time>
+                <time title="修改时间：2022-04-20 20:51:53" itemprop="dateModified" datetime="2022-04-20T20:51:53+08:00">2022-04-20</time>
               </span>
 
           <br>
@@ -976,7 +1268,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>247</span>
+              <span>272</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -1150,12 +1442,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">19k</span>
+    <span title="站点总字数">24k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">17 分钟</span>
+    <span title="站点阅读时长">22 分钟</span>
 </div>
 <!--
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动

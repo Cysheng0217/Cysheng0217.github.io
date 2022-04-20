@@ -13,41 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>图片</title>
-    <url>/9900f79e.html</url>
-    <content><![CDATA[<center>个人笔记，仅供参考</center>
-
-<span id="more"></span>
-<br/>
-
-
-
-<h1 id="一、Node"><a href="#一、Node" class="headerlink" title="一、Node"></a>一、Node</h1><ul>
-<li>2022&#x2F;04&#x2F;18</li>
-</ul>
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110426.png"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110840.png" alt="读xml纯文本写入文件"  />
-
-
-
-<h1 id="二、PHP"><a href="#二、PHP" class="headerlink" title="二、PHP"></a>二、PHP</h1><ul>
-<li>2022&#x2F;04&#x2F;19</li>
-</ul>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">图书管理系统设计</span><br><span class="line">一、创建数据库和表，存入数据</span><br><span class="line">二、实现PHP页面操作数据库</span><br><span class="line">0.conn.php</span><br><span class="line">1.数据分页</span><br><span class="line">	index.php</span><br><span class="line">2.数据编辑</span><br><span class="line">	update.php,update_ok.php</span><br><span class="line">3.删除</span><br><span class="line">	单行删除 delete.php</span><br><span class="line">	批量删除 delete_lot.php</span><br><span class="line">4.数据添加</span><br><span class="line">	insert.php</span><br><span class="line">三、样式表</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739072.png"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739533.png" alt="2022-04-19_171922"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739862.png" alt="2022-04-19_171949"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191740767.png" alt="2022-04-19_172714"></p>
-<ul>
-<li>2022&#x2F;04&#x2F;18</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110199.png"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110329.png" alt="2022-04-18_090947"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hexo博客框架入门</title>
     <url>/b08526ec.html</url>
     <content><![CDATA[<center>想不想拥有一个免费、公网可访问的个人博客呢？</center>
@@ -141,26 +106,44 @@
       </tags>
   </entry>
   <entry>
-    <title>推荐：B站批量下载工具</title>
-    <url>/9f467dd9.html</url>
-    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
-<p>【下载地址】</p>
-<ul>
-<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
-<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
+    <title>图片</title>
+    <url>/9900f79e.html</url>
+    <content><![CDATA[<center>个人笔记，仅供参考</center>
+
+<span id="more"></span>
+<br/>
+
+
+
+<h1 id="一、Node"><a href="#一、Node" class="headerlink" title="一、Node"></a>一、Node</h1><ul>
+<li>2022&#x2F;04&#x2F;18</li>
 </ul>
-<p>【测试截图】</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110426.png"  />
 
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110840.png" alt="读xml纯文本写入文件"  />
 
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>B站下载</tag>
-      </tags>
+
+
+<h1 id="二、PHP"><a href="#二、PHP" class="headerlink" title="二、PHP"></a>二、PHP</h1><ul>
+<li>2022&#x2F;04&#x2F;19</li>
+</ul>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">图书管理系统设计</span><br><span class="line">一、创建数据库和表，存入数据</span><br><span class="line">二、实现PHP页面操作数据库</span><br><span class="line">0.conn.php</span><br><span class="line">1.数据分页</span><br><span class="line">	index.php</span><br><span class="line">2.数据编辑</span><br><span class="line">	update.php,update_ok.php</span><br><span class="line">3.删除</span><br><span class="line">	单行删除 delete.php</span><br><span class="line">	批量删除 delete_lot.php</span><br><span class="line">4.数据添加</span><br><span class="line">	insert.php</span><br><span class="line">三、样式表</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739072.png"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739533.png" alt="2022-04-19_171922"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739862.png" alt="2022-04-19_171949"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191740767.png" alt="2022-04-19_172714"></p>
+<ul>
+<li>2022&#x2F;04&#x2F;18</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110199.png"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110329.png" alt="2022-04-18_090947"></p>
+<h1 id="三、大数据"><a href="#三、大数据" class="headerlink" title="三、大数据"></a>三、大数据</h1><ul>
+<li>2022&#x2F;04&#x2F;20</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204202048859.png" alt="2022-04-20_104913"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204202049218.png" alt="2022-04-20_112619"></p>
+]]></content>
   </entry>
   <entry>
     <title>友情链接</title>
@@ -184,235 +167,25 @@
       </tags>
   </entry>
   <entry>
-    <title>阿里云OSS对象存储</title>
-    <url>/35589.html</url>
-    <content><![CDATA[<p>针对于项目中的文件（比如用户上传的头像），我们可能会用到文件服务器来进行存储。</p>
-<p>如果我们把文件服务器分为两类来看：一种就是自建服务器，如FastDFS；另一种就是使用第三方服务，如我们今天要说的阿里云OSS。<span id="more"></span></p>
-<p>简单来讲，</p>
+    <title>推荐：B站批量下载工具</title>
+    <url>/9f467dd9.html</url>
+    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
+<p>【下载地址】</p>
 <ul>
-<li><p>自建服务器：可以自己维护和定制，免费。但是麻烦。</p>
-</li>
-<li><p>阿里的OSS服务：虽然说付费。但是省心。而且重要的是性能优越，对于海量数据存储与弹性扩容，阿里还是值得信赖的~~</p>
-</li>
+<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
+<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
 </ul>
-<blockquote>
-<p>小提示：阿里云OSS付费，不过只是学习时测试使用的话，达不到一定量级就不会有费用。</p>
-</blockquote>
-<h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p>总体上说，这篇文章要说以下内容：</p>
-<ul>
-<li><a href="#%E5%87%86%E5%A4%87">准备工作</a>：<ul>
-<li>注册账号</li>
-<li>登录账号</li>
-<li>实名认证</li>
-<li>开通OSS服务</li>
-</ul>
-</li>
-<li><a href="#%E4%BD%BF%E7%94%A8">两种使用方式</a>：<ul>
-<li>管理控制台中使用</li>
-<li>代码中使用</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>阿里云官网：<a href="https://cn.aliyun.com/">https://cn.aliyun.com/</a></p>
-</blockquote>
-<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>​    准备工作比较简单，这里简单说下：</p>
-<ul>
-<li>注册账号</li>
-</ul>
-<p>进入<a href="https://cn.aliyun.com/">阿里云官网</a>，点击右上角立即注册。</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%B3%A8%E5%86%8C.png"></p>
-<ul>
-<li>登录账号</li>
-</ul>
-<p>点击右上角登录</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%99%BB%E5%BD%95.png"></p>
-<ul>
-<li>实名认证</li>
-</ul>
-<p>我的账号已经完成实名认证，这里就不再演示。</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%AE%A4%E8%AF%81%E5%AE%8C%E6%88%90.png"></p>
-<ul>
-<li>开通OSS服务（如图）<ol>
-<li>点击上方导航栏中“产品”</li>
-<li>点击左边栏中“存储”</li>
-<li>点击“对象存储OSS”</li>
-<li>点击“立即开通”</li>
-</ol>
-</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/OSS%E5%BC%80%E9%80%9A.png"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/OSS%E5%BC%80%E9%80%9A2.png"></p>
-<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="1-管理控制台使用"><a href="#1-管理控制台使用" class="headerlink" title="1.管理控制台使用"></a>1.管理控制台使用</h2><p>管理控制台中使用，需要先创建一个Bucket（可以理解为一个文件服务器），然后进行上传即可。</p>
-<h3 id="1-1-创建Bucket"><a href="#1-1-创建Bucket" class="headerlink" title="1.1.创建Bucket"></a>1.1.创建Bucket</h3><h4 id="lt-1-gt-点击控制台"><a href="#lt-1-gt-点击控制台" class="headerlink" title="&lt;1&gt;点击控制台"></a>&lt;1&gt;点击控制台</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%BF%9B%E5%85%A5%E6%8E%A7%E5%88%B6%E5%8F%B0.png"></p>
-<h4 id="lt-2-gt-进入”对象存储OSS“控制台"><a href="#lt-2-gt-进入”对象存储OSS“控制台" class="headerlink" title="&lt;2&gt;进入”对象存储OSS“控制台"></a>&lt;2&gt;进入”对象存储OSS“控制台</h4><p>​    ①方式一：</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%8E%A7%E5%88%B6%E5%8F%B0-OSS-1.png"></p>
-<p>​    ②方式二：</p>
-<p>​        点击左上角“三”展开侧边栏</p>
-<p>​        点击对象存储OSS</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%8E%A7%E5%88%B6%E5%8F%B0-OSS-2.png"></p>
-<h4 id="lt-3-gt-创建Bucket"><a href="#lt-3-gt-创建Bucket" class="headerlink" title="&lt;3&gt;创建Bucket"></a>&lt;3&gt;创建Bucket</h4><p>①点击“创建Bucket”</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BABucket-1.png"></p>
-<p>②根据实际需求填写表单</p>
-<p>测试环境下：我们只需要填写<strong>Bucket名称</strong>，读写权限改为<strong>公共读</strong>。</p>
-<p>额外功能开通可能产生更多费用，按自身需求填写即可。</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BABucket-2.png" alt="创建Bucket-2"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BABucket-3.png" alt="创建Bucket-3"></p>
-<p>说明：</p>
-<ul>
-<li>Bucket名称：文件服务器的名称</li>
-<li>地域：阿里根据计算得到我们机器使用的最优地域，我们默认即可</li>
-<li>存储类型：<ul>
-<li>标准存储：高可靠、高可用、高性能，数据经常被访问到</li>
-<li>低频访问存储：存储后，访问频率低</li>
-<li>归档存储：只存储，基本不访问</li>
-<li>冷归档存储：只存储，基本不访问</li>
-</ul>
-</li>
-<li>同城冗余存储：提供机房容灾能力，有额外费用。</li>
-<li>版本控制：覆盖和删除的数据会以历史版本存入，有额外费用。</li>
-<li>读写权限：<ul>
-<li>私有：<ul>
-<li>文件读写均需要身份验证</li>
-</ul>
-</li>
-<li>公共读：<ul>
-<li>文件写操作需要身份验证</li>
-<li>文件读不需要验证</li>
-</ul>
-</li>
-<li>公共读写：<ul>
-<li>文件读写均不需要身份验证</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>服务端加密方式：加密存储，有额外费用。</li>
-<li>实时日志查询：对 Bucket 的访问记录进行实时查询分析，有额外费用。</li>
-<li>定时备份：云备份服务，有额外费用。</li>
-</ul>
-<h3 id="1-2-上传文件"><a href="#1-2-上传文件" class="headerlink" title="1.2.上传文件"></a>1.2.上传文件</h3><h4 id="lt-1-gt-进入当前Bucket管理页"><a href="#lt-1-gt-进入当前Bucket管理页" class="headerlink" title="&lt;1&gt;  进入当前Bucket管理页"></a>&lt;1&gt;  进入当前Bucket管理页</h4><p>OSS管理控制台-&gt;Bucket列表-&gt;选择创建好的Bucket-&gt;当前Bucket管理页面</p>
-<blockquote>
-<p>新创建Bucket时默认会跳转到当前Bucket管理页面</p>
-</blockquote>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%89%BE%E5%88%B0Bucket.png" alt="找到Bucket"></p>
-<h4 id="lt-2-gt-新建目录"><a href="#lt-2-gt-新建目录" class="headerlink" title="&lt;2&gt;  新建目录"></a>&lt;2&gt;  新建目录</h4><p>我们可以通过新建目录区分上传的不同文件。比如创建一个avatar目录专门用来存放头像。</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%B0%E5%BB%BA%E7%9B%AE%E5%BD%95.png" alt="新建目录"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%B0%E5%BB%BA%E7%9B%AE%E5%BD%952.png"></p>
-<h4 id="lt-3-gt-上传文件"><a href="#lt-3-gt-上传文件" class="headerlink" title="&lt;3&gt;  上传文件"></a>&lt;3&gt;  上传文件</h4><ul>
-<li>进入avatar目录</li>
-<li>点击上传文件</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png" alt="上传文件"></p>
-<ul>
-<li>点击扫描文件&#x2F;扫描文件夹（或直接将文件&#x2F;文件夹拖入“待上传文件”区域）</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E9%80%89%E6%8B%A9%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png" alt="选择上传文件"></p>
-<ul>
-<li>点击上传文件进行上传</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%B8%8A%E4%BC%A0.png" alt="上传"></p>
-<h3 id="1-3-地址栏访问"><a href="#1-3-地址栏访问" class="headerlink" title="1.3.地址栏访问"></a>1.3.地址栏访问</h3><h4 id="lt-1-gt-找到需要访问的文件"><a href="#lt-1-gt-找到需要访问的文件" class="headerlink" title="&lt;1&gt;找到需要访问的文件"></a>&lt;1&gt;找到需要访问的文件</h4><h3 id="lt-2-gt-点击详情"><a href="#lt-2-gt-点击详情" class="headerlink" title="&lt;2&gt;点击详情"></a>&lt;2&gt;点击详情</h3><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%87%E4%BB%B6%E8%AF%A6%E6%83%85.png" alt="文件详情"></p>
-<h4 id="lt-3-gt-复制图片url"><a href="#lt-3-gt-复制图片url" class="headerlink" title="&lt;3&gt;复制图片url"></a>&lt;3&gt;复制图片url</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%A4%8D%E5%88%B6url.png" alt="复制url"></p>
-<h4 id="lt-4-gt-粘贴到地址栏-gt-回车"><a href="#lt-4-gt-粘贴到地址栏-gt-回车" class="headerlink" title="&lt;4&gt;粘贴到地址栏-&gt;回车"></a>&lt;4&gt;粘贴到地址栏-&gt;回车</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%B2%98%E8%B4%B4%E5%88%B0%E5%9C%B0%E5%9D%80%E6%A0%8F.png" alt="粘贴到地址栏"></p>
-<h4 id="lt-5-gt-在浏览器右下角打开下载好的文件"><a href="#lt-5-gt-在浏览器右下角打开下载好的文件" class="headerlink" title="&lt;5&gt;在浏览器右下角打开下载好的文件"></a>&lt;5&gt;在浏览器右下角打开下载好的文件</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%89%93%E5%BC%80%E4%B8%8A%E4%BC%A0%E5%A5%BD%E7%9A%84%E6%96%87%E4%BB%B6.png" alt="打开上传好的文件"></p>
-<blockquote>
-<p>恭喜你，OSS在控制台中的使用你已经学会了~~</p>
-</blockquote>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/51f2a2bb70919664e9a850a575e11011.jpeg" alt="51f2a2bb70919664e9a850a575e11011"></p>
-<h2 id="2-代码中使用"><a href="#2-代码中使用" class="headerlink" title="2.代码中使用"></a>2.代码中使用</h2><p>​    我们的阿里云主账号包括了使用阿里云服务的所有权限，如果我们在代码中使用主账号，一旦主账号泄露，会有很大风险。</p>
-<p>​    所以，阿里云提供了RAM子账号的功能。新创建的RAM子账号没有任何使用阿里云服务的权限，我们只需要给子账号一个操作OSS服务的权限，这样可以使风险降到最小。</p>
-<p>​    <strong>所以，我们下面就创建一个子账号，再授于一个操作OSS权限，然后在代码中使用这个账号操作。</strong></p>
-<h3 id="2-1-创建子用户"><a href="#2-1-创建子用户" class="headerlink" title="2.1.创建子用户"></a>2.1.创建子用户</h3><h4 id="lt-1-gt-进入阿里云控制台首页"><a href="#lt-1-gt-进入阿里云控制台首页" class="headerlink" title="&lt;1&gt;进入阿里云控制台首页"></a>&lt;1&gt;进入阿里云控制台首页</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%BF%9B%E5%85%A5%E6%8E%A7%E5%88%B6%E5%8F%B0.png"></p>
-<h4 id="lt-2-gt-搜索进入“访问控制-控制台”"><a href="#lt-2-gt-搜索进入“访问控制-控制台”" class="headerlink" title="&lt;2&gt;搜索进入“访问控制 控制台”"></a>&lt;2&gt;搜索进入“访问控制 控制台”</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6%E6%8E%A7%E5%88%B6%E5%8F%B0.png" alt="访问控制控制台"></p>
-<h4 id="lt-3-gt-点击“身份管理”-gt-“用户”-gt-“创建用户”"><a href="#lt-3-gt-点击“身份管理”-gt-“用户”-gt-“创建用户”" class="headerlink" title="&lt;3&gt;点击“身份管理”-&gt;“用户”-&gt;“创建用户”"></a>&lt;3&gt;点击“身份管理”-&gt;“用户”-&gt;“创建用户”</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7.png" alt="创建用户"></p>
-<h4 id="lt-4-gt-填写表单并确认"><a href="#lt-4-gt-填写表单并确认" class="headerlink" title="&lt;4&gt;填写表单并确认"></a>&lt;4&gt;填写表单并确认</h4><ul>
-<li>注意：因为我们要使用代码访问，一定要勾选Open API调用访问！</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7%E8%A1%A8%E5%8D%95%E5%A1%AB%E5%86%99.png" alt="创建用户表单填写"></p>
-<h4 id="lt-5-gt-保存好AccessKey-ID和AccessKey-Secret"><a href="#lt-5-gt-保存好AccessKey-ID和AccessKey-Secret" class="headerlink" title="&lt;5&gt;保存好AccessKey ID和AccessKey Secret"></a>&lt;5&gt;保存好AccessKey ID和AccessKey Secret</h4><p>这里点击下载CSV文件（包含AccessKey ID和AccessKey Secret的文件），或者点击复制并将其粘贴到安全并且自己方便找到的地方。</p>
-<ul>
-<li><p>AccessKey ID和AccessKey Secret只会显示一次，一定要保管好！</p>
-</li>
-<li><p>AccessKey ID：相当于账号</p>
-</li>
-<li><p>AccessKey Secret：相当于密码</p>
-</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%BF%9D%E5%AD%98csv%E6%96%87%E4%BB%B6.png" alt="保存csv文件"></p>
-<h3 id="2-2-授权"><a href="#2-2-授权" class="headerlink" title="2.2.授权"></a>2.2.授权</h3><h4 id="lt-1-gt-点击“权限管理”-gt-“授权”-gt-“新增授权”"><a href="#lt-1-gt-点击“权限管理”-gt-“授权”-gt-“新增授权”" class="headerlink" title="&lt;1&gt;点击“权限管理”-&gt;“授权”-&gt;“新增授权”"></a>&lt;1&gt;点击“权限管理”-&gt;“授权”-&gt;“新增授权”</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%B0%E5%A2%9E%E6%8E%88%E6%9D%83.png" alt="新增授权"></p>
-<h4 id="lt-2-gt-赋给账号一个“AliyunOSSFullAccess”权限"><a href="#lt-2-gt-赋给账号一个“AliyunOSSFullAccess”权限" class="headerlink" title="&lt;2&gt;赋给账号一个“AliyunOSSFullAccess”权限"></a>&lt;2&gt;赋给账号一个“AliyunOSSFullAccess”权限</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%8E%88%E6%9D%83%E8%A1%A8%E5%8D%95%E5%A1%AB%E5%86%99.png" alt="授权表单填写"></p>
-<h3 id="2-3-操作"><a href="#2-3-操作" class="headerlink" title="2.3.操作"></a>2.3.操作</h3><blockquote>
-<p>参考官网SDK示例：<a href="https://help.aliyun.com/document_detail/32006.html">https://help.aliyun.com/document_detail/32006.html</a></p>
-</blockquote>
-<p>阿里云对象存储OSS提供了如下各大主流语言的SDK。</p>
-<p>（点击进入官网提供的对应语言的SDK示例）</p>
-<ul>
-<li><a href="https://help.aliyun.com/document_detail/32007.html">Java</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32098.html">PHP</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32067.html">Node.js</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32025.html">Python</a></li>
-<li><a href="https://help.aliyun.com/document_detail/64040.html">Browser.js</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32084.html">.NET</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32041.html">Android</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32143.html">Go</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32054.html">iOS</a></li>
-<li><a href="https://help.aliyun.com/document_detail/103184.html">C++</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32130.html">C</a></li>
-<li><a href="https://help.aliyun.com/document_detail/32113.html">Ruby</a></li>
-</ul>
-<p>那么这里我们就以Java为例，学习如何操作OSS。SDK中提供了诸多对OSS的操作，包括但不限于对存储空间的操作，上传、下载文件，管理文件，授权访问…</p>
-<h4 id="lt-1-gt-创建maven项目"><a href="#lt-1-gt-创建maven项目" class="headerlink" title="&lt;1&gt;创建maven项目"></a>&lt;1&gt;创建maven项目</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BAmaven%E9%A1%B9%E7%9B%AE.png" alt="创建maven项目"></p>
-<h4 id="lt-2-gt-pom中引入依赖"><a href="#lt-2-gt-pom中引入依赖" class="headerlink" title="&lt;2&gt;pom中引入依赖"></a>&lt;2&gt;pom中引入依赖</h4><ul>
-<li>aliyun-sdk-oss：用于操作OSS</li>
-<li>Junit：用于编写单元测试</li>
-</ul>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependencies</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.aliyun.oss<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>aliyun-sdk-oss<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">version</span>&gt;</span>3.10.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>junit<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>junit<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">version</span>&gt;</span>4.12<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>【测试截图】</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
 
-<h4 id="lt-3-gt-新建测试类并指定包"><a href="#lt-3-gt-新建测试类并指定包" class="headerlink" title="&lt;3&gt;新建测试类并指定包"></a>&lt;3&gt;新建测试类并指定包</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%B0%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%B1%BB.png" alt="新建测试类"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%B5%8B%E8%AF%95%E7%B1%BB.png" alt="测试类"></p>
-<h4 id="lt-4-gt-新建测试方法"><a href="#lt-4-gt-新建测试方法" class="headerlink" title="&lt;4&gt;新建测试方法"></a>&lt;4&gt;新建测试方法</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.cysheng.oss;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.junit.Test;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> cysheng</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@create</span> 2022-03-30 15:53</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">OSSTest</span> &#123;</span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">testUploadFile</span><span class="params">()</span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
 
-<h4 id="lt-5-gt-代码（以上传文件为例）"><a href="#lt-5-gt-代码（以上传文件为例）" class="headerlink" title="&lt;5&gt;代码（以上传文件为例）"></a>&lt;5&gt;代码（以上传文件为例）</h4><p><strong>思路：阿里把对OSS的操作封装到了OSS类中，比如我们想上传文件，首先要创建OSS实例，然后调用它的putObject()方法进行上传。</strong></p>
-<blockquote>
-<p>我们在编写某一操作时，去官网中复制对应代码进行修改即可。</p>
-<p>地址：<a href="https://help.aliyun.com/document_detail/84781.html">https://help.aliyun.com/document_detail/84781.html</a></p>
-</blockquote>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%AE%80%E5%8D%95%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81.png" alt="简单上传代码"></p>
-<h4 id="lt-5-gt-使用文件流"><a href="#lt-5-gt-使用文件流" class="headerlink" title="&lt;5&gt;使用文件流"></a>&lt;5&gt;使用文件流</h4><p>阿里云提供多种上传方式，这里我们以上传文件流作为演示，复制main方法中代码。</p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%B5%81.png" alt="上传文件流"></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">endpoint</span> <span class="operator">=</span> <span class="string">&quot;https://oss-cn-hangzhou.aliyuncs.com&quot;</span>;</span><br><span class="line">        <span class="comment">// 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">accessKeyId</span> <span class="operator">=</span> <span class="string">&quot;yourAccessKeyId&quot;</span>;</span><br><span class="line">        <span class="type">String</span> <span class="variable">accessKeySecret</span> <span class="operator">=</span> <span class="string">&quot;yourAccessKeySecret&quot;</span>;</span><br><span class="line">        <span class="comment">// 填写Bucket名称，例如examplebucket。</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">bucketName</span> <span class="operator">=</span> <span class="string">&quot;examplebucket&quot;</span>;</span><br><span class="line">        <span class="comment">// 填写Object完整路径，完整路径中不能包含Bucket名称，例如exampledir/exampleobject.txt。</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">objectName</span> <span class="operator">=</span> <span class="string">&quot;exampledir/exampleobject.txt&quot;</span>;</span><br><span class="line">        <span class="comment">// 填写本地文件的完整路径，例如D:\\localpath\\examplefile.txt。</span></span><br><span class="line">        <span class="comment">// 如果未指定本地路径，则默认从示例程序所属项目对应本地路径中上传文件流。</span></span><br><span class="line">        String filePath= <span class="string">&quot;D:\\localpath\\examplefile.txt&quot;</span>;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 创建OSSClient实例。</span></span><br><span class="line">        <span class="type">OSS</span> <span class="variable">ossClient</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">OSSClientBuilder</span>().build(endpoint, accessKeyId, accessKeySecret);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="type">InputStream</span> <span class="variable">inputStream</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">FileInputStream</span>(filePath);            </span><br><span class="line">            <span class="comment">// 创建PutObject请求。</span></span><br><span class="line">            ossClient.putObject(bucketName, objectName, inputStream);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (OSSException oe) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;Caught an OSSException, which means your request made it to OSS, &quot;</span></span><br><span class="line">                    + <span class="string">&quot;but was rejected with an error response for some reason.&quot;</span>);</span><br><span class="line">            System.out.println(<span class="string">&quot;Error Message:&quot;</span> + oe.getErrorMessage());</span><br><span class="line">            System.out.println(<span class="string">&quot;Error Code:&quot;</span> + oe.getErrorCode());</span><br><span class="line">            System.out.println(<span class="string">&quot;Request ID:&quot;</span> + oe.getRequestId());</span><br><span class="line">            System.out.println(<span class="string">&quot;Host ID:&quot;</span> + oe.getHostId());</span><br><span class="line">        &#125; <span class="keyword">catch</span> (ClientException ce) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;Caught an ClientException, which means the client encountered &quot;</span></span><br><span class="line">                    + <span class="string">&quot;a serious internal problem while trying to communicate with OSS, &quot;</span></span><br><span class="line">                    + <span class="string">&quot;such as not being able to access the network.&quot;</span>);</span><br><span class="line">            System.out.println(<span class="string">&quot;Error Message:&quot;</span> + ce.getMessage());</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            <span class="keyword">if</span> (ossClient != <span class="literal">null</span>) &#123;</span><br><span class="line">                ossClient.shutdown();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：其中OSSException为com.aliyun.oss.OSSException;</p>
-</blockquote>
-<h4 id="lt-6-gt-调整代码"><a href="#lt-6-gt-调整代码" class="headerlink" title="&lt;6&gt;调整代码"></a>&lt;6&gt;调整代码</h4><ul>
-<li>将方法中局部变量提取到成员变量（如果需要做其他测试，提取之后方便进行测试，如不进行其他测试，可省略该步骤）</li>
-<li>将异常抛出</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81.png" alt="修改代码"></p>
-<ul>
-<li><p>修改变量值</p>
-<ul>
-<li>endpoint：如图。</li>
-<li>accessKeyId：创建子账号时生成的AccessKey ID。</li>
-<li>accessKeySecret：创建子账号时生成的AccessKey Secret。</li>
-<li>objectName：在文件服务器中的 目录名&#x2F;文件名</li>
-<li>filePath：指定上传文件路径</li>
-</ul>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%BF%AE%E6%94%B9%E5%8F%98%E9%87%8F%E5%80%BC.png" alt="修改变量值"></p>
-</li>
-</ul>
-<h4 id="lt-7-gt-运行单元测试方法"><a href="#lt-7-gt-运行单元测试方法" class="headerlink" title="&lt;7&gt;运行单元测试方法"></a>&lt;7&gt;运行单元测试方法</h4><h4 id="lt-8-gt-查看"><a href="#lt-8-gt-查看" class="headerlink" title="&lt;8&gt;查看"></a>&lt;8&gt;查看</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%BB%93%E6%9E%9C.png" alt="结果"></p>
-<h4 id="lt-9-gt-URL访问规则"><a href="#lt-9-gt-URL访问规则" class="headerlink" title="&lt;9&gt;URL访问规则"></a>&lt;9&gt;URL访问规则</h4><p>我们在项目中使用时，通常会将用户上传的文件提交到文件服务器，然后将文件访问的url地址存放到数据库中。</p>
-<p>规则：<a href="https://bucket的名称.endpoint/%E6%96%87%E4%BB%B6%E5%A4%B9/%E6%96%87%E4%BB%B6%E5%90%8D%E3%80%82">https://bucket的名称.endpoint/文件夹/文件名。</a></p>
-<h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p>好了，本篇就说这么多，拜~</p>
-]]></content>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
       <categories>
-        <category>第三方接口</category>
+        <category>工具</category>
       </categories>
       <tags>
-        <tag>阿里云OSS</tag>
+        <tag>B站下载</tag>
       </tags>
   </entry>
   <entry>
@@ -655,13 +428,241 @@
       </tags>
   </entry>
   <entry>
+    <title>阿里云OSS对象存储</title>
+    <url>/35589.html</url>
+    <content><![CDATA[<p>针对于项目中的文件（比如用户上传的头像），我们可能会用到文件服务器来进行存储。</p>
+<p>如果我们把文件服务器分为两类来看：一种就是自建服务器，如FastDFS；另一种就是使用第三方服务，如我们今天要说的阿里云OSS。<span id="more"></span></p>
+<p>简单来讲，</p>
+<ul>
+<li><p>自建服务器：可以自己维护和定制，免费。但是麻烦。</p>
+</li>
+<li><p>阿里的OSS服务：虽然说付费。但是省心。而且重要的是性能优越，对于海量数据存储与弹性扩容，阿里还是值得信赖的~~</p>
+</li>
+</ul>
+<blockquote>
+<p>小提示：阿里云OSS付费，不过只是学习时测试使用的话，达不到一定量级就不会有费用。</p>
+</blockquote>
+<h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p>总体上说，这篇文章要说以下内容：</p>
+<ul>
+<li><a href="#%E5%87%86%E5%A4%87">准备工作</a>：<ul>
+<li>注册账号</li>
+<li>登录账号</li>
+<li>实名认证</li>
+<li>开通OSS服务</li>
+</ul>
+</li>
+<li><a href="#%E4%BD%BF%E7%94%A8">两种使用方式</a>：<ul>
+<li>管理控制台中使用</li>
+<li>代码中使用</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>阿里云官网：<a href="https://cn.aliyun.com/">https://cn.aliyun.com/</a></p>
+</blockquote>
+<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>​    准备工作比较简单，这里简单说下：</p>
+<ul>
+<li>注册账号</li>
+</ul>
+<p>进入<a href="https://cn.aliyun.com/">阿里云官网</a>，点击右上角立即注册。</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%B3%A8%E5%86%8C.png"></p>
+<ul>
+<li>登录账号</li>
+</ul>
+<p>点击右上角登录</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%99%BB%E5%BD%95.png"></p>
+<ul>
+<li>实名认证</li>
+</ul>
+<p>我的账号已经完成实名认证，这里就不再演示。</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%AE%A4%E8%AF%81%E5%AE%8C%E6%88%90.png"></p>
+<ul>
+<li>开通OSS服务（如图）<ol>
+<li>点击上方导航栏中“产品”</li>
+<li>点击左边栏中“存储”</li>
+<li>点击“对象存储OSS”</li>
+<li>点击“立即开通”</li>
+</ol>
+</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/OSS%E5%BC%80%E9%80%9A.png"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/OSS%E5%BC%80%E9%80%9A2.png"></p>
+<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="1-管理控制台使用"><a href="#1-管理控制台使用" class="headerlink" title="1.管理控制台使用"></a>1.管理控制台使用</h2><p>管理控制台中使用，需要先创建一个Bucket（可以理解为一个文件服务器），然后进行上传即可。</p>
+<h3 id="1-1-创建Bucket"><a href="#1-1-创建Bucket" class="headerlink" title="1.1.创建Bucket"></a>1.1.创建Bucket</h3><h4 id="lt-1-gt-点击控制台"><a href="#lt-1-gt-点击控制台" class="headerlink" title="&lt;1&gt;点击控制台"></a>&lt;1&gt;点击控制台</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%BF%9B%E5%85%A5%E6%8E%A7%E5%88%B6%E5%8F%B0.png"></p>
+<h4 id="lt-2-gt-进入”对象存储OSS“控制台"><a href="#lt-2-gt-进入”对象存储OSS“控制台" class="headerlink" title="&lt;2&gt;进入”对象存储OSS“控制台"></a>&lt;2&gt;进入”对象存储OSS“控制台</h4><p>​    ①方式一：</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%8E%A7%E5%88%B6%E5%8F%B0-OSS-1.png"></p>
+<p>​    ②方式二：</p>
+<p>​        点击左上角“三”展开侧边栏</p>
+<p>​        点击对象存储OSS</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%8E%A7%E5%88%B6%E5%8F%B0-OSS-2.png"></p>
+<h4 id="lt-3-gt-创建Bucket"><a href="#lt-3-gt-创建Bucket" class="headerlink" title="&lt;3&gt;创建Bucket"></a>&lt;3&gt;创建Bucket</h4><p>①点击“创建Bucket”</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BABucket-1.png"></p>
+<p>②根据实际需求填写表单</p>
+<p>测试环境下：我们只需要填写<strong>Bucket名称</strong>，读写权限改为<strong>公共读</strong>。</p>
+<p>额外功能开通可能产生更多费用，按自身需求填写即可。</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BABucket-2.png" alt="创建Bucket-2"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BABucket-3.png" alt="创建Bucket-3"></p>
+<p>说明：</p>
+<ul>
+<li>Bucket名称：文件服务器的名称</li>
+<li>地域：阿里根据计算得到我们机器使用的最优地域，我们默认即可</li>
+<li>存储类型：<ul>
+<li>标准存储：高可靠、高可用、高性能，数据经常被访问到</li>
+<li>低频访问存储：存储后，访问频率低</li>
+<li>归档存储：只存储，基本不访问</li>
+<li>冷归档存储：只存储，基本不访问</li>
+</ul>
+</li>
+<li>同城冗余存储：提供机房容灾能力，有额外费用。</li>
+<li>版本控制：覆盖和删除的数据会以历史版本存入，有额外费用。</li>
+<li>读写权限：<ul>
+<li>私有：<ul>
+<li>文件读写均需要身份验证</li>
+</ul>
+</li>
+<li>公共读：<ul>
+<li>文件写操作需要身份验证</li>
+<li>文件读不需要验证</li>
+</ul>
+</li>
+<li>公共读写：<ul>
+<li>文件读写均不需要身份验证</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>服务端加密方式：加密存储，有额外费用。</li>
+<li>实时日志查询：对 Bucket 的访问记录进行实时查询分析，有额外费用。</li>
+<li>定时备份：云备份服务，有额外费用。</li>
+</ul>
+<h3 id="1-2-上传文件"><a href="#1-2-上传文件" class="headerlink" title="1.2.上传文件"></a>1.2.上传文件</h3><h4 id="lt-1-gt-进入当前Bucket管理页"><a href="#lt-1-gt-进入当前Bucket管理页" class="headerlink" title="&lt;1&gt;  进入当前Bucket管理页"></a>&lt;1&gt;  进入当前Bucket管理页</h4><p>OSS管理控制台-&gt;Bucket列表-&gt;选择创建好的Bucket-&gt;当前Bucket管理页面</p>
+<blockquote>
+<p>新创建Bucket时默认会跳转到当前Bucket管理页面</p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%89%BE%E5%88%B0Bucket.png" alt="找到Bucket"></p>
+<h4 id="lt-2-gt-新建目录"><a href="#lt-2-gt-新建目录" class="headerlink" title="&lt;2&gt;  新建目录"></a>&lt;2&gt;  新建目录</h4><p>我们可以通过新建目录区分上传的不同文件。比如创建一个avatar目录专门用来存放头像。</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%B0%E5%BB%BA%E7%9B%AE%E5%BD%95.png" alt="新建目录"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%B0%E5%BB%BA%E7%9B%AE%E5%BD%952.png"></p>
+<h4 id="lt-3-gt-上传文件"><a href="#lt-3-gt-上传文件" class="headerlink" title="&lt;3&gt;  上传文件"></a>&lt;3&gt;  上传文件</h4><ul>
+<li>进入avatar目录</li>
+<li>点击上传文件</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png" alt="上传文件"></p>
+<ul>
+<li>点击扫描文件&#x2F;扫描文件夹（或直接将文件&#x2F;文件夹拖入“待上传文件”区域）</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E9%80%89%E6%8B%A9%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png" alt="选择上传文件"></p>
+<ul>
+<li>点击上传文件进行上传</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%B8%8A%E4%BC%A0.png" alt="上传"></p>
+<h3 id="1-3-地址栏访问"><a href="#1-3-地址栏访问" class="headerlink" title="1.3.地址栏访问"></a>1.3.地址栏访问</h3><h4 id="lt-1-gt-找到需要访问的文件"><a href="#lt-1-gt-找到需要访问的文件" class="headerlink" title="&lt;1&gt;找到需要访问的文件"></a>&lt;1&gt;找到需要访问的文件</h4><h3 id="lt-2-gt-点击详情"><a href="#lt-2-gt-点击详情" class="headerlink" title="&lt;2&gt;点击详情"></a>&lt;2&gt;点击详情</h3><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%87%E4%BB%B6%E8%AF%A6%E6%83%85.png" alt="文件详情"></p>
+<h4 id="lt-3-gt-复制图片url"><a href="#lt-3-gt-复制图片url" class="headerlink" title="&lt;3&gt;复制图片url"></a>&lt;3&gt;复制图片url</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%A4%8D%E5%88%B6url.png" alt="复制url"></p>
+<h4 id="lt-4-gt-粘贴到地址栏-gt-回车"><a href="#lt-4-gt-粘贴到地址栏-gt-回车" class="headerlink" title="&lt;4&gt;粘贴到地址栏-&gt;回车"></a>&lt;4&gt;粘贴到地址栏-&gt;回车</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%B2%98%E8%B4%B4%E5%88%B0%E5%9C%B0%E5%9D%80%E6%A0%8F.png" alt="粘贴到地址栏"></p>
+<h4 id="lt-5-gt-在浏览器右下角打开下载好的文件"><a href="#lt-5-gt-在浏览器右下角打开下载好的文件" class="headerlink" title="&lt;5&gt;在浏览器右下角打开下载好的文件"></a>&lt;5&gt;在浏览器右下角打开下载好的文件</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%89%93%E5%BC%80%E4%B8%8A%E4%BC%A0%E5%A5%BD%E7%9A%84%E6%96%87%E4%BB%B6.png" alt="打开上传好的文件"></p>
+<blockquote>
+<p>恭喜你，OSS在控制台中的使用你已经学会了~~</p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/51f2a2bb70919664e9a850a575e11011.jpeg" alt="51f2a2bb70919664e9a850a575e11011"></p>
+<h2 id="2-代码中使用"><a href="#2-代码中使用" class="headerlink" title="2.代码中使用"></a>2.代码中使用</h2><p>​    我们的阿里云主账号包括了使用阿里云服务的所有权限，如果我们在代码中使用主账号，一旦主账号泄露，会有很大风险。</p>
+<p>​    所以，阿里云提供了RAM子账号的功能。新创建的RAM子账号没有任何使用阿里云服务的权限，我们只需要给子账号一个操作OSS服务的权限，这样可以使风险降到最小。</p>
+<p>​    <strong>所以，我们下面就创建一个子账号，再授于一个操作OSS权限，然后在代码中使用这个账号操作。</strong></p>
+<h3 id="2-1-创建子用户"><a href="#2-1-创建子用户" class="headerlink" title="2.1.创建子用户"></a>2.1.创建子用户</h3><h4 id="lt-1-gt-进入阿里云控制台首页"><a href="#lt-1-gt-进入阿里云控制台首页" class="headerlink" title="&lt;1&gt;进入阿里云控制台首页"></a>&lt;1&gt;进入阿里云控制台首页</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%BF%9B%E5%85%A5%E6%8E%A7%E5%88%B6%E5%8F%B0.png"></p>
+<h4 id="lt-2-gt-搜索进入“访问控制-控制台”"><a href="#lt-2-gt-搜索进入“访问控制-控制台”" class="headerlink" title="&lt;2&gt;搜索进入“访问控制 控制台”"></a>&lt;2&gt;搜索进入“访问控制 控制台”</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6%E6%8E%A7%E5%88%B6%E5%8F%B0.png" alt="访问控制控制台"></p>
+<h4 id="lt-3-gt-点击“身份管理”-gt-“用户”-gt-“创建用户”"><a href="#lt-3-gt-点击“身份管理”-gt-“用户”-gt-“创建用户”" class="headerlink" title="&lt;3&gt;点击“身份管理”-&gt;“用户”-&gt;“创建用户”"></a>&lt;3&gt;点击“身份管理”-&gt;“用户”-&gt;“创建用户”</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7.png" alt="创建用户"></p>
+<h4 id="lt-4-gt-填写表单并确认"><a href="#lt-4-gt-填写表单并确认" class="headerlink" title="&lt;4&gt;填写表单并确认"></a>&lt;4&gt;填写表单并确认</h4><ul>
+<li>注意：因为我们要使用代码访问，一定要勾选Open API调用访问！</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7%E8%A1%A8%E5%8D%95%E5%A1%AB%E5%86%99.png" alt="创建用户表单填写"></p>
+<h4 id="lt-5-gt-保存好AccessKey-ID和AccessKey-Secret"><a href="#lt-5-gt-保存好AccessKey-ID和AccessKey-Secret" class="headerlink" title="&lt;5&gt;保存好AccessKey ID和AccessKey Secret"></a>&lt;5&gt;保存好AccessKey ID和AccessKey Secret</h4><p>这里点击下载CSV文件（包含AccessKey ID和AccessKey Secret的文件），或者点击复制并将其粘贴到安全并且自己方便找到的地方。</p>
+<ul>
+<li><p>AccessKey ID和AccessKey Secret只会显示一次，一定要保管好！</p>
+</li>
+<li><p>AccessKey ID：相当于账号</p>
+</li>
+<li><p>AccessKey Secret：相当于密码</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%BF%9D%E5%AD%98csv%E6%96%87%E4%BB%B6.png" alt="保存csv文件"></p>
+<h3 id="2-2-授权"><a href="#2-2-授权" class="headerlink" title="2.2.授权"></a>2.2.授权</h3><h4 id="lt-1-gt-点击“权限管理”-gt-“授权”-gt-“新增授权”"><a href="#lt-1-gt-点击“权限管理”-gt-“授权”-gt-“新增授权”" class="headerlink" title="&lt;1&gt;点击“权限管理”-&gt;“授权”-&gt;“新增授权”"></a>&lt;1&gt;点击“权限管理”-&gt;“授权”-&gt;“新增授权”</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%B0%E5%A2%9E%E6%8E%88%E6%9D%83.png" alt="新增授权"></p>
+<h4 id="lt-2-gt-赋给账号一个“AliyunOSSFullAccess”权限"><a href="#lt-2-gt-赋给账号一个“AliyunOSSFullAccess”权限" class="headerlink" title="&lt;2&gt;赋给账号一个“AliyunOSSFullAccess”权限"></a>&lt;2&gt;赋给账号一个“AliyunOSSFullAccess”权限</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%8E%88%E6%9D%83%E8%A1%A8%E5%8D%95%E5%A1%AB%E5%86%99.png" alt="授权表单填写"></p>
+<h3 id="2-3-操作"><a href="#2-3-操作" class="headerlink" title="2.3.操作"></a>2.3.操作</h3><blockquote>
+<p>参考官网SDK示例：<a href="https://help.aliyun.com/document_detail/32006.html">https://help.aliyun.com/document_detail/32006.html</a></p>
+</blockquote>
+<p>阿里云对象存储OSS提供了如下各大主流语言的SDK。</p>
+<p>（点击进入官网提供的对应语言的SDK示例）</p>
+<ul>
+<li><a href="https://help.aliyun.com/document_detail/32007.html">Java</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32098.html">PHP</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32067.html">Node.js</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32025.html">Python</a></li>
+<li><a href="https://help.aliyun.com/document_detail/64040.html">Browser.js</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32084.html">.NET</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32041.html">Android</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32143.html">Go</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32054.html">iOS</a></li>
+<li><a href="https://help.aliyun.com/document_detail/103184.html">C++</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32130.html">C</a></li>
+<li><a href="https://help.aliyun.com/document_detail/32113.html">Ruby</a></li>
+</ul>
+<p>那么这里我们就以Java为例，学习如何操作OSS。SDK中提供了诸多对OSS的操作，包括但不限于对存储空间的操作，上传、下载文件，管理文件，授权访问…</p>
+<h4 id="lt-1-gt-创建maven项目"><a href="#lt-1-gt-创建maven项目" class="headerlink" title="&lt;1&gt;创建maven项目"></a>&lt;1&gt;创建maven项目</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E5%88%9B%E5%BB%BAmaven%E9%A1%B9%E7%9B%AE.png" alt="创建maven项目"></p>
+<h4 id="lt-2-gt-pom中引入依赖"><a href="#lt-2-gt-pom中引入依赖" class="headerlink" title="&lt;2&gt;pom中引入依赖"></a>&lt;2&gt;pom中引入依赖</h4><ul>
+<li>aliyun-sdk-oss：用于操作OSS</li>
+<li>Junit：用于编写单元测试</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependencies</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.aliyun.oss<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>aliyun-sdk-oss<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">version</span>&gt;</span>3.10.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>junit<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>junit<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">version</span>&gt;</span>4.12<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="lt-3-gt-新建测试类并指定包"><a href="#lt-3-gt-新建测试类并指定包" class="headerlink" title="&lt;3&gt;新建测试类并指定包"></a>&lt;3&gt;新建测试类并指定包</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%96%B0%E5%BB%BA%E6%B5%8B%E8%AF%95%E7%B1%BB.png" alt="新建测试类"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E6%B5%8B%E8%AF%95%E7%B1%BB.png" alt="测试类"></p>
+<h4 id="lt-4-gt-新建测试方法"><a href="#lt-4-gt-新建测试方法" class="headerlink" title="&lt;4&gt;新建测试方法"></a>&lt;4&gt;新建测试方法</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.cysheng.oss;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.junit.Test;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> cysheng</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@create</span> 2022-03-30 15:53</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">OSSTest</span> &#123;</span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">testUploadFile</span><span class="params">()</span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="lt-5-gt-代码（以上传文件为例）"><a href="#lt-5-gt-代码（以上传文件为例）" class="headerlink" title="&lt;5&gt;代码（以上传文件为例）"></a>&lt;5&gt;代码（以上传文件为例）</h4><p><strong>思路：阿里把对OSS的操作封装到了OSS类中，比如我们想上传文件，首先要创建OSS实例，然后调用它的putObject()方法进行上传。</strong></p>
+<blockquote>
+<p>我们在编写某一操作时，去官网中复制对应代码进行修改即可。</p>
+<p>地址：<a href="https://help.aliyun.com/document_detail/84781.html">https://help.aliyun.com/document_detail/84781.html</a></p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%AE%80%E5%8D%95%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81.png" alt="简单上传代码"></p>
+<h4 id="lt-5-gt-使用文件流"><a href="#lt-5-gt-使用文件流" class="headerlink" title="&lt;5&gt;使用文件流"></a>&lt;5&gt;使用文件流</h4><p>阿里云提供多种上传方式，这里我们以上传文件流作为演示，复制main方法中代码。</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%B5%81.png" alt="上传文件流"></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">endpoint</span> <span class="operator">=</span> <span class="string">&quot;https://oss-cn-hangzhou.aliyuncs.com&quot;</span>;</span><br><span class="line">        <span class="comment">// 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">accessKeyId</span> <span class="operator">=</span> <span class="string">&quot;yourAccessKeyId&quot;</span>;</span><br><span class="line">        <span class="type">String</span> <span class="variable">accessKeySecret</span> <span class="operator">=</span> <span class="string">&quot;yourAccessKeySecret&quot;</span>;</span><br><span class="line">        <span class="comment">// 填写Bucket名称，例如examplebucket。</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">bucketName</span> <span class="operator">=</span> <span class="string">&quot;examplebucket&quot;</span>;</span><br><span class="line">        <span class="comment">// 填写Object完整路径，完整路径中不能包含Bucket名称，例如exampledir/exampleobject.txt。</span></span><br><span class="line">        <span class="type">String</span> <span class="variable">objectName</span> <span class="operator">=</span> <span class="string">&quot;exampledir/exampleobject.txt&quot;</span>;</span><br><span class="line">        <span class="comment">// 填写本地文件的完整路径，例如D:\\localpath\\examplefile.txt。</span></span><br><span class="line">        <span class="comment">// 如果未指定本地路径，则默认从示例程序所属项目对应本地路径中上传文件流。</span></span><br><span class="line">        String filePath= <span class="string">&quot;D:\\localpath\\examplefile.txt&quot;</span>;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 创建OSSClient实例。</span></span><br><span class="line">        <span class="type">OSS</span> <span class="variable">ossClient</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">OSSClientBuilder</span>().build(endpoint, accessKeyId, accessKeySecret);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="type">InputStream</span> <span class="variable">inputStream</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">FileInputStream</span>(filePath);            </span><br><span class="line">            <span class="comment">// 创建PutObject请求。</span></span><br><span class="line">            ossClient.putObject(bucketName, objectName, inputStream);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (OSSException oe) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;Caught an OSSException, which means your request made it to OSS, &quot;</span></span><br><span class="line">                    + <span class="string">&quot;but was rejected with an error response for some reason.&quot;</span>);</span><br><span class="line">            System.out.println(<span class="string">&quot;Error Message:&quot;</span> + oe.getErrorMessage());</span><br><span class="line">            System.out.println(<span class="string">&quot;Error Code:&quot;</span> + oe.getErrorCode());</span><br><span class="line">            System.out.println(<span class="string">&quot;Request ID:&quot;</span> + oe.getRequestId());</span><br><span class="line">            System.out.println(<span class="string">&quot;Host ID:&quot;</span> + oe.getHostId());</span><br><span class="line">        &#125; <span class="keyword">catch</span> (ClientException ce) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;Caught an ClientException, which means the client encountered &quot;</span></span><br><span class="line">                    + <span class="string">&quot;a serious internal problem while trying to communicate with OSS, &quot;</span></span><br><span class="line">                    + <span class="string">&quot;such as not being able to access the network.&quot;</span>);</span><br><span class="line">            System.out.println(<span class="string">&quot;Error Message:&quot;</span> + ce.getMessage());</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            <span class="keyword">if</span> (ossClient != <span class="literal">null</span>) &#123;</span><br><span class="line">                ossClient.shutdown();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：其中OSSException为com.aliyun.oss.OSSException;</p>
+</blockquote>
+<h4 id="lt-6-gt-调整代码"><a href="#lt-6-gt-调整代码" class="headerlink" title="&lt;6&gt;调整代码"></a>&lt;6&gt;调整代码</h4><ul>
+<li>将方法中局部变量提取到成员变量（如果需要做其他测试，提取之后方便进行测试，如不进行其他测试，可省略该步骤）</li>
+<li>将异常抛出</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81.png" alt="修改代码"></p>
+<ul>
+<li><p>修改变量值</p>
+<ul>
+<li>endpoint：如图。</li>
+<li>accessKeyId：创建子账号时生成的AccessKey ID。</li>
+<li>accessKeySecret：创建子账号时生成的AccessKey Secret。</li>
+<li>objectName：在文件服务器中的 目录名&#x2F;文件名</li>
+<li>filePath：指定上传文件路径</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E4%BF%AE%E6%94%B9%E5%8F%98%E9%87%8F%E5%80%BC.png" alt="修改变量值"></p>
+</li>
+</ul>
+<h4 id="lt-7-gt-运行单元测试方法"><a href="#lt-7-gt-运行单元测试方法" class="headerlink" title="&lt;7&gt;运行单元测试方法"></a>&lt;7&gt;运行单元测试方法</h4><h4 id="lt-8-gt-查看"><a href="#lt-8-gt-查看" class="headerlink" title="&lt;8&gt;查看"></a>&lt;8&gt;查看</h4><p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/%E7%BB%93%E6%9E%9C.png" alt="结果"></p>
+<h4 id="lt-9-gt-URL访问规则"><a href="#lt-9-gt-URL访问规则" class="headerlink" title="&lt;9&gt;URL访问规则"></a>&lt;9&gt;URL访问规则</h4><p>我们在项目中使用时，通常会将用户上传的文件提交到文件服务器，然后将文件访问的url地址存放到数据库中。</p>
+<p>规则：<a href="https://bucket的名称.endpoint/%E6%96%87%E4%BB%B6%E5%A4%B9/%E6%96%87%E4%BB%B6%E5%90%8D%E3%80%82">https://bucket的名称.endpoint/文件夹/文件名。</a></p>
+<h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p>好了，本篇就说这么多，拜~</p>
+]]></content>
+      <categories>
+        <category>第三方接口</category>
+      </categories>
+      <tags>
+        <tag>阿里云OSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>谷粒学院-day07</title>
     <url>/90fca88e.html</url>
-    <content><![CDATA[<center>个人笔记，仅供参考</center>
-<span id="more"></span>
-<br/>
-
-<ul>
+    <content><![CDATA[<ul>
 <li>前置：修改依赖版本</li>
 </ul>
 <blockquote>
@@ -783,6 +784,10 @@
 <blockquote>
 <p>附:IDLE配置多实例方式</p>
 </blockquote>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">-DServer.port=8121</span><br></pre></td></tr></table></figure>
+
+
+
 <p><img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/guli_5.png" alt="guli_5"></p>
 </li>
 </ul>
@@ -814,7 +819,150 @@
 
 
 
-<h1 id="四、删除讲师头像（待完成）"><a href="#四、删除讲师头像（待完成）" class="headerlink" title="四、删除讲师头像（待完成）"></a>四、删除讲师头像（待完成）</h1>]]></content>
+<h1 id="四、删除讲师头像"><a href="#四、删除讲师头像" class="headerlink" title="四、删除讲师头像"></a>四、删除讲师头像</h1><h2 id="1-流程"><a href="#1-流程" class="headerlink" title="1.流程"></a>1.流程</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">TeacherController.removeById()</span><br><span class="line">-调用-&gt;TeacherService</span><br><span class="line">-实现类-&gt;TeacherServiceImpl.removeAvatarById()(根据id获取讲师，然后从讲师中获取url)</span><br><span class="line">-调用-&gt;Edu模块 OssFileService</span><br><span class="line">-OpenFeign调用-&gt;Oss模块 FileController</span><br><span class="line">-调用-&gt;FileService</span><br><span class="line">-实现类-&gt;FileServiceImpl(根据url删除阿里云图片)</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-代码"><a href="#2-代码" class="headerlink" title="2.代码"></a>2.代码</h2><h3 id="2-1-Oss模块"><a href="#2-1-Oss模块" class="headerlink" title="2.1 Oss模块"></a>2.1 Oss模块</h3><ul>
+<li><p>FileService.java</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 删除讲师头像</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> url 讲师头像的url地址</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span> 删除结果。true成功，false失败。</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="type">boolean</span> <span class="title function_">removeFile</span><span class="params">(String url)</span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>FileServiceImpl.java</p>
+</li>
+</ul>
+<blockquote>
+<p>参考：<a href="https://help.aliyun.com/document_detail/84842.htm?spm=a2c4g.11186623.0.0.14c21cd5LdABTL#concept-84842-zh">https://help.aliyun.com/document_detail/84842.htm?spm=a2c4g.11186623.0.0.14c21cd5LdABTL#concept-84842-zh</a></p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 删除文件或目录。如果要删除目录，目录必须为空。</span></span><br><span class="line">ossClient.deleteObject(bucketName, objectName);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>FileServiceImpl.java</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">removeFile</span><span class="params">(String url)</span> &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">endpoint</span> <span class="operator">=</span> ossProperties.getEndpoint();</span><br><span class="line">    <span class="type">String</span> <span class="variable">keyid</span> <span class="operator">=</span> ossProperties.getKeyid();</span><br><span class="line">    <span class="type">String</span> <span class="variable">keysecret</span> <span class="operator">=</span> ossProperties.getKeysecret();</span><br><span class="line">    <span class="type">String</span> <span class="variable">bucketname</span> <span class="operator">=</span> ossProperties.getBucketname();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 从url中截取objectName</span></span><br><span class="line">    <span class="comment">// objectName = url - host;</span></span><br><span class="line">    <span class="type">String</span> <span class="variable">host</span> <span class="operator">=</span> <span class="string">&quot;https://&quot;</span> + bucketname + <span class="string">&quot;.&quot;</span> + endpoint + <span class="string">&quot;/&quot;</span>;</span><br><span class="line">    <span class="type">String</span> <span class="variable">objectName</span> <span class="operator">=</span> url.substring(host.length());</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 创建OSSClient实例。</span></span><br><span class="line">    <span class="type">OSS</span> <span class="variable">ossClient</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">OSSClientBuilder</span>().build(endpoint, keyid, keysecret);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 删除文件或目录。如果要删除目录，目录必须为空。</span></span><br><span class="line">    ossClient.deleteObject(bucketname, objectName);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 关闭</span></span><br><span class="line">    ossClient.shutdown();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>FileController.java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@ApiOperation(&quot;文件删除&quot;)</span></span><br><span class="line"><span class="meta">@DeleteMapping(&quot;/remove&quot;)</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">removeFile</span><span class="params">(</span></span><br><span class="line"><span class="params">    <span class="meta">@ApiParam(value = &quot;文件的url&quot;, required = true)</span></span></span><br><span class="line"><span class="params">    <span class="meta">@RequestBody</span> String url)</span>&#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        fileService.removeFile(url);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">        log.error(ExceptionUtils.getMessage(e));</span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">GuliException</span>(ResultCodeEnum.FILE_DELETE_ERROR);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> R.ok().data(<span class="string">&quot;url&quot;</span>,url);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-2-Edu模块"><a href="#2-2-Edu模块" class="headerlink" title="2.2 Edu模块"></a>2.2 Edu模块</h3><ul>
+<li>TeacherController</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* 根据id删除讲师</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">@ApiOperation(value = &quot;根据id删除讲师&quot;,notes = &quot;详细说明：根据id删除讲师,逻辑删除&quot;)</span></span><br><span class="line"><span class="meta">@DeleteMapping(&quot;/remove/&#123;id&#125;&quot;)</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">removeById</span><span class="params">(<span class="meta">@ApiParam(&quot;讲师id&quot;)</span> <span class="meta">@PathVariable</span> String id)</span>&#123;</span><br><span class="line">    <span class="comment">// 删除讲师头像</span></span><br><span class="line">    teacherService.removeAvatarById(id);</span><br><span class="line">    <span class="comment">// 删除讲师</span></span><br><span class="line">    <span class="type">boolean</span> <span class="variable">result</span> <span class="operator">=</span> teacherService.removeById(id);</span><br><span class="line">    <span class="keyword">if</span> (result)&#123;</span><br><span class="line">        <span class="keyword">return</span> R.ok().message(<span class="string">&quot;删除成功&quot;</span>);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> R.error().message(<span class="string">&quot;数据不存在&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>TeacherService</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">R <span class="title function_">removeAvatarById</span><span class="params">(String id)</span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>TeacherServiceImpl</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@Autowired</span></span><br><span class="line"><span class="keyword">private</span> OssFileService ossFileService;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">removeAvatarById</span><span class="params">(String id)</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 获取讲师头像url地址</span></span><br><span class="line">    <span class="type">Teacher</span> <span class="variable">teacher</span> <span class="operator">=</span> baseMapper.selectById(id);</span><br><span class="line">    <span class="type">String</span> <span class="variable">avatarUrl</span> <span class="operator">=</span> teacher.getAvatar();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 删除讲师头像</span></span><br><span class="line">    <span class="keyword">return</span> ossFileService.removeFile(avatarUrl);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>OssFileService</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@DeleteMapping(&quot;/admin/oss/file/remove&quot;)</span></span><br><span class="line">R <span class="title function_">removeFile</span><span class="params">(<span class="meta">@RequestBody</span> String url)</span>;</span><br></pre></td></tr></table></figure>
+
+<h1 id="五、服务容错-Sentinel"><a href="#五、服务容错-Sentinel" class="headerlink" title="五、服务容错-Sentinel"></a>五、服务容错-Sentinel</h1><h2 id="1-服务雪崩"><a href="#1-服务雪崩" class="headerlink" title="1.服务雪崩"></a>1.服务雪崩</h2><p>情景描述：</p>
+<ul>
+<li><p>情景一</p>
+<ul>
+<li><strong>微服务A</strong> –调用-&gt; <strong>微服务B</strong> –调用-&gt; <strong>微服务C</strong></li>
+<li>服务C给服务B响应慢，导致服务B线程阻塞。而服务B线程阻塞，又会导致服务A线程阻塞。</li>
+</ul>
+</li>
+<li><p>情景二</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204202043934.png"></p>
+<p>b2()调用b3()时，若b3()阻塞，会导致b()阻塞。</p>
+<p>而b2()阻塞，不但会导致b1()阻塞，还会导致a2()阻塞，进而a1()阻塞。</p>
+<h2 id="2-服务容错"><a href="#2-服务容错" class="headerlink" title="2.服务容错"></a>2.服务容错</h2><p>防止服务雪崩，要做好服务容错。</p>
+<h3 id="2-1容错方案"><a href="#2-1容错方案" class="headerlink" title="2.1容错方案"></a>2.1容错方案</h3><h4 id="2-1-1隔离"><a href="#2-1-1隔离" class="headerlink" title="2.1.1隔离"></a>2.1.1隔离</h4><ul>
+<li>线程池隔离</li>
+</ul>
+<p>按功能划分不同线程池，当线程池线程满时不扩散到其他线程，不会影响其他功能。</p>
+<ul>
+<li>信号量隔离</li>
+</ul>
+<h4 id="2-1-2超时"><a href="#2-1-2超时" class="headerlink" title="2.1.2超时"></a>2.1.2超时</h4><p>服务A调用服务B，当调用超过一定时间未响应，就断开请求，释放线程。</p>
+<h4 id="2-1-3限流"><a href="#2-1-3限流" class="headerlink" title="2.1.3限流"></a>2.1.3限流</h4><p>限制系统输入和输出的流量。</p>
+<h4 id="2-1-4熔断"><a href="#2-1-4熔断" class="headerlink" title="2.1.4熔断"></a>2.1.4熔断</h4><p>对响应时间慢或异常比例高的下游服务快速失败。</p>
+<h4 id="2-1-5降级"><a href="#2-1-5降级" class="headerlink" title="2.1.5降级"></a>2.1.5降级</h4><p>在本服务提供兜底(备用)方案，如果调用下游服务失败，就执行备用方案。</p>
+<h2 id="3-Sentinel"><a href="#3-Sentinel" class="headerlink" title="3.Sentinel"></a>3.Sentinel</h2><h3 id="3-1组成"><a href="#3-1组成" class="headerlink" title="3.1组成"></a>3.1组成</h3><p>核心库(Java客户端) + 控制台(Dashboard)</p>
+<blockquote>
+<p>微服务整合核心库，然后连接控制台。</p>
+</blockquote>
+<h3 id="3-2控制台"><a href="#3-2控制台" class="headerlink" title="3.2控制台"></a>3.2控制台</h3><h4 id="3-2-1下载"><a href="#3-2-1下载" class="headerlink" title="3.2.1下载"></a>3.2.1下载</h4><p>下载地址：<a href="https://github.com/alibaba/Sentinel/releases">https://github.com/alibaba/Sentinel/releases</a></p>
+<p>下载版本：sentinel-dashboard-1.7.0.jar</p>
+<h4 id="3-2-2启动控制台"><a href="#3-2-2启动控制台" class="headerlink" title="3.2.2启动控制台"></a>3.2.2启动控制台</h4><ul>
+<li>方式一(默认参数启动)</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">java -jar sentinel-dashboard-1.7.0.jar</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>方式二(配置启动参数)</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">java -Dserver.port=8888 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard-1.7.0.jar</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-2-3浏览器访问"><a href="#3-2-3浏览器访问" class="headerlink" title="3.2.3浏览器访问"></a>3.2.3浏览器访问</h4><p>地址：<a href="http://localhost:8080/">http://localhost:8080</a></p>
+<p>用户名：sentinel</p>
+<p>密码：sentinel</p>
+<h3 id="3-3客户端"><a href="#3-3客户端" class="headerlink" title="3.3客户端"></a>3.3客户端</h3><blockquote>
+<p><strong>消费者</strong>微服务集成Sentinel客户端</p>
+</blockquote>
+<h4 id="3-3-1依赖"><a href="#3-3-1依赖" class="headerlink" title="3.3.1依赖"></a>3.3.1依赖</h4><blockquote>
+<p>service模块的pom.xml</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--服务容错--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-alibaba-sentinel<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-3-2配置"><a href="#3-3-2配置" class="headerlink" title="3.3.2配置"></a>3.3.2配置</h4><blockquote>
+<p>service_edu模块的application.yml</p>
+</blockquote>
+<ul>
+<li>连接控制台</li>
+</ul>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#spring:</span></span><br><span class="line"><span class="comment">#  cloud:</span></span><br><span class="line">    <span class="attr">sentinel:</span></span><br><span class="line">      <span class="attr">transport:</span></span><br><span class="line">        <span class="attr">port:</span> <span class="number">8081</span> <span class="comment"># 指定微服务与控制台交互的端口</span></span><br><span class="line">        <span class="attr">dashboard:</span> <span class="string">localhost:8080</span> <span class="comment"># 指定控制台服务的地址</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-4核心功能"><a href="#3-4核心功能" class="headerlink" title="3.4核心功能"></a>3.4核心功能</h3><ul>
+<li>上游微服务 –<strong>限流</strong>–&gt; 核心微服务 –<strong>熔断降级</strong>–&gt; 下游微服务</li>
+</ul>
+<p>&lt;1&gt;浏览控制</p>
+<p>保证自己不被上游服务压垮</p>
+<p>&lt;2&gt;熔断降级</p>
+<p>保证自己不被下游服务拖垮</p>
+<p>&lt;3&gt;系统负载保护</p>
+<p>保证外界环境良好（CPU、内存）</p>
+<h3 id="3-5熔断降级"><a href="#3-5熔断降级" class="headerlink" title="3.5熔断降级"></a>3.5熔断降级</h3><blockquote>
+<p>OpenFeign整合Sentinel</p>
+</blockquote>
+<h4 id="3-5-1依赖"><a href="#3-5-1依赖" class="headerlink" title="3.5.1依赖"></a>3.5.1依赖</h4><p>同上</p>
+<h4 id="3-5-2配置"><a href="#3-5-2配置" class="headerlink" title="3.5.2配置"></a>3.5.2配置</h4><blockquote>
+<p>service_edu模块的application.yml</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feign:</span></span><br><span class="line">  <span class="attr">sentinel:</span></span><br><span class="line">    <span class="attr">enabled:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-5-3业务类"><a href="#3-5-3业务类" class="headerlink" title="3.5.3业务类"></a>3.5.3业务类</h4><p>创建容错类（备选方案），指定容错类（OpenFeign远程调用接口添加fallback属性）</p>
+<ul>
+<li>创建容错类<ul>
+<li>添加<code>@Service</code>注解</li>
+<li>实现远程调用接口</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.atguigu.guli.service.edu.feign.fallback;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.atguigu.guli.common.base.result.R;</span><br><span class="line"><span class="keyword">import</span> com.atguigu.guli.service.edu.feign.OssFileService;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> cysheng</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@create</span> 2022-04-20 20:19</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="meta">@Slf4j</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">OssFileServiceFallBack</span> <span class="keyword">implements</span> <span class="title class_">OssFileService</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> R <span class="title function_">test</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> R <span class="title function_">removeFile</span><span class="params">(String url)</span> &#123;</span><br><span class="line">        log.info(<span class="string">&quot;熔断保护&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> R.error();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>指定容错类<ul>
+<li>fallback &#x3D; OssFileServiceFallBack.class</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="meta">@FeignClient(value = &quot;service-oss&quot;,fallback = OssFileServiceFallBack.class)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">OssFileService</span>&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
         <category>个人笔记</category>
       </categories>
