@@ -106,6 +106,28 @@
       </tags>
   </entry>
   <entry>
+    <title>推荐：B站批量下载工具</title>
+    <url>/9f467dd9.html</url>
+    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
+<p>【下载地址】</p>
+<ul>
+<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
+<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
+</ul>
+<p>【测试截图】</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>B站下载</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>图片</title>
     <url>/9900f79e.html</url>
     <content><![CDATA[<center>个人笔记，仅供参考</center>
@@ -125,7 +147,7 @@
 <li><p><a href="#20220418">20220418</a></p>
 </li>
 </ul>
-<h1 id="20220422"><a href="#20220422" class="headerlink" title="20220422"></a>20220422</h1><div class="tabs" id="0422"><ul class="nav-tabs"><li class="tab active"><a href="#0422-1">index</a></li><li class="tab"><a href="#0422-2">node</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0422-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0422-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014556.png" alt="2022-04-22_094507" style="zoom: 50%;" />
+<h1 id="20220422"><a href="#20220422" class="headerlink" title="20220422"></a>20220422</h1><div class="tabs" id="0422"><ul class="nav-tabs"><li class="tab active"><a href="#0422-1">index</a></li><li class="tab"><a href="#0422-2">node</a></li><li class="tab"><a href="#0422-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0422-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0422-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014556.png" alt="2022-04-22_094507" style="zoom: 50%;" />
 
 
 
@@ -139,14 +161,13 @@
 
 
 
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221013540.png" alt="2022-04-22_094951" style="zoom: 50%;" /></div></div></div>
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221013540.png" alt="2022-04-22_094951" style="zoom: 50%;" /></div><div class="tab-pane" id="0422-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515635.png" alt="2022-04-22_134744"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515160.png" alt="2022-04-22_134824"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515735.png" alt="2022-04-22_135420"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221514285.png" alt="IMG_20220422_143857"></p></div></div></div>
 
-<h1 id="20220420"><a href="#20220420" class="headerlink" title="20220420"></a>20220420</h1><div class="tabs" id="0420"><ul class="nav-tabs"><li class="tab active"><a href="#0420-1">主页</a></li><li class="tab"><a href="#0420-2">大数据</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0420-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0420-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204202048859.png" alt="2022-04-20_104913" style="zoom:25%;" />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204202049218.png" alt="2022-04-20_112619" style="zoom:25%;" />
-
-<blockquote>
-<p>计算景区游客总量-numpy</p>
+<h1 id="20220420"><a href="#20220420" class="headerlink" title="20220420"></a>20220420</h1><div class="tabs" id="0420"><ul class="nav-tabs"><li class="tab active"><a href="#0420-1">主页</a></li><li class="tab"><a href="#0420-2">大数据</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0420-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0420-2"><blockquote>
+<p>计算景<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221511509.png" alt="pandas"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221511422.png" alt="无水印">区游客总量-numpy</p>
 </blockquote>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="comment"># np.loadtxt()</span></span><br><span class="line"><span class="comment"># 0：读取文件路径</span></span><br><span class="line"><span class="comment"># skiprows：忽略行数</span></span><br><span class="line"><span class="comment"># dtype:读取后转换的类型</span></span><br><span class="line"><span class="comment"># delimiter:指定分隔符</span></span><br><span class="line"><span class="comment"># usecols：指定读取列</span></span><br><span class="line"><span class="comment"># unpack：读取多列设置&quot;True&quot;</span></span><br><span class="line">(jzg_data,zjj_data,xg_data,dbhq_data,dsn_data) = np.loadtxt(<span class="string">&quot;D:\\workspace\\source\\tourist_data.csv&quot;</span>,</span><br><span class="line">          skiprows=<span class="number">1</span>,</span><br><span class="line">          dtype=<span class="string">&quot;int&quot;</span>,</span><br><span class="line">          delimiter=<span class="string">&quot;,&quot;</span>,</span><br><span class="line">          usecols=(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>),</span><br><span class="line">          unpack=<span class="string">&quot;True&quot;</span>)</span><br><span class="line"><span class="comment"># print(jzg_data)</span></span><br><span class="line"><span class="comment"># 求和</span></span><br><span class="line">jzg_total = jzg_data.<span class="built_in">sum</span>()</span><br><span class="line">zjj_total = zjj_data.<span class="built_in">sum</span>()</span><br><span class="line">xg_total = xg_data.<span class="built_in">sum</span>()</span><br><span class="line">dbhq_total = dbhq_data.<span class="built_in">sum</span>()</span><br><span class="line">dsn_total = dsn_data.<span class="built_in">sum</span>()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到九寨沟的游客总量为:&quot;</span>,jzg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到张家界的游客总量为:&quot;</span>,zjj_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到香港的游客总量为:&quot;</span>,xg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到东部华侨城的游客总量为:&quot;</span>,dbhq_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到上海迪士尼的游客总量为:&quot;</span>,dsn_total)</span><br></pre></td></tr></table></figure>
 
@@ -168,28 +189,6 @@
 <img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110840.png" alt="读xml纯文本写入文件"  /></div><div class="tab-pane" id="0418-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110199.png"></p>
 <p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110329.png" alt="2022-04-18_090947"></p></div></div></div>
 ]]></content>
-  </entry>
-  <entry>
-    <title>推荐：B站批量下载工具</title>
-    <url>/9f467dd9.html</url>
-    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
-<p>【下载地址】</p>
-<ul>
-<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
-<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
-</ul>
-<p>【测试截图】</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>B站下载</tag>
-      </tags>
   </entry>
   <entry>
     <title>友情链接</title>
