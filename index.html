@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"cysheng.gitee.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"cysheng.gitee.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta property="og:type" content="website">
@@ -76,7 +76,20 @@
 </noscript>
 
 </head>
-
+<script>
+    (function () {
+        if ('') {
+            if (prompt('请输入文章密码') !== '') {
+                alert('密码错误！');
+                if (history.length === 1) {
+                    location.replace("https://cysheng.gitee.io"); // 这里替换成你的首页
+                } else {
+                    history.back();
+                }
+            }
+        }
+    })();
+</script>
 <body itemscope itemtype="http://schema.org/WebPage">
   <div class="container use-motion">
     <div class="headband"></div>
@@ -326,7 +339,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-04-20 20:56:25" itemprop="dateModified" datetime="2022-04-20T20:56:25+08:00">2022-04-20</time>
+                <time title="修改时间：2022-04-22 17:38:33" itemprop="dateModified" datetime="2022-04-22T17:38:33+08:00">2022-04-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -510,7 +523,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-04-13 20:47:15" itemprop="dateModified" datetime="2022-04-13T20:47:15+08:00">2022-04-13</time>
+                <time title="修改时间：2022-04-22 17:51:11" itemprop="dateModified" datetime="2022-04-22T17:51:11+08:00">2022-04-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -528,7 +541,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>4</span>
+              <span>0</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -547,8 +560,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>待完成…</p>
-
+          
       
     </div>
 
@@ -967,7 +979,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-03-30 18:21:35" itemprop="dateModified" datetime="2022-03-30T18:21:35+08:00">2022-03-30</time>
+                <time title="修改时间：2022-04-22 17:50:24" itemprop="dateModified" datetime="2022-04-22T17:50:24+08:00">2022-04-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1259,7 +1271,7 @@
   </div>
 -->
   <div class="addthis_inline_share_toolbox">
-    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-623e614ba71fa25f" async="async"></script>
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-62628d1979406448" async="async"></script>
   </div>
 
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
