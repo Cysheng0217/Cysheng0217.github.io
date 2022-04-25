@@ -1,62 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Gitee托管静态博客</title>
-    <url>/bb4c45f1.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>系列教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo系列教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/16107.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/4333.html</url>
-    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
-
-
-
-<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
-<div class="note success">
-            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
-          </div>
-
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>友链</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客框架入门</title>
     <url>/b08526ec.html</url>
     <content><![CDATA[<center>想不想拥有一个免费、公网可访问的个人博客呢？</center>
@@ -126,6 +70,62 @@
       </tags>
   </entry>
   <entry>
+    <title>Gitee托管静态博客</title>
+    <url>/bb4c45f1.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>系列教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo系列教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/16107.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>友情链接</title>
+    <url>/4333.html</url>
+    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
+
+
+
+<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
+<div class="note success">
+            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
+          </div>
+
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>友链</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>图片</title>
     <url>/9900f79e.html</url>
     <content><![CDATA[<center>个人笔记，仅供参考</center>
@@ -144,7 +144,15 @@
 </li>
 <li><p><a href="#20220418">20220418</a></p>
 </li>
+<li><p><a href="#20220425">20220425</a></p>
+</li>
 </ul>
+<h1 id="20220425"><a href="#20220425" class="headerlink" title="20220425"></a>20220425</h1><div class="tabs" id="0425"><ul class="nav-tabs"><li class="tab active"><a href="#0425-1">index</a></li><li class="tab"><a href="#0425-2">php</a></li><li class="tab"><a href="#0425-3">node</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0425-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0425-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204250915910.png" alt="2022-04-25_090856" style="zoom:33%;" />
+
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$color</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$age</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$name</span>,<span class="variable">$color</span>,<span class="variable">$age</span></span>) </span>&#123;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;name = <span class="variable">$name</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;color = <span class="variable">$color</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;age = <span class="variable">$age</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getInfo</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的名字：&quot;</span> . <span class="variable language_">$this</span>-&gt;name . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的颜色：&quot;</span> . <span class="variable language_">$this</span>-&gt;color . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的年龄：&quot;</span> . <span class="variable language_">$this</span>-&gt;age . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Bird</span> <span class="keyword">extends</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$wing</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">     <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$name</span>,<span class="variable">$color</span>,<span class="variable">$age</span>,<span class="variable">$swing</span></span>)</span>&#123;</span><br><span class="line">        <span class="built_in">parent</span>::<span class="title function_ invoke__">__construct</span>(<span class="variable">$name</span>, <span class="variable">$color</span>, <span class="variable">$age</span>);</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;wing = <span class="variable">$swing</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">   <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getInfo</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">       <span class="built_in">parent</span>::<span class="title function_ invoke__">getInfo</span>();</span><br><span class="line">       <span class="keyword">echo</span> <span class="string">&quot;翅膀：&quot;</span>.<span class="variable language_">$this</span>-&gt;wing . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">   &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">fly</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;I can fly!&lt;br/&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable">$crow</span> = <span class="keyword">new</span> <span class="title class_">Bird</span>(<span class="string">&quot;乌鸦&quot;</span>,<span class="string">&quot;黑色&quot;</span>,<span class="string">&quot;3&quot;</span>,<span class="string">&quot;1&quot;</span>);</span><br><span class="line"><span class="variable">$crow</span>-&gt;<span class="title function_ invoke__">getInfo</span>();</span><br><span class="line"><span class="variable">$crow</span>-&gt;<span class="title function_ invoke__">fly</span>();</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="0425-3"></div></div></div>
+
+
+
 <h1 id="20220422"><a href="#20220422" class="headerlink" title="20220422"></a>20220422</h1><div class="tabs" id="0422"><ul class="nav-tabs"><li class="tab active"><a href="#0422-1">index</a></li><li class="tab"><a href="#0422-2">node</a></li><li class="tab"><a href="#0422-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0422-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0422-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014556.png" alt="2022-04-22_094507" style="zoom: 50%;" />
 
 
