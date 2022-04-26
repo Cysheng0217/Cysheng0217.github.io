@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Gitee托管静态博客</title>
-    <url>/bb4c45f1.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>系列教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo系列教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客框架入门</title>
     <url>/b08526ec.html</url>
     <content><![CDATA[<center>想不想拥有一个免费、公网可访问的个人博客呢？</center>
@@ -81,27 +70,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/16107.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+    <title>Gitee托管静态博客</title>
+    <url>/bb4c45f1.html</url>
+    <content><![CDATA[]]></content>
       <categories>
-        <category>博客相关</category>
+        <category>系列教程</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
+        <tag>Hexo系列教程</tag>
       </tags>
   </entry>
   <entry>
@@ -126,25 +102,27 @@
       </tags>
   </entry>
   <entry>
-    <title>推荐：B站批量下载工具</title>
-    <url>/9f467dd9.html</url>
-    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
-<p>【下载地址】</p>
-<ul>
-<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
-<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
-</ul>
-<p>【测试截图】</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+    <title>Hello World</title>
+    <url>/16107.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
       <categories>
-        <category>工具</category>
+        <category>博客相关</category>
       </categories>
       <tags>
-        <tag>B站下载</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -160,11 +138,13 @@
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
 <li>博客会持续更新，写完就会更新，没更就是没写，不要催，特别是开勿扰时(心情极差开勿扰)。</li>
 <li><strong>关注公众号“IT小抄”后台回复“姓名+邮件”，更新后会第一时间通知</strong> <ul>
-<li>例如：张三<a href="mailto:&#43;&#54;&#x36;&#54;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;">&#43;&#54;&#x36;&#54;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;</a></li>
+<li>例如：张三<a href="mailto:&#43;&#x36;&#x36;&#54;&#64;&#113;&#113;&#46;&#x63;&#111;&#x6d;">&#43;&#x36;&#x36;&#54;&#64;&#113;&#113;&#46;&#x63;&#111;&#x6d;</a></li>
 </ul>
 </li>
 </ul>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
+<li><p><a href="#20220426">20220426</a></p>
+</li>
 <li><p><a href="#20220425">20220425</a></p>
 </li>
 <li><p><a href="#20220422">20220422</a></p>
@@ -795,6 +775,28 @@
       </tags>
   </entry>
   <entry>
+    <title>推荐：B站批量下载工具</title>
+    <url>/9f467dd9.html</url>
+    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
+<p>【下载地址】</p>
+<ul>
+<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
+<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
+</ul>
+<p>【测试截图】</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>B站下载</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>阿里云OSS对象存储</title>
     <url>/35589.html</url>
     <content><![CDATA[<p>针对于项目中的文件（比如用户上传的头像），我们可能会用到文件服务器来进行存储。</p>
@@ -1306,7 +1308,113 @@
 
 
 
-<h2 id="3-展示课程分类"><a href="#3-展示课程分类" class="headerlink" title="3.展示课程分类"></a>3.展示课程分类</h2>]]></content>
+<h2 id="3-展示课程分类"><a href="#3-展示课程分类" class="headerlink" title="3.展示课程分类"></a>3.展示课程分类</h2><p>将二级分类嵌套一级分类中，返回给前端，前端使用element-ui提供的组件进行展示。</p>
+<p>两种嵌套方式：</p>
+<ul>
+<li><p>方式一</p>
+<ul>
+<li>查询所有数据，业务处理数据，将数据进行嵌套</li>
+</ul>
+</li>
+<li><p>方式二</p>
+<ul>
+<li>先查一级类别</li>
+<li>遍历一级类别，通过一级类别id查询二级类别</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-1配置"><a href="#3-1配置" class="headerlink" title="3.1配置"></a>3.1配置</h3><p>问题：编译文件只有接口的class文件，没有mapper.xml文件</p>
+<p>原因：maven默认情况下不发布src&#x2F;main&#x2F;java目录下资源文件到target目录。</p>
+<p>解决：</p>
+<ul>
+<li>配置资源文件夹下的xml文件不进行过滤</li>
+</ul>
+<blockquote>
+<p>pom.xml</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">build</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">&lt;!-- 项目打包时会将java目录中的*.xml文件也进行打包 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">resources</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">resource</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">directory</span>&gt;</span>src/main/java<span class="tag">&lt;/<span class="name">directory</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">includes</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">include</span>&gt;</span>**/*.xml<span class="tag">&lt;/<span class="name">include</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">includes</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">filtering</span>&gt;</span>false<span class="tag">&lt;/<span class="name">filtering</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">resource</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">resources</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">build</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>指定配置文件位置</li>
+</ul>
+<blockquote>
+<p>application.yml</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#mybatis-plus:</span></span><br><span class="line">  <span class="attr">mapper-locations:</span> <span class="string">classpath:com/atguigu/guli/service/edu/mapper/xml/*.xml</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="3-2后端"><a href="#3-2后端" class="headerlink" title="3.2后端"></a>3.2后端</h3><blockquote>
+<p>SubjectVo</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.atguigu.guli.service.edu.entity.vo;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">SubjectVo</span> <span class="keyword">implements</span> <span class="title class_">Serializable</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">long</span> <span class="variable">serialVersionUID</span> <span class="operator">=</span> <span class="number">1L</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> Integer sort;</span><br><span class="line">    <span class="keyword">private</span> List&lt;SubjectVo&gt; children = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>SubjectController</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@ApiOperation(value = &quot;嵌套数据列表&quot;)</span></span><br><span class="line"><span class="meta">@GetMapping(&quot;nested-list&quot;)</span></span><br><span class="line"><span class="keyword">public</span> R <span class="title function_">nestedList</span><span class="params">()</span>&#123;</span><br><span class="line">    List&lt;SubjectVo&gt; subjectVoList = subjectService.nestedList();</span><br><span class="line">    <span class="keyword">return</span> R.ok().data(<span class="string">&quot;items&quot;</span>, subjectVoList);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>SubjectService</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">List&lt;SubjectVo&gt; <span class="title function_">nestedList</span><span class="params">()</span>;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>SubjectServiceImpl</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="keyword">public</span> List&lt;SubjectVo&gt; <span class="title function_">nestedList</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> baseMapper.selectNestedListByParentId(<span class="string">&quot;0&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>SubjectMapper.java</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">List&lt;SubjectVo&gt; <span class="title function_">selectNestedListByParentId</span><span class="params">(String parentId)</span>;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>SubjectMapper.xml</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">resultMap</span> <span class="attr">id</span>=<span class="string">&quot;nestedSubject&quot;</span> <span class="attr">type</span>=<span class="string">&quot;com.atguigu.guli.service.edu.entity.vo.SubjectVo&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">id</span> <span class="attr">property</span>=<span class="string">&quot;id&quot;</span> <span class="attr">column</span>=<span class="string">&quot;id&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">result</span> <span class="attr">property</span>=<span class="string">&quot;title&quot;</span> <span class="attr">column</span>=<span class="string">&quot;title&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">result</span> <span class="attr">property</span>=<span class="string">&quot;sort&quot;</span> <span class="attr">column</span>=<span class="string">&quot;sort&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">collection</span> <span class="attr">property</span>=<span class="string">&quot;children&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">ofType</span>=<span class="string">&quot;com.atguigu.guli.service.edu.entity.vo.SubjectVo&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">select</span>=<span class="string">&quot;selectNestedListByParentId&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">column</span>=<span class="string">&quot;id&quot;</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">resultMap</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">&quot;selectNestedListByParentId&quot;</span> <span class="attr">resultMap</span>=<span class="string">&quot;nestedSubject&quot;</span>&gt;</span></span><br><span class="line">    select id, sort, title from edu_subject where parent_id = #&#123;parentId&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-3前端"><a href="#3-3前端" class="headerlink" title="3.3前端"></a>3.3前端</h3><h4 id="3-3-1-api"><a href="#3-3-1-api" class="headerlink" title="3.3.1 api"></a>3.3.1 api</h4><blockquote>
+<p>src&#x2F;api下 新建subject.js</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> request <span class="keyword">from</span> <span class="string">&#x27;@/utils/request&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  <span class="title function_">getNestedTreeList</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">request</span>(&#123;</span><br><span class="line">      <span class="attr">url</span>: <span class="string">&#x27;/admin/edu/subject/nested-list&#x27;</span>,</span><br><span class="line">      <span class="attr">method</span>: <span class="string">&#x27;get&#x27;</span></span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-3-2-树形结构展示"><a href="#3-3-2-树形结构展示" class="headerlink" title="3.3.2 树形结构展示"></a>3.3.2 树形结构展示</h4><blockquote>
+<p>list.vue</p>
+</blockquote>
+<ul>
+<li><p>template部分由两部分构成，一个文本框el-input（用于过滤el-tree）,另一个是el-tree（用于树形结构展示数据）</p>
+</li>
+<li><p>过滤流程</p>
+<ul>
+<li>文本框和filterText双向绑定</li>
+<li>监听 filterText的变化（文本框内容改变）</li>
+<li>监听到发生变化时，调用this.$refs.subjectTree.filter(val)<ul>
+<li>subjectTree：代表el-tree组件</li>
+<li>**filter(val)**：根据val值过滤树形结构</li>
+<li><strong>:filter-node-method</strong>：过滤的依据<ul>
+<li>每次渲染一个节点都会引用该钩子函数，传递两个参数：filter(val)中传递的val, 当前节点对象。</li>
+<li>返回true表示显示该节点，false表示隐藏该节点</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>忽略大小写过滤</p>
+<ul>
+<li>让比较的值与被比较的值都转为大写或都转为小写</li>
+<li>使用indexOf()方法，返回-1表示不包含字符串</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;app-container&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;<span class="name">el-input</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">      <span class="attr">v-model</span>=<span class="string">&quot;filterText&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">      <span class="attr">placeholder</span>=<span class="string">&quot;输入查询条件&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">      <span class="attr">style</span>=<span class="string">&quot;margin-bottom:30px;&quot;</span> /&gt;</span></span></span><br><span class="line"><span class="language-xml"></span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;<span class="name">el-tree</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">      <span class="attr">ref</span>=<span class="string">&quot;subjectTree&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">      <span class="attr">:data</span>=<span class="string">&quot;subjectList&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">      <span class="attr">:props</span>=<span class="string">&quot;defaultProps&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">      <span class="attr">:filter-node-method</span>=<span class="string">&quot;filterNode&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">      <span class="attr">style</span>=<span class="string">&quot;margin-top:10px;&quot;</span> /&gt;</span></span></span><br><span class="line"><span class="language-xml"></span></span><br><span class="line"><span class="language-xml">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"><span class="keyword">import</span> subjectApi <span class="keyword">from</span> <span class="string">&#x27;@/api/subject&#x27;</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">return</span> &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      <span class="attr">filterText</span>: <span class="string">&#x27;&#x27;</span>, <span class="comment">// 过滤文本</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      <span class="attr">subjectList</span>: [], <span class="comment">// 数据列表</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      <span class="attr">defaultProps</span>: &#123;<span class="comment">// 属性列表数据属性的key</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">children</span>: <span class="string">&#x27;children&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">label</span>: <span class="string">&#x27;title&#x27;</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  &#125;,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  <span class="comment">// 监听 filterText的变化</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  <span class="attr">watch</span>: &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="title function_">filterText</span>(<span class="params">val</span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      <span class="variable language_">this</span>.<span class="property">$refs</span>.<span class="property">subjectTree</span>.<span class="title function_">filter</span>(val)<span class="comment">// 调用tree的filter方法</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  &#125;,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  <span class="title function_">created</span>(<span class="params"></span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="variable language_">this</span>.<span class="title function_">fetchNodeList</span>()</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  &#125;,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  <span class="attr">methods</span>: &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="comment">// 获取远程数据</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="title function_">fetchNodeList</span>(<span class="params"></span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      subjectApi.<span class="title function_">getNestedTreeList</span>().<span class="title function_">then</span>(<span class="function"><span class="params">response</span> =&gt;</span> &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="variable language_">this</span>.<span class="property">subjectList</span> = response.<span class="property">data</span>.<span class="property">items</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      &#125;)</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="comment">// 过滤节点</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="title function_">filterNode</span>(<span class="params">value, data</span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">if</span> (!value) <span class="keyword">return</span> <span class="literal">true</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">return</span> data.<span class="property">title</span>.<span class="title function_">toLowerCase</span>().<span class="title function_">indexOf</span>(value.<span class="title function_">toLowerCase</span>()) !== -<span class="number">1</span><span class="comment">//忽略大小写</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
       <categories>
         <category>个人笔记</category>
       </categories>
