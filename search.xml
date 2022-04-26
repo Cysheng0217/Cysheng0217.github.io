@@ -126,6 +126,28 @@
       </tags>
   </entry>
   <entry>
+    <title>推荐：B站批量下载工具</title>
+    <url>/9f467dd9.html</url>
+    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
+<p>【下载地址】</p>
+<ul>
+<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
+<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
+</ul>
+<p>【测试截图】</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>B站下载</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>图片</title>
     <url>/9900f79e.html</url>
     <content><![CDATA[<center>个人笔记，仅供参考</center>
@@ -138,7 +160,7 @@
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
 <li>博客会持续更新，写完就会更新，没更就是没写，不要催，特别是开勿扰时(心情极差开勿扰)。</li>
 <li><strong>关注公众号“IT小抄”后台回复“姓名+邮件”，更新后会第一时间通知</strong> <ul>
-<li>例如：张三<a href="mailto:&#43;&#x36;&#x36;&#54;&#64;&#x71;&#x71;&#x2e;&#99;&#x6f;&#x6d;">&#43;&#x36;&#x36;&#54;&#64;&#x71;&#x71;&#x2e;&#99;&#x6f;&#x6d;</a></li>
+<li>例如：张三<a href="mailto:&#43;&#54;&#x36;&#54;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;">&#43;&#54;&#x36;&#54;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;</a></li>
 </ul>
 </li>
 </ul>
@@ -217,28 +239,6 @@
 <img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110840.png" alt="读xml纯文本写入文件"  /></div><div class="tab-pane" id="0418-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110199.png"></p>
 <p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110329.png" alt="2022-04-18_090947"></p></div></div></div>
 ]]></content>
-  </entry>
-  <entry>
-    <title>推荐：B站批量下载工具</title>
-    <url>/9f467dd9.html</url>
-    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
-<p>【下载地址】</p>
-<ul>
-<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
-<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
-</ul>
-<p>【测试截图】</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>B站下载</tag>
-      </tags>
   </entry>
   <entry>
     <title>谷粒学院-day06</title>
