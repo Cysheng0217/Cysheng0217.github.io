@@ -1223,7 +1223,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffdaff;
+  background: #45a6a1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2752,7 +2752,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("/assets/background.png");
+  background: url("https://api.nxvav.cn/api/dongman/?type=pc");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
