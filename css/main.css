@@ -1223,7 +1223,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffe744;
+  background: #c3c4af;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2766,13 +2766,13 @@ body {
   }
 }
 .content-wrap {
-  opacity: 0.85;
+  opacity: 0.87;
 }
 .sidebar {
-  opacity: 0.85;
+  opacity: 0.87;
 }
 .header-inner {
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.87);
 }
 .links-of-recent-posts {
   font-size: 0.8125em;

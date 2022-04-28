@@ -1,6 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Gitee托管静态博客</title>
+    <url>/bb4c45f1.html</url>
+    <content><![CDATA[<center>
+<a href="https://cysheng.gitee.io/b08526ec.html">上期</a>我们讲到了，如何在本地运行我们Hexo搭建的博客。<br/>
+这期我们说说如何使用Gitee Pages服务托管我们的博客。
+</center>
+
+<span id="more"></span>
+
+
+
+<h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p>我把步骤大致分为三步。</p>
+<ul>
+<li>第一步，先去Gitee创建仓库</li>
+<li>第二步，本地连接Gitee</li>
+<li>第三步，Hexo配置文件指明部署信息，然后部署</li>
+</ul>
+<h1 id="一、新建仓库"><a href="#一、新建仓库" class="headerlink" title="一、新建仓库"></a>一、新建仓库</h1><h2 id="1-新建仓库"><a href="#1-新建仓库" class="headerlink" title="1.新建仓库"></a>1.新建仓库</h2><p>1.1如图新建一个仓库，为了使pages 首页访问地址不带二级目录，这里仓库名与个性地址同名。</p>
+<blockquote>
+<p>如图，我现在还在使用这个仓库，所以这里提示用户名存在。你们不会提示。</p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204272046327.png" alt="1"></p>
+<p>1.2点击创建</p>
+<h2 id="2-设置仓库公开"><a href="#2-设置仓库公开" class="headerlink" title="2.设置仓库公开"></a>2.设置仓库公开</h2><blockquote>
+<p>现在gitee创建完仓库之后才能设置公开</p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204272118729.png" alt="2"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204272119636.png" alt="3"></p>
+<h1 id="二、本地连接Gitee"><a href="#二、本地连接Gitee" class="headerlink" title="二、本地连接Gitee"></a>二、本地连接Gitee</h1><ul>
+<li><p>通过ssh方式与Gitee建立连接，ssh公钥配置完成后本地操作远程仓库就无需账号密码</p>
+</li>
+<li><p>ssh公钥配置：首先进行全局配置，然后需要在本地生成一段密钥，最后在gitee中进行公钥添加即可。</p>
+</li>
+</ul>
+<h2 id="1-1全局配置"><a href="#1-1全局配置" class="headerlink" title="1.1全局配置"></a>1.1全局配置</h2><ul>
+<li>本地执行如下命令（配置自己的name，email）</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;cysheng&quot;</span><br><span class="line">git config --global user.email &quot;wy1075650138@163.com&quot;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>参考</p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204272135369.png" alt="4"></p>
+<h2 id="1-2本地生成密钥"><a href="#1-2本地生成密钥" class="headerlink" title="1.2本地生成密钥"></a>1.2本地生成密钥</h2><p>命令行输入：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;wy1075650138@163.com&quot;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204272210513.png" alt="5"></p>
+<ul>
+<li>Enter file in which to save the key：<ul>
+<li>指定生成位置，（路径&#x2F;文件名）。</li>
+<li>直接回车表示默认，即括号里的文件路径。（例如我这里C:\Users\86191&#x2F;.ssh&#x2F;id_rsa）</li>
+</ul>
+</li>
+<li>Overwrite(y&#x2F;n)：是否覆盖（这是我以前创建过，第一次创建不会提示）</li>
+<li>Enter passphrase:输入密码</li>
+<li>Enter same passphrase:确认密码</li>
+</ul>
+<h2 id="1-3Gitee添加公钥"><a href="#1-3Gitee添加公钥" class="headerlink" title="1.3Gitee添加公钥"></a>1.3Gitee添加公钥</h2><h3 id="1-3-1复制密钥"><a href="#1-3-1复制密钥" class="headerlink" title="1.3.1复制密钥"></a>1.3.1复制密钥</h3><p>找到生成密钥的文件夹，用记事本打开”id_rsa.pub”文件。全选文本并复制。</p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204280829068.png" alt="6"></p>
+<h3 id="1-3-2Gitee设置"><a href="#1-3-2Gitee设置" class="headerlink" title="1.3.2Gitee设置"></a>1.3.2Gitee设置</h3><ul>
+<li><p>如图找到ssh公钥配置，粘贴到公钥位置（标号5）。</p>
+</li>
+<li><p>点击确认后，会有密码确认，输入Gitee账号的密码即可配置成功。</p>
+</li>
+<li><p>标题：粘贴公钥后自动生成</p>
+</li>
+<li><p>公钥：粘贴本地生成后复制的</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204280833108.png" alt="7"></p>
+<h1 id="三、Hexo配置并部署"><a href="#三、Hexo配置并部署" class="headerlink" title="三、Hexo配置并部署"></a>三、Hexo配置并部署</h1><h2 id="1-安装部署工具"><a href="#1-安装部署工具" class="headerlink" title="1.安装部署工具"></a>1.安装部署工具</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-配置部署信息"><a href="#2-配置部署信息" class="headerlink" title="2.配置部署信息"></a>2.配置部署信息</h2><blockquote>
+<p>站点配置文件_config.yml</p>
+</blockquote>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># 输入你的仓库地址</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>] <span class="comment"># 输入分支</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>以我自己为例</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@gitee.com:cysheng/cysheng.git # 输入你的仓库地址</span><br><span class="line">  branch: master # 输入分支</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-部署"><a href="#3-部署" class="headerlink" title="3.部署"></a>3.部署</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>hexo clean</p>
+<ul>
+<li>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)。</li>
+</ul>
+</li>
+<li><p>hexo g</p>
+<ul>
+<li>hexo解析站点文件夹，生成一个public文件夹（只包含浏览器可以解析的html、css、js），也就是我们需要部署的文件夹。</li>
+</ul>
+</li>
+<li><p>hexo d</p>
+<ul>
+<li>部署，即将我们的public文件夹推送到我们配置的仓库</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-开启Gitee-Pages服务"><a href="#4-开启Gitee-Pages服务" class="headerlink" title="4.开启Gitee Pages服务"></a>4.开启Gitee Pages服务</h2><blockquote>
+<p>找到新创建的仓库-&gt;【服务】-&gt;【Gitee Pages】</p>
+</blockquote>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204280903771.png" alt="pages"></p>
+<ul>
+<li>如图，选择部署分支，部署目录<ul>
+<li>部署分支，与本地hexo配置一致</li>
+<li>部署目录，不填即整个仓库</li>
+<li>强制使用https<ul>
+<li>一个是进行加密，还有一个是我在用next主题时使用http访问会有跨域问题导致图标显示不出来</li>
+</ul>
+</li>
+<li>点击启动</li>
+<li>访问给出的网站地址（以我的为例：<a href="https://cysheng.gitee.io)/">https://cysheng.gitee.io）</a></li>
+</ul>
+</li>
+</ul>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204280906682.png" alt="8"></p>
+<h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p>如果一切顺利，你就可以在公网访问到你的网站了！</p>
+<p>Hexo官方文档：<a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
+<p>Gitee Pages：<a href="https://gitee.com/help/articles/4136#article-header0">https://gitee.com/help/articles/4136#article-header0</a></p>
+]]></content>
+      <categories>
+        <category>系列教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo系列教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/16107.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo博客框架入门</title>
     <url>/b08526ec.html</url>
     <content><![CDATA[<center>想不想拥有一个免费、公网可访问的个人博客呢？</center>
@@ -70,62 +225,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Gitee托管静态博客</title>
-    <url>/bb4c45f1.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>系列教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo系列教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/4333.html</url>
-    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
-
-
-
-<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
-<div class="note success">
-            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
-          </div>
-
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>友链</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/16107.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>图片</title>
     <url>/9900f79e.html</url>
     <content><![CDATA[<center>个人笔记，仅供参考</center>
@@ -138,7 +237,7 @@
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
 <li>博客会持续更新，写完就会更新，没更就是没写，不要催，特别是开勿扰时(心情极差开勿扰)。</li>
 <li><strong>关注公众号“IT小抄”后台回复“姓名+邮件”，更新后会第一时间通知</strong> <ul>
-<li>例如：张三<a href="mailto:&#43;&#x36;&#x36;&#54;&#64;&#113;&#113;&#46;&#x63;&#111;&#x6d;">&#43;&#x36;&#x36;&#54;&#64;&#113;&#113;&#46;&#x63;&#111;&#x6d;</a></li>
+<li>例如：张三<a href="mailto:&#x2b;&#54;&#x36;&#x36;&#x40;&#113;&#113;&#x2e;&#x63;&#x6f;&#x6d;">&#x2b;&#54;&#x36;&#x36;&#x40;&#113;&#113;&#x2e;&#x63;&#x6f;&#x6d;</a></li>
 </ul>
 </li>
 </ul>
@@ -219,6 +318,27 @@
 <img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110840.png" alt="读xml纯文本写入文件"  /></div><div class="tab-pane" id="0418-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110199.png"></p>
 <p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110329.png" alt="2022-04-18_090947"></p></div></div></div>
 ]]></content>
+  </entry>
+  <entry>
+    <title>友情链接</title>
+    <url>/4333.html</url>
+    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
+
+
+
+<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
+<div class="note success">
+            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
+          </div>
+
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>友链</tag>
+      </tags>
   </entry>
   <entry>
     <title>谷粒学院-day06</title>
@@ -457,6 +577,28 @@
       </categories>
       <tags>
         <tag>谷粒学院项目笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐：B站批量下载工具</title>
+    <url>/9f467dd9.html</url>
+    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
+<p>【下载地址】</p>
+<ul>
+<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
+<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
+</ul>
+<p>【测试截图】</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>B站下载</tag>
       </tags>
   </entry>
   <entry>
@@ -772,28 +914,6 @@
       </categories>
       <tags>
         <tag>谷粒学院项目笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推荐：B站批量下载工具</title>
-    <url>/9f467dd9.html</url>
-    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
-<p>【下载地址】</p>
-<ul>
-<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
-<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
-</ul>
-<p>【测试截图】</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>B站下载</tag>
       </tags>
   </entry>
   <entry>
