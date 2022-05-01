@@ -1223,7 +1223,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #813933;
+  background: #ffc1ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2787,4 +2787,11 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur"), default;
+}
+a,
+img {
+  cursor: url("https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur"), default;
 }
