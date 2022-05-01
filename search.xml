@@ -132,30 +132,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/16107.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客框架入门</title>
     <url>/b08526ec.html</url>
     <content><![CDATA[<center>想不想拥有一个免费、公网可访问的个人博客呢？</center>
@@ -222,6 +198,181 @@
       </categories>
       <tags>
         <tag>Hexo系列教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/16107.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图片</title>
+    <url>/9900f79e.html</url>
+    <content><![CDATA[<center>个人笔记，仅供参考</center>
+
+<span id="more"></span>
+<br/>
+
+
+
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
+<li>博客会持续更新，写完就会更新，没更就是没写，不要催，特别是开勿扰时(心情极差开勿扰)。</li>
+<li><strong>关注公众号“IT小抄”后台回复“姓名+邮件”，更新后会第一时间通知</strong> <ul>
+<li>例如：张三<a href="mailto:&#x2b;&#54;&#x36;&#x36;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;">&#x2b;&#54;&#x36;&#x36;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
+<li><a href="#20220429">20220429</a></li>
+<li><a href="#20220426">20220426</a></li>
+<li><a href="#20220425">20220425</a></li>
+<li><a href="#20220422">20220422</a></li>
+<li><a href="#20220420">20220420</a></li>
+<li><a href="#20220419">20220419</a></li>
+<li><a href="#20220418">20220418</a></li>
+</ul>
+<h1 id="20220429"><a href="#20220429" class="headerlink" title="20220429"></a>20220429</h1><div class="tabs" id="0429"><ul class="nav-tabs"><li class="tab active"><a href="#0429-1">index</a></li><li class="tab"><a href="#0429-2">node</a></li><li class="tab"><a href="#0429-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0429-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0429-2"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204291901784.png" alt="2022-04-29_184125"></p></div><div class="tab-pane" id="0429-3"><blockquote>
+<p>4.4.3 and 4.4.4</p>
+</blockquote>
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204291901054.png" alt="4-4-3" style="zoom: 33%;" />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204291901507.png" alt="4-4-4" style="zoom: 33%;" />
+
+<blockquote>
+<p>4.4.3</p>
+</blockquote>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="built_in">static</span> <span class="variable">$firstCry</span> = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$lastCry</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;lastCry =++<span class="built_in">self</span>::<span class="variable">$firstCry</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">printLastCry</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="title function_ invoke__">var_dump</span>(<span class="variable language_">$this</span>-&gt;lastCry);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable">$bird</span> = <span class="keyword">new</span> <span class="title class_">Animal</span>();</span><br><span class="line"><span class="variable">$bird</span>-&gt;<span class="title function_ invoke__">printLastCry</span>();</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>4.4.4</p>
+</blockquote>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyClass</span></span>&#123;</span><br><span class="line">    <span class="keyword">const</span> <span class="variable constant_">constant</span> = <span class="string">&quot;我是一个常量&quot;</span>;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">showConstant</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="built_in">self</span>::<span class="variable constant_">constant</span> . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> <span class="title class_">MyClass</span>::constant . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line"><span class="variable">$class</span> = <span class="keyword">new</span> <span class="title class_">MyClass</span>();</span><br><span class="line"><span class="variable">$class</span>-&gt;<span class="title function_ invoke__">showConstant</span>();</span><br></pre></td></tr></table></figure></div></div></div>
+
+
+<h1 id="20220426"><a href="#20220426" class="headerlink" title="20220426"></a>20220426</h1><div class="tabs" id="0426"><ul class="nav-tabs"><li class="tab active"><a href="#0426-1">index</a></li><li class="tab"><a href="#0426-2">移动web</a></li><li class="tab"><a href="#0426-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0426-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0426-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204261542856.png" style="zoom: 33%;" /></div><div class="tab-pane" id="0426-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204261636151.png"></p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">header</span>(<span class="string">&quot;Content-type:text/html;charset=utf-8&quot;</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$name</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$color</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$age</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__get</span>(<span class="params"><span class="variable">$property</span></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;get方法被调用，<span class="subst">$property</span>&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable language_">$this</span>-&gt;<span class="variable">$property</span>))&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt;<span class="variable">$property</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__set</span>(<span class="params"><span class="variable">$property</span>,<span class="variable">$value</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;__set方法被调用，<span class="subst">$property</span>=<span class="subst">$value</span>&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;<span class="variable">$property</span> = <span class="variable">$value</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__isset</span>(<span class="params"><span class="variable">$property</span></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;__isset()方法调用，<span class="subst">$property</span>&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">isset</span>(<span class="variable language_">$this</span>-&gt;<span class="variable">$property</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__unset</span>(<span class="params"><span class="variable">$property</span></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;__unset()方法调用，<span class="subst">$property</span>&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">unset</span>(<span class="variable language_">$this</span>-&gt;<span class="variable">$property</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$pig</span> = <span class="keyword">new</span> <span class="title class_">Animal</span>();</span><br><span class="line"><span class="keyword">echo</span> <span class="variable">$pig</span>-&gt;name;</span><br><span class="line"><span class="variable">$pig</span>-&gt;name = <span class="string">&quot;猪&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">isset</span>(<span class="variable">$pig</span>-&gt;name);</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">var_dump</span>(<span class="keyword">isset</span>(<span class="variable">$pig</span>-&gt;color)) . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line"><span class="keyword">isset</span>(<span class="variable">$pig</span>-&gt;age);</span><br><span class="line"></span><br><span class="line"><span class="keyword">unset</span>(<span class="variable">$pig</span>-&gt;name);</span><br><span class="line"><span class="keyword">unset</span>(<span class="variable">$pig</span>-&gt;color);</span><br><span class="line"><span class="keyword">unset</span>(<span class="variable">$pig</span>-&gt;age);</span><br></pre></td></tr></table></figure></div></div></div>
+
+
+<h1 id="20220425"><a href="#20220425" class="headerlink" title="20220425"></a>20220425</h1><div class="tabs" id="0425"><ul class="nav-tabs"><li class="tab active"><a href="#0425-1">index</a></li><li class="tab"><a href="#0425-2">php</a></li><li class="tab"><a href="#0425-3">node</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0425-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0425-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204250915910.png" alt="2022-04-25_090856" style="zoom:33%;" />
+
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$color</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$age</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$name</span>,<span class="variable">$color</span>,<span class="variable">$age</span></span>) </span>&#123;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;name = <span class="variable">$name</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;color = <span class="variable">$color</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;age = <span class="variable">$age</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getInfo</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的名字：&quot;</span> . <span class="variable language_">$this</span>-&gt;name . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的颜色：&quot;</span> . <span class="variable language_">$this</span>-&gt;color . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的年龄：&quot;</span> . <span class="variable language_">$this</span>-&gt;age . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Bird</span> <span class="keyword">extends</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$wing</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">     <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$name</span>,<span class="variable">$color</span>,<span class="variable">$age</span>,<span class="variable">$swing</span></span>)</span>&#123;</span><br><span class="line">        <span class="built_in">parent</span>::<span class="title function_ invoke__">__construct</span>(<span class="variable">$name</span>, <span class="variable">$color</span>, <span class="variable">$age</span>);</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;wing = <span class="variable">$swing</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">   <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getInfo</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">       <span class="built_in">parent</span>::<span class="title function_ invoke__">getInfo</span>();</span><br><span class="line">       <span class="keyword">echo</span> <span class="string">&quot;翅膀：&quot;</span>.<span class="variable language_">$this</span>-&gt;wing . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">   &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">fly</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;I can fly!&lt;br/&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable">$crow</span> = <span class="keyword">new</span> <span class="title class_">Bird</span>(<span class="string">&quot;乌鸦&quot;</span>,<span class="string">&quot;黑色&quot;</span>,<span class="string">&quot;3&quot;</span>,<span class="string">&quot;1&quot;</span>);</span><br><span class="line"><span class="variable">$crow</span>-&gt;<span class="title function_ invoke__">getInfo</span>();</span><br><span class="line"><span class="variable">$crow</span>-&gt;<span class="title function_ invoke__">fly</span>();</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="0425-3"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204251556615.png" alt="2022-04-25_155257" style="zoom: 33%;" />
+
+<blockquote>
+<p>6-8.js</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> net = <span class="built_in">require</span>(<span class="string">&#x27;net&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> server = net.<span class="title function_">createServer</span>(<span class="keyword">function</span> (<span class="params">socket</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> address = server.<span class="title function_">address</span>();</span><br><span class="line">    <span class="keyword">var</span> message = <span class="string">&#x27;client, the server address is &#x27;</span> + <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(address);</span><br><span class="line">    socket.<span class="title function_">write</span>(message, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> writeSize = socket.<span class="property">bytesWritten</span>;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(message + <span class="string">&#x27;has send&#x27;</span>);</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;the size of message is &#x27;</span> + writeSize);</span><br><span class="line">    &#125;);</span><br><span class="line">    socket.<span class="title function_">on</span>(<span class="string">&#x27;data&#x27;</span>, <span class="keyword">function</span> (<span class="params">data</span>) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(data.<span class="title function_">toString</span>());</span><br><span class="line">        <span class="keyword">var</span> readSize = socket.<span class="property">bytesRead</span>;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;the size of data is &#x27;</span> + readSize);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">server.<span class="title function_">listen</span>(<span class="number">18001</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;server is listening&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>6-12.js</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> net = <span class="built_in">require</span>(<span class="string">&#x27;net&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> client = net.<span class="title class_">Socket</span>();</span><br><span class="line"><span class="comment">// 连接服务器</span></span><br><span class="line">client.<span class="title function_">connect</span>(<span class="number">18001</span>,<span class="string">&#x27;127.0.0.1&#x27;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;Connect the server.&#x27;</span>)</span><br><span class="line">    <span class="comment">// 发送数据</span></span><br><span class="line">    client.<span class="title function_">write</span>(<span class="string">&#x27;Message from client.&#x27;</span>)</span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// 监听服务器数据</span></span><br><span class="line">client.<span class="title function_">on</span>(<span class="string">&#x27;data&#x27;</span>,<span class="keyword">function</span> (<span class="params">data</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;The data of server is &#x27;</span> + data.<span class="title function_">toString</span>())</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">client.<span class="title function_">on</span>(<span class="string">&#x27;end&#x27;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;data end&#x27;</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div></div></div>
+
+
+
+<h1 id="20220422"><a href="#20220422" class="headerlink" title="20220422"></a>20220422</h1><div class="tabs" id="0422"><ul class="nav-tabs"><li class="tab active"><a href="#0422-1">index</a></li><li class="tab"><a href="#0422-2">node</a></li><li class="tab"><a href="#0422-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0422-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0422-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014556.png" alt="2022-04-22_094507" style="zoom: 50%;" />
+
+
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014603.png" alt="2022-04-22_094635" style="zoom:50%;" />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014046.png" alt="2022-04-22_094737" style="zoom: 40%;" />
+
+
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221013536.png" alt="2022-04-22_094836" style="zoom: 33%;" />
+
+
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221013540.png" alt="2022-04-22_094951" style="zoom: 50%;" /></div><div class="tab-pane" id="0422-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515635.png" alt="2022-04-22_134744"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515160.png" alt="2022-04-22_134824"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515735.png" alt="2022-04-22_135420"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221514285.png" alt="IMG_20220422_143857"></p>
+<p><img src="C:\Users\86191\Desktop\2022-04-22_152842.png" alt="2022-04-22_152842"></p></div></div></div>
+
+<h1 id="20220420"><a href="#20220420" class="headerlink" title="20220420"></a>20220420</h1><div class="tabs" id="0420"><ul class="nav-tabs"><li class="tab active"><a href="#0420-1">主页</a></li><li class="tab"><a href="#0420-2">大数据</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0420-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0420-2"><blockquote>
+<p>计算景<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221511509.png" alt="pandas"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221511422.png" alt="无水印">区游客总量-numpy</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="comment"># np.loadtxt()</span></span><br><span class="line"><span class="comment"># 0：读取文件路径</span></span><br><span class="line"><span class="comment"># skiprows：忽略行数</span></span><br><span class="line"><span class="comment"># dtype:读取后转换的类型</span></span><br><span class="line"><span class="comment"># delimiter:指定分隔符</span></span><br><span class="line"><span class="comment"># usecols：指定读取列</span></span><br><span class="line"><span class="comment"># unpack：读取多列设置&quot;True&quot;</span></span><br><span class="line">(jzg_data,zjj_data,xg_data,dbhq_data,dsn_data) = np.loadtxt(<span class="string">&quot;D:\\workspace\\source\\tourist_data.csv&quot;</span>,</span><br><span class="line">          skiprows=<span class="number">1</span>,</span><br><span class="line">          dtype=<span class="string">&quot;int&quot;</span>,</span><br><span class="line">          delimiter=<span class="string">&quot;,&quot;</span>,</span><br><span class="line">          usecols=(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>),</span><br><span class="line">          unpack=<span class="string">&quot;True&quot;</span>)</span><br><span class="line"><span class="comment"># print(jzg_data)</span></span><br><span class="line"><span class="comment"># 求和</span></span><br><span class="line">jzg_total = jzg_data.<span class="built_in">sum</span>()</span><br><span class="line">zjj_total = zjj_data.<span class="built_in">sum</span>()</span><br><span class="line">xg_total = xg_data.<span class="built_in">sum</span>()</span><br><span class="line">dbhq_total = dbhq_data.<span class="built_in">sum</span>()</span><br><span class="line">dsn_total = dsn_data.<span class="built_in">sum</span>()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到九寨沟的游客总量为:&quot;</span>,jzg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到张家界的游客总量为:&quot;</span>,zjj_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到香港的游客总量为:&quot;</span>,xg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到东部华侨城的游客总量为:&quot;</span>,dbhq_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到上海迪士尼的游客总量为:&quot;</span>,dsn_total)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>计算景区游客总量-pandas</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="comment"># 0：读取文件路径</span></span><br><span class="line"><span class="comment"># index_col:索引列</span></span><br><span class="line"><span class="comment"># header：标题所在索引</span></span><br><span class="line"><span class="comment"># encoding：存储编码</span></span><br><span class="line">data = pd.read_csv(<span class="string">&quot;D:\\workspace\\source\\tourist_data.csv&quot;</span>,</span><br><span class="line">           index_col=<span class="string">u&quot;日期&quot;</span>,</span><br><span class="line">           header=<span class="number">0</span>,</span><br><span class="line">           encoding=<span class="string">&quot;gb2312&quot;</span>)</span><br><span class="line"><span class="comment"># type()返回数据类型</span></span><br><span class="line"><span class="comment"># print(type(data))# DataFrame</span></span><br><span class="line"><span class="comment"># print(data)</span></span><br><span class="line"></span><br><span class="line">jzg_total = data[<span class="string">&quot;九寨沟&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line">zjj_total = data[<span class="string">&quot;张家界&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line">xg_total = data[<span class="string">&quot;香港&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line">dbhq_total = data[<span class="string">&quot;东部华侨城&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line">dsn_total = data[<span class="string">&quot;上海迪士尼&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到九寨沟的游客总量为:&quot;</span>,jzg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到张家界的游客总量为:&quot;</span>,zjj_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到香港的游客总量为:&quot;</span>,xg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到东部华侨城的游客总量为:&quot;</span>,dbhq_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到上海迪士尼的游客总量为:&quot;</span>,dsn_total)</span><br></pre></td></tr></table></figure></div></div></div>
+
+
+<h1 id="20220419"><a href="#20220419" class="headerlink" title="20220419"></a>20220419</h1><div class="tabs" id="0419"><ul class="nav-tabs"><li class="tab active"><a href="#0419-1">index</a></li><li class="tab"><a href="#0419-2">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0419-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0419-2"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">图书管理系统设计</span><br><span class="line">一、创建数据库和表，存入数据</span><br><span class="line">二、实现PHP页面操作数据库</span><br><span class="line">0.conn.php</span><br><span class="line">1.数据分页</span><br><span class="line">	index.php</span><br><span class="line">2.数据编辑</span><br><span class="line">	update.php,update_ok.php</span><br><span class="line">3.删除</span><br><span class="line">	单行删除 delete.php</span><br><span class="line">	批量删除 delete_lot.php</span><br><span class="line">4.数据添加</span><br><span class="line">	insert.php</span><br><span class="line">三、样式表</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739072.png"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739533.png" alt="2022-04-19_171922"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739862.png" alt="2022-04-19_171949"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191740767.png" alt="2022-04-19_172714"></p></div></div></div>
+
+<h1 id="20220418"><a href="#20220418" class="headerlink" title="20220418"></a>20220418</h1><div class="tabs" id="0418"><ul class="nav-tabs"><li class="tab active"><a href="#0418-1">index</a></li><li class="tab"><a href="#0418-2">node</a></li><li class="tab"><a href="#0418-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0418-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0418-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110426.png"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110840.png" alt="读xml纯文本写入文件"  /></div><div class="tab-pane" id="0418-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110199.png"></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110329.png" alt="2022-04-18_090947"></p></div></div></div>
+]]></content>
+  </entry>
+  <entry>
+    <title>推荐：B站批量下载工具</title>
+    <url>/9f467dd9.html</url>
+    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
+<p>【下载地址】</p>
+<ul>
+<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
+<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
+</ul>
+<p>【测试截图】</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
+
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>B站下载</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>友情链接</title>
+    <url>/4333.html</url>
+    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
+
+
+
+<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
+<div class="note success">
+            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
+          </div>
+
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>友链</tag>
       </tags>
   </entry>
   <entry>
@@ -461,157 +612,6 @@
       </categories>
       <tags>
         <tag>谷粒学院项目笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推荐：B站批量下载工具</title>
-    <url>/9f467dd9.html</url>
-    <content><![CDATA[<p>【软件名称】B23Downloader<br>【适用系统】Windows<br>【软件介绍】GitHub上的一个开源项目，PC端用于下载B站视频的软件，支持批量下载。<span id="more"></span><br>【特殊说明】<br>1.需要扫码登录，未登录高清视频可能下载不了。（B站本身就有该限制）<br>2.绿色安装，解压后双击启动文件即可。<br>3.下载后文件格式为flv。<br>【项目地址】<a href="https://github.com/vooidzero/B23Downloader">https://github.com/vooidzero/B23Downloader</a></p>
-<p>【下载地址】</p>
-<ul>
-<li>Github：<a href="https://github.com/vooidzero/B23Downloader/releases">https://github.com/vooidzero/B23Downloader/releases</a></li>
-<li>阿里云盘：<a href="https://www.aliyundrive.com/s/Cpuj7qJQmjN">https://www.aliyundrive.com/s/Cpuj7qJQmjN</a></li>
-</ul>
-<p>【测试截图】</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_192118.png" alt="2022-03-30_192118"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_184055.png" alt="2022-03-30_184055"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-30_191411.png" alt="2022-03-30_191411" style="zoom: 67%;" />]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>B站下载</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>图片</title>
-    <url>/9900f79e.html</url>
-    <content><![CDATA[<center>个人笔记，仅供参考</center>
-
-<span id="more"></span>
-<br/>
-
-
-
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
-<li>博客会持续更新，写完就会更新，没更就是没写，不要催，特别是开勿扰时(心情极差开勿扰)。</li>
-<li><strong>关注公众号“IT小抄”后台回复“姓名+邮件”，更新后会第一时间通知</strong> <ul>
-<li>例如：张三<a href="mailto:&#x2b;&#x36;&#54;&#x36;&#64;&#113;&#113;&#x2e;&#99;&#111;&#x6d;">&#x2b;&#x36;&#54;&#x36;&#64;&#113;&#113;&#x2e;&#99;&#111;&#x6d;</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
-<li><a href="#20220429">20220429</a></li>
-<li><a href="#20220426">20220426</a></li>
-<li><a href="#20220425">20220425</a></li>
-<li><a href="#20220422">20220422</a></li>
-<li><a href="#20220420">20220420</a></li>
-<li><a href="#20220419">20220419</a></li>
-<li><a href="#20220418">20220418</a></li>
-</ul>
-<h1 id="20220429"><a href="#20220429" class="headerlink" title="20220429"></a>20220429</h1><div class="tabs" id="0429"><ul class="nav-tabs"><li class="tab active"><a href="#0429-1">index</a></li><li class="tab"><a href="#0429-2">node</a></li><li class="tab"><a href="#0429-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0429-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0429-2"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204291901784.png" alt="2022-04-29_184125"></p></div><div class="tab-pane" id="0429-3"><blockquote>
-<p>4.4.3 and 4.4.4</p>
-</blockquote>
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204291901054.png" alt="4-4-3" style="zoom: 33%;" />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204291901507.png" alt="4-4-4" style="zoom: 33%;" />
-
-<blockquote>
-<p>4.4.3</p>
-</blockquote>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="built_in">static</span> <span class="variable">$firstCry</span> = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$lastCry</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;lastCry =++<span class="built_in">self</span>::<span class="variable">$firstCry</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">printLastCry</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="title function_ invoke__">var_dump</span>(<span class="variable language_">$this</span>-&gt;lastCry);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable">$bird</span> = <span class="keyword">new</span> <span class="title class_">Animal</span>();</span><br><span class="line"><span class="variable">$bird</span>-&gt;<span class="title function_ invoke__">printLastCry</span>();</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>4.4.4</p>
-</blockquote>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyClass</span></span>&#123;</span><br><span class="line">    <span class="keyword">const</span> <span class="variable constant_">constant</span> = <span class="string">&quot;我是一个常量&quot;</span>;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">showConstant</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="built_in">self</span>::<span class="variable constant_">constant</span> . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> <span class="title class_">MyClass</span>::constant . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line"><span class="variable">$class</span> = <span class="keyword">new</span> <span class="title class_">MyClass</span>();</span><br><span class="line"><span class="variable">$class</span>-&gt;<span class="title function_ invoke__">showConstant</span>();</span><br></pre></td></tr></table></figure></div></div></div>
-
-
-<h1 id="20220426"><a href="#20220426" class="headerlink" title="20220426"></a>20220426</h1><div class="tabs" id="0426"><ul class="nav-tabs"><li class="tab active"><a href="#0426-1">index</a></li><li class="tab"><a href="#0426-2">移动web</a></li><li class="tab"><a href="#0426-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0426-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0426-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204261542856.png" style="zoom: 33%;" /></div><div class="tab-pane" id="0426-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204261636151.png"></p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">header</span>(<span class="string">&quot;Content-type:text/html;charset=utf-8&quot;</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$name</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$color</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$age</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__get</span>(<span class="params"><span class="variable">$property</span></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;get方法被调用，<span class="subst">$property</span>&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable language_">$this</span>-&gt;<span class="variable">$property</span>))&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt;<span class="variable">$property</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__set</span>(<span class="params"><span class="variable">$property</span>,<span class="variable">$value</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;__set方法被调用，<span class="subst">$property</span>=<span class="subst">$value</span>&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;<span class="variable">$property</span> = <span class="variable">$value</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__isset</span>(<span class="params"><span class="variable">$property</span></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;__isset()方法调用，<span class="subst">$property</span>&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">isset</span>(<span class="variable language_">$this</span>-&gt;<span class="variable">$property</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__unset</span>(<span class="params"><span class="variable">$property</span></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;__unset()方法调用，<span class="subst">$property</span>&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">unset</span>(<span class="variable language_">$this</span>-&gt;<span class="variable">$property</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$pig</span> = <span class="keyword">new</span> <span class="title class_">Animal</span>();</span><br><span class="line"><span class="keyword">echo</span> <span class="variable">$pig</span>-&gt;name;</span><br><span class="line"><span class="variable">$pig</span>-&gt;name = <span class="string">&quot;猪&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">isset</span>(<span class="variable">$pig</span>-&gt;name);</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">var_dump</span>(<span class="keyword">isset</span>(<span class="variable">$pig</span>-&gt;color)) . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line"><span class="keyword">isset</span>(<span class="variable">$pig</span>-&gt;age);</span><br><span class="line"></span><br><span class="line"><span class="keyword">unset</span>(<span class="variable">$pig</span>-&gt;name);</span><br><span class="line"><span class="keyword">unset</span>(<span class="variable">$pig</span>-&gt;color);</span><br><span class="line"><span class="keyword">unset</span>(<span class="variable">$pig</span>-&gt;age);</span><br></pre></td></tr></table></figure></div></div></div>
-
-
-<h1 id="20220425"><a href="#20220425" class="headerlink" title="20220425"></a>20220425</h1><div class="tabs" id="0425"><ul class="nav-tabs"><li class="tab active"><a href="#0425-1">index</a></li><li class="tab"><a href="#0425-2">php</a></li><li class="tab"><a href="#0425-3">node</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0425-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0425-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204250915910.png" alt="2022-04-25_090856" style="zoom:33%;" />
-
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$color</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$age</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$name</span>,<span class="variable">$color</span>,<span class="variable">$age</span></span>) </span>&#123;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;name = <span class="variable">$name</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;color = <span class="variable">$color</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;age = <span class="variable">$age</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getInfo</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的名字：&quot;</span> . <span class="variable language_">$this</span>-&gt;name . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的颜色：&quot;</span> . <span class="variable language_">$this</span>-&gt;color . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;动物的年龄：&quot;</span> . <span class="variable language_">$this</span>-&gt;age . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Bird</span> <span class="keyword">extends</span> <span class="title">Animal</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$wing</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">     <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$name</span>,<span class="variable">$color</span>,<span class="variable">$age</span>,<span class="variable">$swing</span></span>)</span>&#123;</span><br><span class="line">        <span class="built_in">parent</span>::<span class="title function_ invoke__">__construct</span>(<span class="variable">$name</span>, <span class="variable">$color</span>, <span class="variable">$age</span>);</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;wing = <span class="variable">$swing</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">   <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getInfo</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">       <span class="built_in">parent</span>::<span class="title function_ invoke__">getInfo</span>();</span><br><span class="line">       <span class="keyword">echo</span> <span class="string">&quot;翅膀：&quot;</span>.<span class="variable language_">$this</span>-&gt;wing . <span class="string">&quot;&lt;br/&gt;&quot;</span>;</span><br><span class="line">   &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">fly</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;I can fly!&lt;br/&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable">$crow</span> = <span class="keyword">new</span> <span class="title class_">Bird</span>(<span class="string">&quot;乌鸦&quot;</span>,<span class="string">&quot;黑色&quot;</span>,<span class="string">&quot;3&quot;</span>,<span class="string">&quot;1&quot;</span>);</span><br><span class="line"><span class="variable">$crow</span>-&gt;<span class="title function_ invoke__">getInfo</span>();</span><br><span class="line"><span class="variable">$crow</span>-&gt;<span class="title function_ invoke__">fly</span>();</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="0425-3"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204251556615.png" alt="2022-04-25_155257" style="zoom: 33%;" />
-
-<blockquote>
-<p>6-8.js</p>
-</blockquote>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> net = <span class="built_in">require</span>(<span class="string">&#x27;net&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> server = net.<span class="title function_">createServer</span>(<span class="keyword">function</span> (<span class="params">socket</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> address = server.<span class="title function_">address</span>();</span><br><span class="line">    <span class="keyword">var</span> message = <span class="string">&#x27;client, the server address is &#x27;</span> + <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(address);</span><br><span class="line">    socket.<span class="title function_">write</span>(message, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> writeSize = socket.<span class="property">bytesWritten</span>;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(message + <span class="string">&#x27;has send&#x27;</span>);</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;the size of message is &#x27;</span> + writeSize);</span><br><span class="line">    &#125;);</span><br><span class="line">    socket.<span class="title function_">on</span>(<span class="string">&#x27;data&#x27;</span>, <span class="keyword">function</span> (<span class="params">data</span>) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(data.<span class="title function_">toString</span>());</span><br><span class="line">        <span class="keyword">var</span> readSize = socket.<span class="property">bytesRead</span>;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;the size of data is &#x27;</span> + readSize);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">server.<span class="title function_">listen</span>(<span class="number">18001</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;server is listening&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>6-12.js</p>
-</blockquote>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> net = <span class="built_in">require</span>(<span class="string">&#x27;net&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> client = net.<span class="title class_">Socket</span>();</span><br><span class="line"><span class="comment">// 连接服务器</span></span><br><span class="line">client.<span class="title function_">connect</span>(<span class="number">18001</span>,<span class="string">&#x27;127.0.0.1&#x27;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;Connect the server.&#x27;</span>)</span><br><span class="line">    <span class="comment">// 发送数据</span></span><br><span class="line">    client.<span class="title function_">write</span>(<span class="string">&#x27;Message from client.&#x27;</span>)</span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// 监听服务器数据</span></span><br><span class="line">client.<span class="title function_">on</span>(<span class="string">&#x27;data&#x27;</span>,<span class="keyword">function</span> (<span class="params">data</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;The data of server is &#x27;</span> + data.<span class="title function_">toString</span>())</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">client.<span class="title function_">on</span>(<span class="string">&#x27;end&#x27;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;data end&#x27;</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div></div></div>
-
-
-
-<h1 id="20220422"><a href="#20220422" class="headerlink" title="20220422"></a>20220422</h1><div class="tabs" id="0422"><ul class="nav-tabs"><li class="tab active"><a href="#0422-1">index</a></li><li class="tab"><a href="#0422-2">node</a></li><li class="tab"><a href="#0422-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0422-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0422-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014556.png" alt="2022-04-22_094507" style="zoom: 50%;" />
-
-
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014603.png" alt="2022-04-22_094635" style="zoom:50%;" />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221014046.png" alt="2022-04-22_094737" style="zoom: 40%;" />
-
-
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221013536.png" alt="2022-04-22_094836" style="zoom: 33%;" />
-
-
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221013540.png" alt="2022-04-22_094951" style="zoom: 50%;" /></div><div class="tab-pane" id="0422-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515635.png" alt="2022-04-22_134744"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515160.png" alt="2022-04-22_134824"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221515735.png" alt="2022-04-22_135420"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221514285.png" alt="IMG_20220422_143857"></p>
-<p><img src="C:\Users\86191\Desktop\2022-04-22_152842.png" alt="2022-04-22_152842"></p></div></div></div>
-
-<h1 id="20220420"><a href="#20220420" class="headerlink" title="20220420"></a>20220420</h1><div class="tabs" id="0420"><ul class="nav-tabs"><li class="tab active"><a href="#0420-1">主页</a></li><li class="tab"><a href="#0420-2">大数据</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0420-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0420-2"><blockquote>
-<p>计算景<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221511509.png" alt="pandas"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204221511422.png" alt="无水印">区游客总量-numpy</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="comment"># np.loadtxt()</span></span><br><span class="line"><span class="comment"># 0：读取文件路径</span></span><br><span class="line"><span class="comment"># skiprows：忽略行数</span></span><br><span class="line"><span class="comment"># dtype:读取后转换的类型</span></span><br><span class="line"><span class="comment"># delimiter:指定分隔符</span></span><br><span class="line"><span class="comment"># usecols：指定读取列</span></span><br><span class="line"><span class="comment"># unpack：读取多列设置&quot;True&quot;</span></span><br><span class="line">(jzg_data,zjj_data,xg_data,dbhq_data,dsn_data) = np.loadtxt(<span class="string">&quot;D:\\workspace\\source\\tourist_data.csv&quot;</span>,</span><br><span class="line">          skiprows=<span class="number">1</span>,</span><br><span class="line">          dtype=<span class="string">&quot;int&quot;</span>,</span><br><span class="line">          delimiter=<span class="string">&quot;,&quot;</span>,</span><br><span class="line">          usecols=(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>),</span><br><span class="line">          unpack=<span class="string">&quot;True&quot;</span>)</span><br><span class="line"><span class="comment"># print(jzg_data)</span></span><br><span class="line"><span class="comment"># 求和</span></span><br><span class="line">jzg_total = jzg_data.<span class="built_in">sum</span>()</span><br><span class="line">zjj_total = zjj_data.<span class="built_in">sum</span>()</span><br><span class="line">xg_total = xg_data.<span class="built_in">sum</span>()</span><br><span class="line">dbhq_total = dbhq_data.<span class="built_in">sum</span>()</span><br><span class="line">dsn_total = dsn_data.<span class="built_in">sum</span>()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到九寨沟的游客总量为:&quot;</span>,jzg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到张家界的游客总量为:&quot;</span>,zjj_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到香港的游客总量为:&quot;</span>,xg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到东部华侨城的游客总量为:&quot;</span>,dbhq_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(numpy)这段时间到上海迪士尼的游客总量为:&quot;</span>,dsn_total)</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>计算景区游客总量-pandas</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="comment"># 0：读取文件路径</span></span><br><span class="line"><span class="comment"># index_col:索引列</span></span><br><span class="line"><span class="comment"># header：标题所在索引</span></span><br><span class="line"><span class="comment"># encoding：存储编码</span></span><br><span class="line">data = pd.read_csv(<span class="string">&quot;D:\\workspace\\source\\tourist_data.csv&quot;</span>,</span><br><span class="line">           index_col=<span class="string">u&quot;日期&quot;</span>,</span><br><span class="line">           header=<span class="number">0</span>,</span><br><span class="line">           encoding=<span class="string">&quot;gb2312&quot;</span>)</span><br><span class="line"><span class="comment"># type()返回数据类型</span></span><br><span class="line"><span class="comment"># print(type(data))# DataFrame</span></span><br><span class="line"><span class="comment"># print(data)</span></span><br><span class="line"></span><br><span class="line">jzg_total = data[<span class="string">&quot;九寨沟&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line">zjj_total = data[<span class="string">&quot;张家界&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line">xg_total = data[<span class="string">&quot;香港&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line">dbhq_total = data[<span class="string">&quot;东部华侨城&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line">dsn_total = data[<span class="string">&quot;上海迪士尼&quot;</span>].<span class="built_in">sum</span>()</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到九寨沟的游客总量为:&quot;</span>,jzg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到张家界的游客总量为:&quot;</span>,zjj_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到香港的游客总量为:&quot;</span>,xg_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到东部华侨城的游客总量为:&quot;</span>,dbhq_total)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;(pandas)这段时间到上海迪士尼的游客总量为:&quot;</span>,dsn_total)</span><br></pre></td></tr></table></figure></div></div></div>
-
-
-<h1 id="20220419"><a href="#20220419" class="headerlink" title="20220419"></a>20220419</h1><div class="tabs" id="0419"><ul class="nav-tabs"><li class="tab active"><a href="#0419-1">index</a></li><li class="tab"><a href="#0419-2">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0419-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0419-2"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">图书管理系统设计</span><br><span class="line">一、创建数据库和表，存入数据</span><br><span class="line">二、实现PHP页面操作数据库</span><br><span class="line">0.conn.php</span><br><span class="line">1.数据分页</span><br><span class="line">	index.php</span><br><span class="line">2.数据编辑</span><br><span class="line">	update.php,update_ok.php</span><br><span class="line">3.删除</span><br><span class="line">	单行删除 delete.php</span><br><span class="line">	批量删除 delete_lot.php</span><br><span class="line">4.数据添加</span><br><span class="line">	insert.php</span><br><span class="line">三、样式表</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739072.png"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739533.png" alt="2022-04-19_171922"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191739862.png" alt="2022-04-19_171949"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191740767.png" alt="2022-04-19_172714"></p></div></div></div>
-
-<h1 id="20220418"><a href="#20220418" class="headerlink" title="20220418"></a>20220418</h1><div class="tabs" id="0418"><ul class="nav-tabs"><li class="tab active"><a href="#0418-1">index</a></li><li class="tab"><a href="#0418-2">node</a></li><li class="tab"><a href="#0418-3">php</a></li></ul><div class="tab-content"><div class="tab-pane active" id="0418-1"><p>防止展开太长影响阅读，设置该选项卡。<br>请根据需要点击其他选项卡。</p></div><div class="tab-pane" id="0418-2"><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110426.png"  />
-
-<img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110840.png" alt="读xml纯文本写入文件"  /></div><div class="tab-pane" id="0418-3"><p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110199.png"></p>
-<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202204191110329.png" alt="2022-04-18_090947"></p></div></div></div>
-]]></content>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/4333.html</url>
-    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
-
-
-
-<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
-<div class="note success">
-            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
-          </div>
-
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>友链</tag>
       </tags>
   </entry>
   <entry>
