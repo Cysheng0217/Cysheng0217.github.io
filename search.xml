@@ -135,6 +135,7 @@
     <title>Hexo写文章与修改主题</title>
     <url>/c6c9b61d.html</url>
     <content><![CDATA[<center>前两期介绍了在本地运行博客，以及使用Gitee托管我们的博客。<br/>这期我们就来说说，Hexo写文章与主题修改。</center>
+
 <span id="more"></span>
 
 
@@ -195,7 +196,69 @@
 </li>
 </ul>
 <p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202205022124644.png"></p>
-<h1 id="二、主题修改"><a href="#二、主题修改" class="headerlink" title="二、主题修改"></a>二、主题修改</h1>]]></content>
+<h1 id="二、主题修改"><a href="#二、主题修改" class="headerlink" title="二、主题修改"></a>二、主题修改</h1><p>主题修改非常简单了，只需要把主题下载到themes目录下，然后在站点配置文件_config.yml中切换主题即可。</p>
+<h2 id="1-下载主题"><a href="#1-下载主题" class="headerlink" title="1.下载主题"></a>1.下载主题</h2><h3 id="1-1选择主题"><a href="#1-1选择主题" class="headerlink" title="1.1选择主题"></a>1.1选择主题</h3><p>Hexo官网提供许多主题，前往<a href="https://hexo.bootcss.com/themes/%E9%80%89%E6%8B%A9%E4%B8%80%E6%AC%BE%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E3%80%82">https://hexo.bootcss.com/themes/选择一款自己喜欢的。</a></p>
+<h3 id="1-2下载主题"><a href="#1-2下载主题" class="headerlink" title="1.2下载主题"></a>1.2下载主题</h3><blockquote>
+<p>以next主题为例</p>
+</blockquote>
+<ul>
+<li>在<code>站点目录</code>下克隆（下载）主题包到**<code>站点目录/themes/</code>**目录下</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>修改<code>站点配置文件_config.yml</code>,将<code>theme: landscape</code>改为<code>theme: next</code>(与主题包的文件夹名对应)</li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># theme: landscape</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="1-3启动服务器"><a href="#1-3启动服务器" class="headerlink" title="1.3启动服务器"></a>1.3启动服务器</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>浏览器访问：<a href="http://localhost:4000/">http://localhost:4000/</a></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202205030831107.png" alt="next"></p>
+<blockquote>
+<p>Hexo官网很多并没有提供下载主题的地址，只提供了相应的演示站。</p>
+<p>所以，如果我们觉得哪款主题好看，需要到GitHub&#x2F;码云&#x2F;主题官网&#x2F;搜索引擎上找到相应主题包进行下载。</p>
+</blockquote>
+<h2 id="2-主题"><a href="#2-主题" class="headerlink" title="2.主题"></a>2.主题</h2><ul>
+<li>butterfly</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>官网&#x2F;演示站：<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p>
+</blockquote>
+<ul>
+<li>next</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+
+<p>演示站：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io/</a></p>
+<p><img src="https://gitee.com/cysheng/pictures/raw/master/images/202205030840303.png" alt="img"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/16107.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo博客框架入门</title>
@@ -267,51 +330,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/16107.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/4333.html</url>
-    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
-
-
-
-<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
-<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
-<div class="note success">
-            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
-          </div>
-
-]]></content>
-      <categories>
-        <category>博客相关</category>
-      </categories>
-      <tags>
-        <tag>友链</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>图片</title>
     <url>/9900f79e.html</url>
     <content><![CDATA[<center>个人笔记，仅供参考</center>
@@ -324,7 +342,7 @@
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
 <li>博客会持续更新，写完就会更新，没更就是没写，不要催，特别是开勿扰时(心情极差开勿扰)。</li>
 <li><strong>关注公众号“IT小抄”后台回复“姓名+邮件”，更新后会第一时间通知</strong> <ul>
-<li>例如：张三<a href="mailto:&#x2b;&#x36;&#54;&#54;&#x40;&#x71;&#113;&#x2e;&#x63;&#x6f;&#x6d;">&#x2b;&#x36;&#54;&#54;&#x40;&#x71;&#113;&#x2e;&#x63;&#x6f;&#x6d;</a></li>
+<li>例如：张三<a href="mailto:&#43;&#54;&#54;&#54;&#x40;&#113;&#113;&#46;&#99;&#x6f;&#x6d;">&#43;&#54;&#54;&#54;&#x40;&#113;&#113;&#46;&#99;&#x6f;&#x6d;</a></li>
 </ul>
 </li>
 </ul>
@@ -697,6 +715,27 @@
       </categories>
       <tags>
         <tag>谷粒学院项目笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>友情链接</title>
+    <url>/4333.html</url>
+    <content><![CDATA[<center>中国有句古话：众人拾柴火焰高。<span id="more"></span><br/>交换个友链呗~~</center>
+
+
+
+<p>1.将本小站添加到您博客、个人网站的友链中<br>2.在评论中回复您的博客信息<br>3.贵站的将会被添加到左侧侧边栏友链</p>
+<img src="https://gitee.com/cysheng/pictures/raw/master/2022/images/2022-03-13_224108.png" style="zoom: 80%;" />
+<div class="note success">
+            <p>​    博客信息</p><p>​    名称：我寄愁心与爪哇<br>​    网址：<a href="https://cysheng.gitee.io/">https://cysheng.gitee.io</a><br>​    头像：<a href="https://cysheng.gitee.io/images/avatar.gif">https://cysheng.gitee.io/images/avatar.gif</a><br>​    描述：如果能一步登天，那别人的坚持又算什么呢？</p>
+          </div>
+
+]]></content>
+      <categories>
+        <category>博客相关</category>
+      </categories>
+      <tags>
+        <tag>友链</tag>
       </tags>
   </entry>
   <entry>
